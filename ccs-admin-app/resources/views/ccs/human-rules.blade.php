@@ -1,0 +1,19 @@
+@extends('ccs.layout')
+@section('title','Rules & Approvals')
+@section('content')
+<div class="page-head"><div><h1>Rules & Approvals</h1><p>Cashier actions follow Owner settings. Review warnings and confirm changes. Separate Owner approval applies only when enabled in Settings.</p></div><a class="btn secondary" href="{{ route('ccs.pos') }}">POS / Billing</a></div>
+@if($invoice)
+<section class="card"><h2>{{ $invoice->invoice_number }} · Cancel / Full Refund</h2><p>Recorded payments will be offset with a refund entry. No money is transferred automatically. Stock returns only when confirmed below.</p>
+@if($invoice->status!=='void')<form method="POST" action="{{ route('ccs.pos.rules.cancel',$invoice->id) }}">@csrf<input type="hidden" name="request_token" value="{{ (string) Illuminate\Support\Str::uuid() }}"><label>Reason<input name="reason" required minlength="5" maxlength="1000"></label><label><input type="checkbox" name="goods_returned" value="1"> Goods physically returned and checked (draft reservations are released automatically)</label><label><input type="checkbox" name="refund_confirmed" value="1"> Refund actually given / no refund is owed</label><label><input type="checkbox" name="confirmation" required value="1"> Confirm full invoice cancellation; preserve the original history</label><button>Record cancellation / full refund</button></form>@else<p>This invoice is already voided.</p>@endif
+</section>
+@if($invoice->status!=='void')<section class="card"><h2>Correct an incorrectly recorded payment</h2><p>Review and confirm this correction. Owner approval applies only when enabled in Settings. No money is transferred.</p>@foreach($payments as $payment)<details><summary>Payment #{{ $payment->id }} · Rs. {{ number_format($payment->amount_lkr,2) }}</summary><form method="POST" action="{{ route('ccs.pos.rules.reverse',$payment->id) }}">@csrf<input type="hidden" name="request_token" value="{{ (string) Illuminate\Support\Str::uuid() }}"><label>Correction reason<input name="reason" required minlength="5" maxlength="1000"></label><label><input type="checkbox" name="confirmation" value="1" required> Confirm this payment was recorded incorrectly</label><button>Reverse recorded payment</button></form></details>@endforeach</section>@endif
+@endif
+@foreach($approvals as $approval)
+<section class="card"><strong>#{{ $approval->id }} · {{ str_replace('_',' ',$approval->kind) }}</strong><span class="status">{{ $approval->status }}</span><p>Requested by staff #{{ $approval->requested_by }} · {{ $approval->created_at }}</p><details><summary>Requested details</summary><dl>@foreach(json_decode($approval->details,true)??[] as $key=>$value)<dt>{{ str_replace('_',' ',$key) }}</dt><dd style="overflow-wrap:anywhere">{{ is_array($value)?json_encode($value,JSON_UNESCAPED_UNICODE):$value }}</dd>@endforeach</dl></details>
+@if($approval->decision_reason)<p>{{ $approval->decision_reason }}</p>@endif
+@if($owner && $approval->status==='pending')<form method="POST" action="{{ route('ccs.pos.rules.decision',$approval->id) }}">@csrf<label>Decision reason<input name="reason" minlength="5" maxlength="1000" required></label><div class="actions"><button name="decision" value="approved">Approve once</button><button class="secondary" name="decision" value="rejected">Reject</button></div></form>@endif
+</section>
+@endforeach
+{{ $approvals->links() }}
+<section class="card"><h2>Recent cancellations / refunds</h2><p>Original invoice and payments remain in the audit history. Refund entries are negative adjustments, never a second sale.</p>@foreach($cancellations as $cancel)<p><strong>{{ $cancel->invoice_number }}</strong> · Refund Rs. {{ number_format($cancel->refund_lkr,2) }} · {{ $cancel->goods_returned?'Stock returned':'Stock not returned' }}<br>{{ $cancel->reason }} · {{ $cancel->created_at }}</p>@endforeach</section>
+@endsection

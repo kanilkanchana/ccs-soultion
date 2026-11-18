@@ -1,0 +1,35 @@
+[
+  {
+    "asset": "assets/login/street.jpg",
+    "source": "Client-provided original JPG",
+    "uploaded_filename": "1289266.jpg",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "sha256": "68a730fc24a0b96857a7ca509a2fc0d12381f0e4a72831c10227beb0ad898b6c",
+    "note": "Original bytes preserved. Decorative automotive imagery for the login background slideshow."
+  },
+  {
+    "asset": "assets/login/bridge.jpg",
+    "source": "Client-provided original JPG",
+    "uploaded_filename": "1289263.jpg",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "sha256": "06532df11ba0c165b5d3420253f6ba1845a1198b3a11af6031f867010a798e2a",
+    "note": "Original bytes preserved. Decorative automotive imagery for the login background slideshow."
+  },
+  {
+    "asset": "assets/login/side.jpg",
+    "source": "Client-provided original JPG",
+    "uploaded_filename": "1289264(1).jpg",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "sha256": "995a4c6c1e82e7936b57e65c697bf8418641917509dc9ca1a3c0c5271e8fdf18",
+    "note": "Original bytes preserved. Decorative automotive imagery for the login background slideshow."
+  }
+]

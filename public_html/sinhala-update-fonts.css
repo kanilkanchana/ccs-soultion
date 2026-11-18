@@ -1,0 +1,53 @@
+/* Google Fonts, bundled under the included SIL Open Font Licenses. */
+@font-face {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/sinhala-fonts/abhaya-libre-600.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Abhaya Libre';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(assets/sinhala-fonts/abhaya-libre-700.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans Sinhala';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(assets/sinhala-fonts/noto-sans-sinhala-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans Sinhala';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(assets/sinhala-fonts/noto-sans-sinhala-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans Sinhala';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(assets/sinhala-fonts/noto-sans-sinhala-600.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans Sinhala';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(assets/sinhala-fonts/noto-sans-sinhala-700.ttf) format('truetype');
+}
+
+@font-face{font-family:'FN Samanali';font-style:normal;font-weight:400;font-display:swap;src:url('assets/sinhala-fonts/FN_Samanali-sinhala-font-by-sinhalafonts.me_.ttf') format('truetype');}
+
+@font-face{font-family:'FN Sanka';font-style:normal;font-weight:400;font-display:swap;src:url('assets/sinhala-fonts/FN SANKA Regular.ttf') format('truetype');}
+
+@font-face{font-family:'Sara Gune';font-style:normal;font-weight:400;font-display:swap;src:url('assets/sinhala-fonts/sara-gune.ttf') format('truetype');}

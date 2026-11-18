@@ -1,0 +1,11 @@
+<?php
+namespace App\Http\Controllers;
+use App\Services\{CcsFacebookVideoSync,CcsFacebookSyncException,CcsWebsiteContent};use Illuminate\Http\Request;use Illuminate\Validation\ValidationException;
+class CcsFacebookSyncController extends Controller {
+ public function configure(Request $r,CcsFacebookVideoSync $sync){
+  $sync->owner($r->user());try{$v=$r->validate(['revision'=>'nullable|integer|min:0','page_id'=>'required|string|regex:/^[0-9]{1,80}$/','api_version'=>'required|string|regex:/^v[0-9]{1,3}\.0$/','password'=>'nullable|string|max:4096','publish_new'=>'required|boolean','include_reels'=>'required|boolean','interval_minutes'=>'required|in:15,30,60,180,360,1440']);$sync->configure($v,$r->user());return redirect()->route('ccs.website.content',['kind'=>'videos'])->with('success','Facebook Page connection verified. Auto Sync remains off until you enable it.');}
+  catch(ValidationException $e){throw $e;}catch(CcsFacebookSyncException $e){return back()->withErrors(['facebook'=>$e->getMessage()]);}catch(\Throwable $e){return back()->withErrors(['facebook'=>'Connection could not be saved. Check the server configuration and try again.']);}finally{$r->request->remove('password');}
+ }
+ public function settings(Request $r,CcsFacebookVideoSync $sync){$sync->owner($r->user());$v=$r->validate(['revision'=>'required|integer|min:1','auto_sync'=>'required|boolean','publish_new'=>'required|boolean','include_reels'=>'required|boolean','interval_minutes'=>'required|in:15,30,60,180,360,1440']);try{$sync->settings($v,$r->user());return back()->with('success','Facebook Auto Sync settings saved.');}catch(ValidationException $e){throw $e;}catch(CcsFacebookSyncException $e){return back()->withErrors(['facebook'=>$e->getMessage()]);}catch(\Throwable $e){return back()->withErrors(['facebook'=>'Settings could not be saved. Try again.']);}}
+ public function run(Request $r,CcsFacebookVideoSync $sync,CcsWebsiteContent $cms){$cms->authorize($r->user());try{$result=$sync->run($r->user());return back()->with('success',$result['message']);}catch(CcsFacebookSyncException $e){return back()->withErrors(['facebook'=>$e->getMessage()]);}catch(\Throwable $e){return back()->withErrors(['facebook'=>'Sync could not start. Try again later.']);}}
+}

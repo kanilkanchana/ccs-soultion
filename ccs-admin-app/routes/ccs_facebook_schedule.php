@@ -1,0 +1,4 @@
+<?php
+use Illuminate\Support\Facades\{Artisan,Schedule};
+Artisan::command('ccs:facebook-sync {--due : Only sync when Auto Sync is enabled and due}',function(){try{$sync=app(\App\Services\CcsFacebookVideoSync::class);$r=$sync->runFromConsole((bool)$this->option('due'));$this->info($r['message']);return 0;}catch(\App\Services\CcsFacebookSyncException $e){$this->error($e->getMessage());return 1;}catch(\Throwable $e){$this->error('Facebook sync failed safely. Check server configuration.');return 1;}})->purpose('Import the connected Facebook Page public videos into website cards');
+Schedule::call(function(){try{app(\App\Services\CcsFacebookVideoSync::class)->runFromConsole(true);}catch(\Throwable $e){/* Service records a redacted status; never log tokens or raw HTTP failures. */}})->everyFiveMinutes()->name('ccs-facebook-video-sync');

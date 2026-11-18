@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-01",
+  "source": "Client-supplied existing cinematic clips from CCS_Solutions_v3.2.3_Correcting10(1).zip",
+  "mobile_breakpoint": "max-width: 700px",
+  "intro": {
+    "asset": "intro-mobile.mp4",
+    "original_asset": "intro.mp4",
+    "dimensions": [
+      1280,
+      720
+    ],
+    "frames": 213,
+    "frame_rate": 30,
+    "duration_seconds": 7.1,
+    "bytes": 1065017,
+    "original_bytes": 3674181,
+    "ssim_against_scaled_original": 0.996613
+  },
+  "film": {
+    "asset": "film-mobile.mp4",
+    "dimensions": [
+      960,
+      540
+    ],
+    "frames": 720,
+    "frame_rate": 24,
+    "duration_seconds": 30,
+    "bytes": 1827018,
+    "keyframe_interval_frames": 48,
+    "b_frames": 0,
+    "ssim_against_original_mobile": 0.994114,
+    "ssim_against_original_mobile_rescaled_to_960x540": 0.986582
+  },
+  "encoding": "H.264 Main, yuv420p, faststart MP4; no audio on the muted mobile clips.",
+  "preserved": "Original 16.3 MB desktop film and all desktop scroll-driven cinematic behavior. Original mobile intro film retained.",
+  "browser_validation": "Normal mobile entry played the 7.1-second intro and advanced to the film below the fixed header. All six scroll chapters were observed; reduced motion exposes all six static chapters.",
+  "performance_validation": "JavaScript mobile/desktop simulation passed; actual browser preview was blocked in this environment; test on a real phone before publishing.",
+  "updated": "2026-11-01",
+  "version": "3.2.5",
+  "notes": "Phone-only inline video autoplay instead of scroll-controlled seeking; desktop kept unchanged.",
+  "mobile_playback": {
+    "trigger": "Autoplay muted and inline when visible (max-width: 700px)",
+    "scroll": "Normal page scrolling; no seek when scrolling",
+    "visibility": "Pause when out of view; resume on return",
+    "end": "Loop while visible",
+    "blocked_autoplay": "Show a tappable play button",
+    "reduced_motion": "Retain existing static reading mode"
+  }
+}

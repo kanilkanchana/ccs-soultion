@@ -1,0 +1,20 @@
+/* Use the same selected-theme navigation colours as desktop sidebar. */
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar {background:var(--t-sidebar,var(--t-button))!important;color:var(--t-sidebar-ink,var(--t-button-ink))!important;border-color:var(--t-border)!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar :is(.ccs-brand-link,.ccs-clock-bar,.v69-nav-more>summary) {color:var(--t-sidebar-ink)!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .v69-nav-link {background:transparent!important;color:var(--t-sidebar-ink)!important;border-color:transparent!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .v69-nav-link.active {background:var(--t-bg)!important;color:var(--t-ink)!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .v69-nav-link:hover {border-color:currentColor!important}
+.v86-language-menu {position:relative;flex:0 0 40px;min-width:40px}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .v86-language-menu>summary {display:grid;place-items:center;list-style:none;cursor:pointer;width:40px;height:44px;border:1px solid currentColor;border-radius:8px;font-size:22px;color:var(--t-sidebar-ink);background:transparent}
+.v86-language-menu>summary::-webkit-details-marker {display:none}
+.v86-language-menu>summary:focus-visible {outline:3px solid var(--t-ink);outline-offset:2px}
+.v86-language-panel {position:fixed;right:10px;top:var(--v82-nav-bottom,60px);width:min(300px,calc(100vw - 20px));padding:14px;background:var(--t-surface);color:var(--t-ink);border:1px solid var(--t-border);border-radius:10px;box-shadow:0 8px 24px #0005;z-index:100}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .v83-top-tools .v86-language-panel :is(#ccsInputSwitch,#ccsSystemLanguage) {display:flex!important;flex-direction:column!important;align-items:stretch!important;position:static!important;width:100%!important;min-width:0!important;padding:0!important;gap:10px!important;background:transparent!important;color:var(--t-ink)!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .v83-top-tools .v86-language-panel label {font-size:14px!important;pointer-events:auto}
+.v83-top-tools .v86-language-panel label::before {content:none!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .v83-top-tools .v86-language-panel select {position:static!important;inset:auto!important;opacity:1!important;width:100%!important;min-width:0!important;min-height:46px!important;padding:8px!important;color:var(--t-ink)!important;background:var(--t-surface)!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .v83-top-tools .v86-language-panel button[type=submit] {position:static!important;font-size:14px!important;width:100%!important;padding:8px!important;min-height:44px!important}
+.v83-top-tools .v86-language-panel button[type=submit]::after {content:none!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .v83-top-tools .v86-language-panel .ccs-guide-trigger {display:block!important;font-size:13px!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .ccs-sidebar-profile {z-index:1;right:4px;width:40px!important}
+html[data-ccs-theme="default2"] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar {--t-sidebar:#FACD29;--t-sidebar-ink:#08141B}

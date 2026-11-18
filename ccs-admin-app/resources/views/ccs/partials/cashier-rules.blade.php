@@ -1,0 +1,5 @@
+<div class="settings-subsection" id="cashier-rules"><h3>Cashier Actions &amp; Confirmations</h3><p class="muted">Cashiers can perform these actions after reviewing a warning and confirming. Disable an action or enable separate Owner approval below. Required fields, serial/stock checks and audit history remain enforced.</p>
+@php($cashierPolicy=app(\App\Services\CcsCashierRules::class)->get())
+<form method="POST" action="{{ route('ccs.settings.rules') }}">@csrf
+@foreach(\App\Services\CcsCashierRules::ACTIONS as $key=>$label)<fieldset class="ccs107-policy-row"><legend>{{ $label }}</legend><label><input type="hidden" name="policy[{{ $key }}][allowed]" value="0"><input type="checkbox" name="policy[{{ $key }}][allowed]" value="1" @checked($cashierPolicy[$key]['allowed'])> Allow cashier</label><label><input type="hidden" name="policy[{{ $key }}][approval]" value="0"><input type="checkbox" name="policy[{{ $key }}][approval]" value="1" @checked($cashierPolicy[$key]['approval'])> Require Owner approval</label></fieldset>@endforeach
+<button>Save Cashier Rules</button></form><p><a href="{{ route('ccs.pos.rules.index') }}">Corrections / approval history</a></p></div>

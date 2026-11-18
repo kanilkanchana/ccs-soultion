@@ -1,0 +1,12 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync('resources/views/ccs/settings.blade.php','utf8');let script=source.match(/<script>\s*([\s\S]*?)\s*<\/script>/)[1].replace(/@if\(\$errors->any\(\) && old\('settings_staff_dialog'\)\)/,'if (false) {').replace(/@json\(old\('settings_staff_dialog'\)\)/,'"staff-create"').replace('@endif','}');
+const names=['settings-users','settings-security','settings-language','settings-keyboard','settings-scanner','settings-printing','settings-notifications'];let buttons={},saved={},hashHandler;
+const tabs=names.map(name=>({dataset:{settingsTab:name},classes:new Set(),classList:{toggle(k,v){this.owner.classes[v?'add':'delete'](k)}},setAttribute(){},removeAttribute(){},addEventListener(t,fn){buttons[name]=fn}}));tabs.forEach(t=>t.classList.owner=t);
+const panes=names.map(id=>({id,hidden:false})),prefs={hidden:false,addEventListener:(type,fn)=>{if(type==='invalid')buttons.invalid=fn}},main={classList:{remove(){}},querySelectorAll:()=>panes,querySelector:()=>prefs};
+const document={getElementById:id=>id==='settingsMain'?main:null,querySelectorAll:q=>q==='[data-settings-tab]'?tabs:[]};const sessionStorage={setItem:(k,v)=>saved[k]=v,getItem:k=>saved[k]||''};
+const location={hash:''},history={replaceState:(a,b,h)=>location.hash=h},window={addEventListener:(name,fn)=>{if(name==='hashchange')hashHandler=fn}};
+vm.runInNewContext(script,{document,sessionStorage,location,history,window});
+assert.equal(panes[0].hidden,false);assert.equal(prefs.hidden,true);assert(tabs[0].classes.has('is-active'));
+for(const id of names){let prevented=false;buttons[id].call(tabs.find(x=>x.dataset.settingsTab===id),{preventDefault(){prevented=true}});assert(prevented);assert.equal(panes.filter(p=>!p.hidden).map(p=>p.id).join(','),id);assert.equal(prefs.hidden,!['settings-scanner','settings-printing','settings-notifications'].includes(id));assert.equal(location.hash,'#'+id);assert.equal(saved['ccs-settings-section'],id)}
+location.hash='#settings-security';hashHandler();assert.equal(panes.find(p=>p.id==='settings-security').hidden,false);buttons.invalid({target:{closest:()=>({id:'settings-printing'})}});assert.equal(panes.find(p=>p.id==='settings-printing').hidden,false);assert.equal(prefs.hidden,false);
+assert(!/@(?:endif|endforeach|endforelse)@/.test(source));console.log('PASS: settings category selection, preferences form visibility, active state and hash navigation');

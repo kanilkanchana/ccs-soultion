@@ -1,0 +1,1104 @@
+[
+  {
+    "kind": "ads",
+    "slug": "original-ad-hybrid-parts",
+    "title": "THE RIGHT PART.",
+    "sort_order": 0,
+    "active": true,
+    "data": {
+      "image": "https://ccssolutions.lk/assets/promotions/hybrid-parts.webp",
+      "full_image": "https://ccssolutions.lk/assets/promotions/hybrid-parts.png",
+      "alt": "CCS Solutions car parts and accessories promotion: 20% off selected car parts. Call 071 793 7011.",
+      "kicker": "01 / HYBRID PARTS & ACCESSORIES",
+      "subtitle": "A BETTER START.",
+      "description": "Explore hybrid batteries, ABS components, inverter parts, sensors and accessories. Ask the team about the selected parts in this offer.",
+      "discount": 20,
+      "discount_label": "OFF SELECTED PARTS",
+      "service": "Brand-new batteries and parts",
+      "terms": "Eligible items, pricing and availability are confirmed by the workshop.",
+      "cta_label": "Ask about this offer",
+      "cta_url": ""
+    }
+  },
+  {
+    "kind": "ads",
+    "slug": "original-ad-abs-service",
+    "title": "CONFIDENCE.",
+    "sort_order": 1,
+    "active": true,
+    "data": {
+      "image": "https://ccssolutions.lk/assets/promotions/abs-service.webp",
+      "full_image": "https://ccssolutions.lk/assets/promotions/abs-service.png",
+      "alt": "CCS Solutions ABS service promotion: 20% off ABS parts and repairs. Call 071 793 7011.",
+      "kicker": "02 / ABS PARTS & REPAIRS",
+      "subtitle": "IN EVERY STOP.",
+      "description": "From ABS diagnosis to modules, sensors and brake components. Talk to the team about your warning lights and the ABS service promotion.",
+      "discount": 20,
+      "discount_label": "OFF ABS PARTS & REPAIRS",
+      "service": "ABS and brake systems",
+      "terms": "Eligible items, pricing and availability are confirmed by the workshop.",
+      "cta_label": "Ask about this offer",
+      "cta_url": ""
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-prius",
+    "title": "Toyota Prius Hybrid",
+    "sort_order": 0,
+    "active": true,
+    "data": {
+      "id": "prius",
+      "make": "Toyota",
+      "model": "Prius Hybrid",
+      "code": "ZVW30",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/prius.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/prius.png",
+      "alt": "Representative Toyota Prius Hybrid ZVW30 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-aqua",
+    "title": "Toyota Aqua / Prius c",
+    "sort_order": 1,
+    "active": true,
+    "data": {
+      "id": "aqua",
+      "make": "Toyota",
+      "model": "Aqua / Prius c",
+      "code": "NHP10",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/aqua.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/aqua.png",
+      "alt": "Representative Toyota Aqua / Prius c NHP10 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-auris",
+    "title": "Toyota Auris Hybrid",
+    "sort_order": 2,
+    "active": true,
+    "data": {
+      "id": "auris",
+      "make": "Toyota",
+      "model": "Auris Hybrid",
+      "code": "ZWE186",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/auris.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/auris.png",
+      "alt": "Representative Toyota Auris Hybrid ZWE186 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-camry",
+    "title": "Toyota Camry Hybrid",
+    "sort_order": 3,
+    "active": true,
+    "data": {
+      "id": "camry",
+      "make": "Toyota",
+      "model": "Camry Hybrid",
+      "code": "AXVH70",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/camry.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/camry.png",
+      "alt": "Representative Toyota Camry Hybrid AXVH70 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-sai",
+    "title": "Toyota Sai Hybrid",
+    "sort_order": 4,
+    "active": true,
+    "data": {
+      "id": "sai",
+      "make": "Toyota",
+      "model": "Sai Hybrid",
+      "code": "AZK10",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/sai.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/sai.png",
+      "alt": "Representative Toyota Sai Hybrid AZK10 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-axio",
+    "title": "Toyota Corolla Axio Hybrid",
+    "sort_order": 5,
+    "active": true,
+    "data": {
+      "id": "axio",
+      "make": "Toyota",
+      "model": "Corolla Axio Hybrid",
+      "code": "NKE165",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/axio.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/axio.png",
+      "alt": "Representative Toyota Corolla Axio Hybrid NKE165 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-fielder",
+    "title": "Toyota Corolla Fielder Hybrid",
+    "sort_order": 6,
+    "active": true,
+    "data": {
+      "id": "fielder",
+      "make": "Toyota",
+      "model": "Corolla Fielder Hybrid",
+      "code": "NKE165G",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/fielder.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/fielder.png",
+      "alt": "Representative Toyota Corolla Fielder Hybrid NKE165G hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-alpha",
+    "title": "Toyota Prius Alpha",
+    "sort_order": 7,
+    "active": true,
+    "data": {
+      "id": "alpha",
+      "make": "Toyota",
+      "model": "Prius Alpha",
+      "code": "ZVW40 / ZVW41",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/alpha.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/alpha.png",
+      "alt": "Representative Toyota Prius Alpha ZVW40 / ZVW41 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-chr",
+    "title": "Toyota C-HR Hybrid",
+    "sort_order": 8,
+    "active": true,
+    "data": {
+      "id": "chr",
+      "make": "Toyota",
+      "model": "C-HR Hybrid",
+      "code": "ZYX10 / ZYX11",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/chr.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/chr.png",
+      "alt": "Representative Toyota C-HR Hybrid ZYX10 / ZYX11 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-cross",
+    "title": "Toyota Corolla Cross Hybrid",
+    "sort_order": 9,
+    "active": true,
+    "data": {
+      "id": "cross",
+      "make": "Toyota",
+      "model": "Corolla Cross Hybrid",
+      "code": "ZVG11 / ZVG15",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/cross.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/cross.png",
+      "alt": "Representative Toyota Corolla Cross Hybrid ZVG11 / ZVG15 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-yaris-cross",
+    "title": "Toyota Yaris Cross Hybrid",
+    "sort_order": 10,
+    "active": true,
+    "data": {
+      "id": "yaris-cross",
+      "make": "Toyota",
+      "model": "Yaris Cross Hybrid",
+      "code": "MXPJ10 / MXPJ15",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/yaris-cross.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/yaris-cross.png",
+      "alt": "Representative Toyota Yaris Cross Hybrid MXPJ10 / MXPJ15 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-rav4",
+    "title": "Toyota RAV4 Hybrid",
+    "sort_order": 11,
+    "active": true,
+    "data": {
+      "id": "rav4",
+      "make": "Toyota",
+      "model": "RAV4 Hybrid",
+      "code": "AXAH52 / AXAH54",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/rav4.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/rav4.png",
+      "alt": "Representative Toyota RAV4 Hybrid AXAH52 / AXAH54 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-noah",
+    "title": "Toyota Noah Hybrid",
+    "sort_order": 12,
+    "active": true,
+    "data": {
+      "id": "noah",
+      "make": "Toyota",
+      "model": "Noah Hybrid",
+      "code": "ZWR80G / ZWR80W",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/noah.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/noah.png",
+      "alt": "Representative Toyota Noah Hybrid ZWR80G / ZWR80W hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-sienta",
+    "title": "Toyota Sienta Hybrid",
+    "sort_order": 13,
+    "active": true,
+    "data": {
+      "id": "sienta",
+      "make": "Toyota",
+      "model": "Sienta Hybrid",
+      "code": "NHP170G",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/sienta.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/sienta.png",
+      "alt": "Representative Toyota Sienta Hybrid NHP170G hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-voxy",
+    "title": "Toyota Voxy Hybrid",
+    "sort_order": 14,
+    "active": true,
+    "data": {
+      "id": "voxy",
+      "make": "Toyota",
+      "model": "Voxy Hybrid",
+      "code": "ZWR80G / ZWR80W",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/voxy.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/voxy.png",
+      "alt": "Representative Toyota Voxy Hybrid ZWR80G / ZWR80W hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-esquire",
+    "title": "Toyota Esquire Hybrid",
+    "sort_order": 15,
+    "active": true,
+    "data": {
+      "id": "esquire",
+      "make": "Toyota",
+      "model": "Esquire Hybrid",
+      "code": "ZWR80G",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/esquire.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/esquire.png",
+      "alt": "Representative Toyota Esquire Hybrid ZWR80G hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-crown",
+    "title": "Toyota Crown Hybrid",
+    "sort_order": 16,
+    "active": true,
+    "data": {
+      "id": "crown",
+      "make": "Toyota",
+      "model": "Crown Hybrid",
+      "code": "AWS210 / AWS211",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/crown.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/crown.png",
+      "alt": "Representative Toyota Crown Hybrid AWS210 / AWS211 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-harrier",
+    "title": "Toyota Harrier Hybrid",
+    "sort_order": 17,
+    "active": true,
+    "data": {
+      "id": "harrier",
+      "make": "Toyota",
+      "model": "Harrier Hybrid",
+      "code": "AVU65W / AXUH80",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/harrier.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/harrier.png",
+      "alt": "Representative Toyota Harrier Hybrid AVU65W / AXUH80 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-raize",
+    "title": "Toyota Raize Hybrid",
+    "sort_order": 18,
+    "active": true,
+    "data": {
+      "id": "raize",
+      "make": "Toyota",
+      "model": "Raize Hybrid",
+      "code": "A202A",
+      "type": "Series hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/raize.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/raize.png",
+      "alt": "Representative Toyota Raize Hybrid A202A hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-gp1",
+    "title": "Honda Fit Hybrid",
+    "sort_order": 19,
+    "active": true,
+    "data": {
+      "id": "gp1",
+      "make": "Honda",
+      "model": "Fit Hybrid",
+      "code": "GP1",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/gp1.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/gp1.png",
+      "alt": "Representative Honda Fit Hybrid GP1 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-gp2",
+    "title": "Honda Fit Shuttle Hybrid",
+    "sort_order": 20,
+    "active": true,
+    "data": {
+      "id": "gp2",
+      "make": "Honda",
+      "model": "Fit Shuttle Hybrid",
+      "code": "GP2",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/gp2.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/gp2.png",
+      "alt": "Representative Honda Fit Shuttle Hybrid GP2 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-gp3",
+    "title": "Honda Freed Hybrid",
+    "sort_order": 21,
+    "active": true,
+    "data": {
+      "id": "gp3",
+      "make": "Honda",
+      "model": "Freed Hybrid",
+      "code": "GP3",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/gp3.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/gp3.png",
+      "alt": "Representative Honda Freed Hybrid GP3 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-gp5",
+    "title": "Honda Fit Hybrid",
+    "sort_order": 22,
+    "active": true,
+    "data": {
+      "id": "gp5",
+      "make": "Honda",
+      "model": "Fit Hybrid",
+      "code": "GP5 / GP6",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/gp5.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/gp5.png",
+      "alt": "Representative Honda Fit Hybrid GP5 / GP6 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-gp7",
+    "title": "Honda Shuttle Hybrid",
+    "sort_order": 23,
+    "active": true,
+    "data": {
+      "id": "gp7",
+      "make": "Honda",
+      "model": "Shuttle Hybrid",
+      "code": "GP7 / GP8",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/gp7.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/gp7.png",
+      "alt": "Representative Honda Shuttle Hybrid GP7 / GP8 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-vezel",
+    "title": "Honda Vezel Hybrid",
+    "sort_order": 24,
+    "active": true,
+    "data": {
+      "id": "vezel",
+      "make": "Honda",
+      "model": "Vezel Hybrid",
+      "code": "RU3 / RU4",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/vezel.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/vezel.png",
+      "alt": "Representative Honda Vezel Hybrid RU3 / RU4 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-grace",
+    "title": "Honda Grace Hybrid",
+    "sort_order": 25,
+    "active": true,
+    "data": {
+      "id": "grace",
+      "make": "Honda",
+      "model": "Grace Hybrid",
+      "code": "GM4 / GM5",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/grace.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/grace.png",
+      "alt": "Representative Honda Grace Hybrid GM4 / GM5 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-civic",
+    "title": "Honda Civic Hybrid",
+    "sort_order": 26,
+    "active": true,
+    "data": {
+      "id": "civic",
+      "make": "Honda",
+      "model": "Civic Hybrid",
+      "code": "FD3",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/civic.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/civic.png",
+      "alt": "Representative Honda Civic Hybrid FD3 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-insight",
+    "title": "Honda Insight Hybrid",
+    "sort_order": 27,
+    "active": true,
+    "data": {
+      "id": "insight",
+      "make": "Honda",
+      "model": "Insight Hybrid",
+      "code": "ZE2 / ZE3",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/insight.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/insight.png",
+      "alt": "Representative Honda Insight Hybrid ZE2 / ZE3 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-crz",
+    "title": "Honda CR-Z Hybrid",
+    "sort_order": 28,
+    "active": true,
+    "data": {
+      "id": "crz",
+      "make": "Honda",
+      "model": "CR-Z Hybrid",
+      "code": "ZF1 / ZF2",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/crz.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/crz.png",
+      "alt": "Representative Honda CR-Z Hybrid ZF1 / ZF2 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-accord",
+    "title": "Honda Accord Hybrid",
+    "sort_order": 29,
+    "active": true,
+    "data": {
+      "id": "accord",
+      "make": "Honda",
+      "model": "Accord Hybrid",
+      "code": "CR6 / CR7",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/accord.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/accord.png",
+      "alt": "Representative Honda Accord Hybrid CR6 / CR7 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-stepwgn",
+    "title": "Honda Step WGN Hybrid",
+    "sort_order": 30,
+    "active": true,
+    "data": {
+      "id": "stepwgn",
+      "make": "Honda",
+      "model": "Step WGN Hybrid",
+      "code": "RP5 / RP8",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/stepwgn.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/stepwgn.png",
+      "alt": "Representative Honda Step WGN Hybrid RP5 / RP8 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-wagon-hybrid",
+    "title": "Suzuki Wagon R Hybrid FX",
+    "sort_order": 31,
+    "active": true,
+    "data": {
+      "id": "wagon-hybrid",
+      "make": "Suzuki",
+      "model": "Wagon R Hybrid FX",
+      "code": "MH55S",
+      "type": "Mild hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/wagon-hybrid.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/wagon-hybrid.png",
+      "alt": "Representative Suzuki Wagon R Hybrid FX MH55S hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-stingray",
+    "title": "Suzuki Wagon R Stingray Hybrid T",
+    "sort_order": 32,
+    "active": true,
+    "data": {
+      "id": "stingray",
+      "make": "Suzuki",
+      "model": "Wagon R Stingray Hybrid T",
+      "code": "MH55S",
+      "type": "Mild hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/stingray.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/stingray.png",
+      "alt": "Representative Suzuki Wagon R Stingray Hybrid T MH55S hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-swift",
+    "title": "Suzuki Swift Hybrid",
+    "sort_order": 33,
+    "active": true,
+    "data": {
+      "id": "swift",
+      "make": "Suzuki",
+      "model": "Swift Hybrid",
+      "code": "ZC53S / ZD53S",
+      "type": "Mild hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/swift.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/swift.png",
+      "alt": "Representative Suzuki Swift Hybrid ZC53S / ZD53S hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-spacia",
+    "title": "Suzuki Spacia Hybrid",
+    "sort_order": 34,
+    "active": true,
+    "data": {
+      "id": "spacia",
+      "make": "Suzuki",
+      "model": "Spacia Hybrid",
+      "code": "MK53S / MK94S",
+      "type": "Mild hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/spacia.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/spacia.png",
+      "alt": "Representative Suzuki Spacia Hybrid MK53S / MK94S hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-mazda",
+    "title": "Mazda Axela Hybrid",
+    "sort_order": 35,
+    "active": true,
+    "data": {
+      "id": "mazda",
+      "make": "Mazda",
+      "model": "Axela Hybrid",
+      "code": "BYEFP",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/mazda.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/mazda.png",
+      "alt": "Representative Mazda Axela Hybrid BYEFP hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-lexus",
+    "title": "Lexus CT 200h",
+    "sort_order": 36,
+    "active": true,
+    "data": {
+      "id": "lexus",
+      "make": "Lexus",
+      "model": "CT 200h",
+      "code": "ZWA10",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/lexus.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/lexus.png",
+      "alt": "Representative Lexus CT 200h ZWA10 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-nx",
+    "title": "Lexus NX 300h",
+    "sort_order": 37,
+    "active": true,
+    "data": {
+      "id": "nx",
+      "make": "Lexus",
+      "model": "NX 300h",
+      "code": "AYZ10 / AYZ15",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/nx.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/nx.png",
+      "alt": "Representative Lexus NX 300h AYZ10 / AYZ15 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-rx",
+    "title": "Lexus RX 450h",
+    "sort_order": 38,
+    "active": true,
+    "data": {
+      "id": "rx",
+      "make": "Lexus",
+      "model": "RX 450h",
+      "code": "GYL20 / GYL25",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/rx.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/rx.png",
+      "alt": "Representative Lexus RX 450h GYL20 / GYL25 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-es",
+    "title": "Lexus ES 300h",
+    "sort_order": 39,
+    "active": true,
+    "data": {
+      "id": "es",
+      "make": "Lexus",
+      "model": "ES 300h",
+      "code": "AXZH10",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/es.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/es.png",
+      "alt": "Representative Lexus ES 300h AXZH10 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-note",
+    "title": "Nissan Note e-POWER",
+    "sort_order": 40,
+    "active": true,
+    "data": {
+      "id": "note",
+      "make": "Nissan",
+      "model": "Note e-POWER",
+      "code": "HE12 / E13",
+      "type": "Series hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/note.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/note.png",
+      "alt": "Representative Nissan Note e-POWER HE12 / E13 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-serena",
+    "title": "Nissan Serena e-POWER",
+    "sort_order": 41,
+    "active": true,
+    "data": {
+      "id": "serena",
+      "make": "Nissan",
+      "model": "Serena e-POWER",
+      "code": "HC27 / HFC27",
+      "type": "Series hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/serena.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/serena.png",
+      "alt": "Representative Nissan Serena e-POWER HC27 / HFC27 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-xtrail",
+    "title": "Nissan X-Trail e-POWER",
+    "sort_order": 42,
+    "active": true,
+    "data": {
+      "id": "xtrail",
+      "make": "Nissan",
+      "model": "X-Trail e-POWER",
+      "code": "T33",
+      "type": "Series hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/xtrail.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/xtrail.png",
+      "alt": "Representative Nissan X-Trail e-POWER T33 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-kicks",
+    "title": "Nissan Kicks e-POWER",
+    "sort_order": 43,
+    "active": true,
+    "data": {
+      "id": "kicks",
+      "make": "Nissan",
+      "model": "Kicks e-POWER",
+      "code": "P15",
+      "type": "Series hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/kicks.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/kicks.png",
+      "alt": "Representative Nissan Kicks e-POWER P15 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-outlander",
+    "title": "Mitsubishi Outlander PHEV",
+    "sort_order": 44,
+    "active": true,
+    "data": {
+      "id": "outlander",
+      "make": "Mitsubishi",
+      "model": "Outlander PHEV",
+      "code": "GG2W / GG3W",
+      "type": "Plug-in hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/outlander.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/outlander.png",
+      "alt": "Representative Mitsubishi Outlander PHEV GG2W / GG3W hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-ioniq",
+    "title": "Hyundai Ioniq Hybrid / Plug-in",
+    "sort_order": 45,
+    "active": true,
+    "data": {
+      "id": "ioniq",
+      "make": "Hyundai",
+      "model": "Ioniq Hybrid / Plug-in",
+      "code": "AE",
+      "type": "HEV / PHEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/ioniq.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/ioniq.png",
+      "alt": "Representative Hyundai Ioniq Hybrid / Plug-in AE hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-niro",
+    "title": "Kia Niro Hybrid",
+    "sort_order": 46,
+    "active": true,
+    "data": {
+      "id": "niro",
+      "make": "Kia",
+      "model": "Niro Hybrid",
+      "code": "DE",
+      "type": "HEV",
+      "image": "https://ccssolutions.lk/assets/vehicles/niro.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/niro.png",
+      "alt": "Representative Kia Niro Hybrid DE hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-bmw",
+    "title": "BMW 330e Plug-in Hybrid",
+    "sort_order": 47,
+    "active": true,
+    "data": {
+      "id": "bmw",
+      "make": "BMW",
+      "model": "330e Plug-in Hybrid",
+      "code": "F30",
+      "type": "Plug-in hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/bmw.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/bmw.png",
+      "alt": "Representative BMW 330e Plug-in Hybrid F30 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-mercedes",
+    "title": "Mercedes-Benz C350e Plug-in Hybrid",
+    "sort_order": 48,
+    "active": true,
+    "data": {
+      "id": "mercedes",
+      "make": "Mercedes-Benz",
+      "model": "C350e Plug-in Hybrid",
+      "code": "W205",
+      "type": "Plug-in hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/mercedes.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/mercedes.png",
+      "alt": "Representative Mercedes-Benz C350e Plug-in Hybrid W205 hybrid vehicle"
+    }
+  },
+  {
+    "kind": "models",
+    "slug": "original-model-rocky",
+    "title": "Daihatsu Rocky e-SMART Hybrid",
+    "sort_order": 49,
+    "active": true,
+    "data": {
+      "id": "rocky",
+      "make": "Daihatsu",
+      "model": "Rocky e-SMART Hybrid",
+      "code": "A202S",
+      "type": "Series hybrid",
+      "image": "https://ccssolutions.lk/assets/vehicles/rocky.webp",
+      "full_image": "https://ccssolutions.lk/assets/vehicles/rocky.png",
+      "alt": "Representative Daihatsu Rocky e-SMART Hybrid A202S hybrid vehicle"
+    }
+  },
+  {
+    "kind": "videos",
+    "slug": "fb-2347343722336136",
+    "title": "HYBRID CARE. EXPLAINED.",
+    "sort_order": 0,
+    "active": true,
+    "data": {
+      "id": "fb-2347343722336136",
+      "platform": "facebook",
+      "creator": "CCS Solutions",
+      "title": "HYBRID CARE. EXPLAINED.",
+      "url": "https://www.facebook.com/reel/2347343722336136/",
+      "embed_url": "https://www.facebook.com/plugins/video.php?height=640&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2347343722336136%2F&show_text=false&width=360",
+      "asset": "https://ccssolutions.lk/assets/social/fb-2347343722336136.webp",
+      "source_dimensions": [
+        540,
+        960
+      ],
+      "checked_on": "2026-10-28",
+      "note": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform.",
+      "image": "https://ccssolutions.lk/assets/social/fb-2347343722336136.webp",
+      "description": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform."
+    }
+  },
+  {
+    "kind": "videos",
+    "slug": "tt-7669405281482198293",
+    "title": "A CLOSER LOOK. AT BATTERY CARE.",
+    "sort_order": 1,
+    "active": true,
+    "data": {
+      "id": "tt-7669405281482198293",
+      "platform": "tiktok",
+      "creator": "CCS Solutions",
+      "title": "A CLOSER LOOK. AT BATTERY CARE.",
+      "url": "https://www.tiktok.com/@ccs.solutions1/video/7669405281482198293",
+      "embed_url": "https://www.tiktok.com/player/v1/7669405281482198293?autoplay=1&description=0&music_info=0&rel=0",
+      "asset": "https://ccssolutions.lk/assets/social/tt-7669405281482198293.webp",
+      "source_dimensions": [
+        405,
+        720
+      ],
+      "checked_on": "2026-10-28",
+      "note": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform.",
+      "image": "https://ccssolutions.lk/assets/social/tt-7669405281482198293.webp",
+      "description": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform."
+    }
+  },
+  {
+    "kind": "videos",
+    "slug": "tt-7692452118829255957",
+    "title": "INSIDE A HYBRID REPAIR.",
+    "sort_order": 2,
+    "active": true,
+    "data": {
+      "id": "tt-7692452118829255957",
+      "platform": "tiktok",
+      "creator": "CCS Solutions",
+      "title": "INSIDE A HYBRID REPAIR.",
+      "url": "https://www.tiktok.com/@ccs.solutions1/video/7692452118829255957",
+      "embed_url": "https://www.tiktok.com/player/v1/7692452118829255957?autoplay=1&description=0&music_info=0&rel=0",
+      "asset": "https://ccssolutions.lk/assets/social/tt-7692452118829255957.webp",
+      "source_dimensions": [
+        405,
+        720
+      ],
+      "checked_on": "2026-10-28",
+      "note": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform.",
+      "image": "https://ccssolutions.lk/assets/social/tt-7692452118829255957.webp",
+      "description": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform."
+    }
+  },
+  {
+    "kind": "videos",
+    "slug": "tt-7664214913874791701",
+    "title": "LET’S TALK HYBRID CARE.",
+    "sort_order": 3,
+    "active": true,
+    "data": {
+      "id": "tt-7664214913874791701",
+      "platform": "tiktok",
+      "creator": "CCS Solutions",
+      "title": "LET’S TALK HYBRID CARE.",
+      "url": "https://www.tiktok.com/@ccs.solutions1/video/7664214913874791701",
+      "embed_url": "https://www.tiktok.com/player/v1/7664214913874791701?autoplay=1&description=0&music_info=0&rel=0",
+      "asset": "https://ccssolutions.lk/assets/social/tt-7664214913874791701.webp",
+      "source_dimensions": [
+        540,
+        720
+      ],
+      "checked_on": "2026-10-28",
+      "note": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform.",
+      "image": "https://ccssolutions.lk/assets/social/tt-7664214913874791701.webp",
+      "description": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform."
+    }
+  },
+  {
+    "kind": "videos",
+    "slug": "fb-1001908876275961",
+    "title": "A VISIT TO THE WORKSHOP.",
+    "sort_order": 4,
+    "active": true,
+    "data": {
+      "id": "fb-1001908876275961",
+      "platform": "facebook",
+      "creator": "CCS Solutions",
+      "title": "A VISIT TO THE WORKSHOP.",
+      "url": "https://www.facebook.com/reel/1001908876275961/",
+      "embed_url": "https://www.facebook.com/plugins/video.php?height=640&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1001908876275961%2F&show_text=false&width=360",
+      "asset": "https://ccssolutions.lk/assets/social/fb-1001908876275961.jpg",
+      "source_dimensions": [
+        540,
+        960
+      ],
+      "checked_on": "2026-10-30",
+      "note": "Observed in the Reels gallery of the exact client-supplied company profile. Original preview downloaded without retouching or caption removal. Playback remains with Facebook.",
+      "image": "https://ccssolutions.lk/assets/social/fb-1001908876275961.jpg",
+      "description": "Observed in the Reels gallery of the exact client-supplied company profile. Original preview downloaded without retouching or caption removal. Playback remains with Facebook."
+    }
+  },
+  {
+    "kind": "videos",
+    "slug": "fb-2201145104140585",
+    "title": "HYBRID REPAIR AT CCS.",
+    "sort_order": 5,
+    "active": true,
+    "data": {
+      "id": "fb-2201145104140585",
+      "platform": "facebook",
+      "creator": "CCS Solutions",
+      "title": "HYBRID REPAIR AT CCS.",
+      "url": "https://www.facebook.com/reel/2201145104140585/",
+      "embed_url": "https://www.facebook.com/plugins/video.php?height=640&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2201145104140585%2F&show_text=false&width=360",
+      "asset": "https://ccssolutions.lk/assets/social/fb-2201145104140585.jpg",
+      "source_dimensions": [
+        539,
+        960
+      ],
+      "checked_on": "2026-10-30",
+      "note": "Observed in the Reels gallery of the exact client-supplied company profile. Original preview downloaded without retouching or caption removal. Playback remains with Facebook.",
+      "image": "https://ccssolutions.lk/assets/social/fb-2201145104140585.jpg",
+      "description": "Observed in the Reels gallery of the exact client-supplied company profile. Original preview downloaded without retouching or caption removal. Playback remains with Facebook."
+    }
+  },
+  {
+    "kind": "offers",
+    "slug": "original-offer-1",
+    "title": "UNDERSTAND YOUR BATTERY.",
+    "sort_order": 0,
+    "active": true,
+    "data": {
+      "image": "https://ccssolutions.lk/assets/battery.webp",
+      "alt": "Illustrative battery health service photograph",
+      "kicker": "01 / BATTERY HEALTH",
+      "description": "A starting point for a warning light, unusual charge changes or reduced electric assistance.",
+      "bullets": [
+        "Discuss the symptoms",
+        "Ask about battery health checks",
+        "Review the available repair routes"
+      ],
+      "service": "Hybrid battery care",
+      "terms": "Inspection and quotation confirmed by the workshop.",
+      "cta_label": "Ask about this service",
+      "cta_url": "contact.html?service=Hybrid%20battery%20care#inspection"
+    }
+  },
+  {
+    "kind": "offers",
+    "slug": "original-offer-2",
+    "title": "LOOK INTO THAT ABS LIGHT.",
+    "sort_order": 1,
+    "active": true,
+    "data": {
+      "image": "https://ccssolutions.lk/assets/brakes.webp",
+      "alt": "Illustrative braking confidence service photograph",
+      "kicker": "02 / BRAKING CONFIDENCE",
+      "description": "Share the warning and vehicle details so the team can advise the relevant braking-system assessment.",
+      "bullets": [
+        "Describe the warning",
+        "Ask about system diagnosis",
+        "Confirm the inspection plan"
+      ],
+      "service": "ABS and brake systems",
+      "terms": "Inspection and quotation confirmed by the workshop.",
+      "cta_label": "Ask about this service",
+      "cta_url": "contact.html?service=ABS%20and%20brake%20systems#inspection"
+    }
+  },
+  {
+    "kind": "offers",
+    "slug": "original-offer-3",
+    "title": "FOLLOW THE SIGNALS.",
+    "sort_order": 2,
+    "active": true,
+    "data": {
+      "image": "https://ccssolutions.lk/assets/diagnostics.webp",
+      "alt": "Illustrative clearer answers service photograph",
+      "kicker": "03 / CLEARER ANSWERS",
+      "description": "A focused diagnostic enquiry for dashboard messages or electrical behaviour that needs a closer look.",
+      "bullets": [
+        "Explain the behaviour",
+        "Discuss relevant scans and checks",
+        "Agree the next step"
+      ],
+      "service": "Vehicle diagnostics",
+      "terms": "Inspection and quotation confirmed by the workshop.",
+      "cta_label": "Ask about this service",
+      "cta_url": "contact.html?service=Vehicle%20diagnostics#inspection"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "family": "Abhaya Libre",
+    "weight": "600",
+    "asset": "assets/sinhala-fonts/abhaya-libre-600.ttf",
+    "source": "https://fonts.gstatic.com/s/abhayalibre/v18/e3t5euGtX-Co5MNzeAOqinEYo23yqg.ttf",
+    "bytes": 474908
+  },
+  {
+    "family": "Abhaya Libre",
+    "weight": "700",
+    "asset": "assets/sinhala-fonts/abhaya-libre-700.ttf",
+    "source": "https://fonts.gstatic.com/s/abhayalibre/v18/e3t5euGtX-Co5MNzeAOqinEYx2zyqg.ttf",
+    "bytes": 482172
+  },
+  {
+    "family": "Noto Sans Sinhala",
+    "weight": "400",
+    "asset": "assets/sinhala-fonts/noto-sans-sinhala-400.ttf",
+    "source": "https://fonts.gstatic.com/s/notosanssinhala/v36/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwg2a5lg.ttf",
+    "bytes": 235928
+  },
+  {
+    "family": "Noto Sans Sinhala",
+    "weight": "500",
+    "asset": "assets/sinhala-fonts/noto-sans-sinhala-500.ttf",
+    "source": "https://fonts.gstatic.com/s/notosanssinhala/v36/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwj-a5lg.ttf",
+    "bytes": 236000
+  },
+  {
+    "family": "Noto Sans Sinhala",
+    "weight": "600",
+    "asset": "assets/sinhala-fonts/noto-sans-sinhala-600.ttf",
+    "source": "https://fonts.gstatic.com/s/notosanssinhala/v36/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwtOd5lg.ttf",
+    "bytes": 235932
+  },
+  {
+    "family": "Noto Sans Sinhala",
+    "weight": "700",
+    "asset": "assets/sinhala-fonts/noto-sans-sinhala-700.ttf",
+    "source": "https://fonts.gstatic.com/s/notosanssinhala/v36/yMJ2MJBya43H0SUF_WmcBEEf4rQVO2P524V5N_MxQzQtb-tf5dJbC30Fu9zUwuqd5lg.ttf",
+    "bytes": 235604
+  }
+]

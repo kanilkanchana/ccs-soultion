@@ -1,0 +1,10 @@
+<?php
+namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use App\Services\CcsBarcode;
+use App\Services\CcsAdministration;
+class CcsLabelController extends Controller {
+ public function index(Request $request,int $id){$part=DB::table('inventory_items')->where('id',$id)->first();abort_unless($part,404);$units=DB::table('stock_units')->where('inventory_item_id',$id)->where('status','available')->orderBy('serial_number')->get();return view('ccs.labels',['part'=>$part,'units'=>$units,'preferences'=>app(CcsAdministration::class)->preferences($request->user()->id)]);}
+ public function print(Request $request,int $id){$data=$request->validate(['unit_id'=>'nullable|integer','copies'=>'required|integer|min:1|max:50','code_source'=>'nullable|in:sku,barcode']);$part=DB::table('inventory_items')->where('id',$id)->first();abort_unless($part,404);$code=($data['code_source']??($part->barcode?'barcode':'sku'))==='sku'?$part->sku:$part->barcode;if(!$code)throw \Illuminate\Validation\ValidationException::withMessages(['barcode'=>'This part has no product barcode. Choose its actual SKU.']);if($part->has_serial){$unit=DB::table('stock_units')->where('id',$data['unit_id']??0)->where('inventory_item_id',$id)->where('status','available')->first();abort_unless($unit,422,'Select an available actual unit serial.');$code=$unit->serial_number;}$svg=app(CcsBarcode::class)->svg($code);$preferences=app(CcsAdministration::class)->preferences($request->user()->id);$minimum=(11*strlen($code)+55)*0.19;if(((int)$preferences['label_width']-4)<$minimum||(int)$preferences['label_height']<25)throw \Illuminate\Validation\ValidationException::withMessages(['barcode'=>'This code needs a wider label (at least '.ceil($minimum+4).' mm) and a height of at least 25 mm. Change label settings before printing.']);$copies=(int)$data['copies'];app(CcsAdministration::class)->audit($request->user()->id,'stock_labels_prepared','inventory_item',$id,['copies'=>$copies]);return response()->view('ccs.label-print',compact('part','code','svg','copies','preferences'))->header('Cache-Control','no-store, private');}
+}

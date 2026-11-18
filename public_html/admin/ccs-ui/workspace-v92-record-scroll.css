@@ -1,0 +1,26 @@
+@media screen {
+body.v92-record-page {height:100dvh;overflow:hidden!important}
+body.v92-record-page .wrap {height:calc(100dvh - var(--v82-keyboard-height,0px))!important;min-height:0!important;overflow:hidden!important}
+body.v92-record-page .wrap>main {height:100%!important;min-height:0!important;display:flex;flex-direction:column;overflow:hidden!important}
+body.v92-record-page #ccsPageContent {display:block!important;flex:1;min-height:0;overflow:hidden!important}
+body.v92-record-page main>footer {display:none!important}
+body.v92-record-page .v92-record-shell {height:var(--v92-record-height)!important;max-height:var(--v92-record-height)!important;min-height:0!important;overflow:hidden!important;align-items:stretch!important;margin-bottom:0!important}
+body.v92-record-page .v92-record-shell>* {min-width:0;min-height:0!important;max-height:100%!important}
+body.v92-record-page .v92-record-shell .v75-scroll-region {max-height:100%!important}
+body.v92-warranty .v92-record-shell>[data-v68-cards] {height:100%!important;overflow:hidden!important;min-height:0!important}
+body.v92-warranty .v92-record-shell .v68-card-list {height:100%!important;max-height:100%!important;overflow:auto!important;align-content:start;overscroll-behavior:contain;scrollbar-gutter:stable;padding-right:7px!important}
+body.v92-record-page .v92-record-shell>.v68-inspector {height:100%!important;max-height:100%!important;overflow:auto!important;overscroll-behavior:contain;scrollbar-gutter:stable}
+body.v92-ledger .v92-record-shell>.ledger-card {display:flex;flex-direction:column;height:100%!important;overflow:hidden!important;margin-bottom:0!important}
+body.v92-ledger .ledger-card>form {flex:0 0 auto;min-width:0;align-items:center}
+body.v92-ledger .ledger-card>form input {min-width:0!important}
+body.v92-ledger .ledger-card>.table-wrap {flex:1 1 0;min-height:0!important;height:auto!important;max-height:none!important;overflow:auto!important;overscroll-behavior:contain;scrollbar-gutter:stable}
+body.v92-ledger .ledger-table thead th {position:sticky;top:0;z-index:2;background:var(--t-alt)}
+body.v92-ledger .ledger-header {flex-wrap:wrap;gap:8px}
+/* Narrow layouts retain one bounded record area; details stay reachable inside it. */
+@media(max-width:950px){body.v92-record-page .v92-record-shell {display:flex!important;flex-direction:column!important;overflow:auto!important;gap:12px}body.v92-record-page .v92-record-shell>* {flex:0 0 auto;height:auto!important;max-height:none!important}body.v92-warranty .v92-record-shell>[data-v68-cards],body.v92-warranty .v92-record-shell .v68-card-list {height:auto!important;max-height:40dvh!important;overflow:auto!important}body.v92-record-page .v92-record-shell>.v68-inspector {height:auto!important;max-height:50dvh!important}body.v92-ledger .v92-record-shell>.ledger-card {height:50dvh!important;min-height:220px!important;flex:0 0 auto}}
+@media(max-height:650px){body.v92-warranty #ccsPageContent>.card {max-height:28dvh;overflow:auto}body.v92-record-page #ccsPageContent>.page-head {margin-bottom:10px}body.v92-record-page .finance-shortcuts {margin-bottom:10px}}
+}
+@media screen {
+body.v92-warranty .v92-record-shell .v68-card-list {grid-auto-rows:max-content!important}
+body.v92-warranty .v92-record-shell button.v68-record-card {height:auto!important;min-height:105px!important;flex-shrink:0;overflow-wrap:anywhere}
+}

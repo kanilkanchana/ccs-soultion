@@ -1,0 +1,3 @@
+@view-transition {navigation:none}
+.wrap,.wrap>main,.ccs-sidebar,.ccs-touch-topbar,#ccsPageContent,.pos-frame,.jobs-master {animation:none!important;transition-property:color,background-color,border-color!important}
+.ccs-clock-bar time{font-variant-numeric:tabular-nums}

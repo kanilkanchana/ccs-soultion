@@ -1,0 +1,84 @@
+@media screen {
+.v81-job-model {display:none}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-model {display:block}
+
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace {--t-bg:#080e18;--t-surface:#101827;--t-alt:#172235;--t-border:#28384b;--t-ink:#edf5ff;--t-muted:#a1b5ce;--t-button:#2868ef;--t-button-ink:#fff;--t-link:#72acff;--t-sidebar:#0c1320;--t-sidebar-ink:#e1edff;background:#080e18!important;color:#edf5ff!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .wrap>aside.ccs-sidebar {display:flex!important;width:224px!important;flex:0 0 224px!important;height:100dvh!important;position:sticky!important;top:0;background:#0c1320!important;color:#e1edff!important;overflow:hidden!important;border-right:1px solid #28384b!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .ccs-sidebar .v69-nav-link {flex-direction:row!important;justify-content:flex-start!important;text-align:left!important;gap:12px;min-height:52px!important;padding:12px!important;font-size:13px!important;color:#caddf7!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .ccs-sidebar .v69-nav-link.active {background:#1e3967!important;color:#fff!important;border:1px solid #426aa7!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .ccs-sidebar .v69-nav-section h2 {display:block!important;font-size:10px!important;color:#88a2c5!important;margin:16px 8px 8px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .ccs-sidebar nav {overflow-y:auto!important;min-height:0;flex:1;scrollbar-width:thin}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .ccs-sidebar-content {min-height:0!important;display:flex!important;flex:1;flex-direction:column}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .ccs-brand-link {flex-wrap:wrap;gap:9px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .ccs-brand-link strong {font-size:13px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .wrap>main {min-width:0!important;flex:1;width:0!important;background:#080e18!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace main :is(.page-head,.jobs-heading,.directory-head) {padding:12px 0;border-bottom:1px solid #28384b;margin-bottom:15px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace main :is(h1,h2,h3) {color:#edf5ff!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace main :is(.card,.directory-panel,.job-side,.v68-inspector,.directory-stat,.jobs-list,.v69-job-card) {background:#101827!important;color:#edf5ff!important;border-color:#28384b!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace main :is(input,select,textarea) {background:#111e30!important;color:#edf5ff!important;border-color:#354960!important}
+/* Horizontal jobs board with the full selected record and status editor below. */
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .jobs-master.v81-job-board {display:block!important;height:auto!important;max-height:none!important;overflow:visible!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board>.jobs-list {display:block!important;height:auto!important;overflow:visible!important;border:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .jobs-filter {position:sticky;top:0;z-index:3;background:#101827;border:1px solid #28384b;border-radius:12px;align-items:center!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-board-controls {display:flex;align-items:center;gap:10px;padding:10px 0;color:#a1b5ce;font-size:12px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-board-controls>span {flex:1}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v68-card-list {display:flex!important;gap:16px!important;overflow-x:auto!important;overflow-y:hidden!important;max-height:none!important;height:auto!important;padding:8px 3px 18px!important;scroll-snap-type:x proximity;scroll-padding:4px;overscroll-behavior-x:contain;align-items:stretch;scrollbar-gutter:auto!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-card {flex:0 0 clamp(310px,32vw,420px);width:clamp(310px,32vw,420px);min-width:0;scroll-snap-align:start;padding:18px!important;cursor:pointer;display:flex;flex-direction:column;gap:12px;border:1px solid #28384b!important;border-radius:16px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-card.selected {border-color:#508bff!important;box-shadow:0 0 0 2px #2c69dd44}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-header {display:flex!important;flex-wrap:wrap;gap:10px;align-items:flex-start}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-identity {flex:1;min-width:160px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-controls {width:100%;justify-content:space-between}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-grid {display:grid!important;grid-template-columns:1fr 1fr!important;gap:12px!important;padding:12px 0!important;margin:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-grid .v69-notes {grid-column:1/-1}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-footer {display:flex;flex-wrap:wrap;gap:10px;margin-top:auto!important;padding-top:12px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-footer>a {display:block;width:100%;text-align:center;background:#2868ef;border-radius:9px;padding:12px;color:white!important;min-height:48px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board>.job-side {position:static!important;width:100%!important;height:auto!important;max-height:none!important;overflow:visible!important;margin-top:16px;padding:22px!important;border:1px solid #28384b!important;scroll-margin-top:12px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-overview {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 24px;padding-bottom:18px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-overview .job-side-top {grid-column:1/-1}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-overview p {margin:0;overflow-wrap:anywhere}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-status {border-top:1px solid #28384b;border-bottom:1px solid #28384b;padding:18px 0;margin:0!important;display:grid;grid-template-columns:1fr 1fr;gap:10px 20px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-status>label {margin:0}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-status>select {grid-column:1;grid-row:3}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-status>input:not([type=hidden]) {grid-column:2;grid-row:3}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-status>button[type=submit] {grid-column:1/-1;max-width:520px;justify-self:end;background:#009d7c!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-status-choices {grid-column:1/-1;display:flex;flex-wrap:wrap;gap:9px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-status-choices button[aria-pressed=true] {background:#2868ef!important;color:white!important;border:1px solid #79a7ff!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-actions {padding-top:18px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+/* Stock selection cards still drive the original record/actions inspector. */
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-workspace {grid-template-columns:minmax(0,1fr) 320px!important;align-items:start}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-cards {display:block!important;min-width:0!important;table-layout:auto!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-cards thead {display:none!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-cards tbody {display:grid!important;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:15px;padding:12px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-card {display:flex!important;flex-direction:column;gap:5px;border:1px solid #28384b;border-radius:14px;overflow:hidden;min-height:230px;cursor:pointer;background:#101827}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-card.v68-selected {border-color:#508bff;box-shadow:0 0 0 2px #2c69dd44}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-card td:not(.v68-secondary-cell):not(.v68-action-cell) {display:block!important;width:auto!important;border:0!important;padding:12px 15px!important;font-size:14px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-card td:not(:first-child)::before {content:attr(data-touch-label);display:block;color:#a1b5ce;font-size:10px;text-transform:uppercase;margin-bottom:6px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-card td:first-child {font-weight:800;font-size:16px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-card small {font-weight:400}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-workspace .v68-inspector {padding:20px;border-radius:14px;max-height:75dvh!important;overflow:auto!important}
+@media(max-width:1150px){html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .wrap>aside.ccs-sidebar{width:190px!important;flex-basis:190px!important}html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-stock-workspace{grid-template-columns:1fr!important}html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-actions{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .wrap{display:flex!important;flex-direction:row!important}html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .wrap>aside.ccs-sidebar{width:150px!important;flex-basis:150px!important;height:100dvh!important}html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .ccs-sidebar .v69-nav-link{font-size:11px!important;flex-wrap:wrap}html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-overview,html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-actions,html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-status{grid-template-columns:1fr}html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-status>input:not([type=hidden]),html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-status>select{grid-column:auto;grid-row:auto}}
+}
+@media screen {
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace:not(.v80-touch-pos) .v70-toolbar {padding:6px 0!important;margin-bottom:12px;gap:10px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace:not(.v80-touch-pos) .v70-toolbar .ccs-clock-bar {margin:0!important;padding:0!important;border:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .jobs-heading {margin:0!important;padding:8px 0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .jobs-tabs {margin:0!important;padding:8px 0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .jobs-filter {margin:0!important;padding:10px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-board-controls {padding:6px 0}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-header {padding:0!important;min-height:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-avatar {width:48px!important;height:48px!important;border-radius:12px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-avatar svg {width:28px;height:28px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-identity h2 {font-size:16px!important;margin:2px 0 6px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-grid>div {min-height:0!important;padding:0!important;border:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-grid strong {font-size:12px!important;line-height:1.5}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-grid {border-top:1px solid #28384b!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-footer {padding:10px 0 0!important}
+}
+@media screen {
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace:not(.v80-touch-pos) .wrap>main {padding:12px 16px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-header {flex-wrap:nowrap!important;align-items:flex-start!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-controls {width:auto!important;flex:0 0 auto!important;margin:0;padding:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-identity {min-width:125px}
+html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-footer>a,html[data-ccs-theme] body.ccs-touch-mode.v81-touch-workspace .v81-job-board .v69-job-footer>a>span {color:#fff!important}
+}

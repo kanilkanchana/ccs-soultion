@@ -1,0 +1,72 @@
+{
+  "owner": {
+    "name": "Charitha Jayadeep Duwage",
+    "role": "Owner",
+    "source": "Client correction brief and supplied portrait",
+    "asset": "owner-charitha.webp"
+  },
+  "interior": {
+    "credit": "Client-supplied interior clip",
+    "source": "Latest client correction attachment",
+    "asset": "experience/interior.mp4",
+    "poster": "experience/interior-poster.jpg",
+    "note": "7.52-second interior video supplied by the client. Compressed locally without added captions; poster extracted from the same clip. Illustrative interior imagery, not claimed as CCS premises. Autoplays only when visible, subject to browser settings and motion preferences."
+  },
+  "badges": [
+    {
+      "make": "Toyota",
+      "asset": "badges/toyota.svg",
+      "source": "https://cdn.simpleicons.org/toyota/263235",
+      "collection": "https://simpleicons.org/",
+      "licence": "CC0 collection, manufacturer trademark retained"
+    },
+    {
+      "make": "Honda",
+      "asset": "badges/honda.svg",
+      "source": "https://cdn.simpleicons.org/honda/263235",
+      "collection": "https://simpleicons.org/",
+      "licence": "CC0 collection, manufacturer trademark retained"
+    },
+    {
+      "make": "Suzuki",
+      "asset": "badges/suzuki.svg",
+      "source": "https://cdn.simpleicons.org/suzuki/263235",
+      "collection": "https://simpleicons.org/",
+      "licence": "CC0 collection, manufacturer trademark retained"
+    },
+    {
+      "make": "Mazda",
+      "asset": "badges/mazda.svg",
+      "source": "https://cdn.simpleicons.org/mazda/263235",
+      "collection": "https://simpleicons.org/",
+      "licence": "CC0 collection, manufacturer trademark retained"
+    },
+    {
+      "make": "Lexus",
+      "asset": "badges/lexus.svg",
+      "credit": "Glebushko0703",
+      "source": "https://commons.wikimedia.org/wiki/File:Lexus_Logo.svg",
+      "licence": "CC0, manufacturer trademark retained"
+    }
+  ],
+  "social_links": {
+    "facebook": {
+      "status": "Exact company profile supplied by client",
+      "url": "https://www.facebook.com/profile.php?id=61567738112126"
+    },
+    "tiktok": {
+      "status": "Exact company profile supplied by client",
+      "url": "https://www.tiktok.com/@ccs.solutions1"
+    }
+  },
+  "promotions": {
+    "source": "Client-supplied PNG artwork in latest correction brief",
+    "assets": [
+      "promotions/hybrid-parts.png",
+      "promotions/hybrid-parts.webp",
+      "promotions/abs-service.png",
+      "promotions/abs-service.webp"
+    ],
+    "note": "Full supplied artwork preserved. WebP copies use format conversion only. Artwork includes 20% promotion claims; eligibility and pricing are confirmed by the workshop."
+  }
+}

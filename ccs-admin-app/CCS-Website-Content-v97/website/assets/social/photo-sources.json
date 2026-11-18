@@ -1,0 +1,54 @@
+[
+  {
+    "id": "fb-photo-122195845814591270",
+    "title": "BATTERY CARE AT CCS",
+    "asset": "assets/social/fb-photo-122195845814591270.jpg",
+    "width": 940,
+    "height": 1672,
+    "url": "https://www.facebook.com/photo.php?fbid=122195845814591270&set=pb.61567738112126.-2207520000&type=3",
+    "source": "CCS Solutions on Facebook",
+    "description": "Original company artwork",
+    "alt": "Original Sinhala CCS Solutions hybrid battery service advertisement",
+    "checked_on": "2026-10-30",
+    "note": "Company artwork preserved without retouching. Confirm current prices, availability and terms directly with CCS."
+  },
+  {
+    "id": "fb-photo-122195843552591270",
+    "title": "YOUR HYBRID. OUR WORKSHOP.",
+    "asset": "assets/social/fb-photo-122195843552591270.jpg",
+    "width": 1024,
+    "height": 1536,
+    "url": "https://www.facebook.com/photo/?fbid=122195843552591270&set=pb.61567738112126.-2207520000",
+    "source": "CCS Solutions on Facebook",
+    "description": "Original company artwork",
+    "alt": "Original Sinhala CCS Solutions hybrid vehicle care advertisement",
+    "checked_on": "2026-10-30",
+    "note": "Company artwork preserved without retouching. Confirm current prices, availability and terms directly with CCS."
+  },
+  {
+    "id": "hybrid-parts-offer",
+    "title": "HYBRID PARTS & ACCESSORIES",
+    "asset": "assets/promotions/hybrid-parts.webp",
+    "width": 1024,
+    "height": 1536,
+    "url": "offers.html",
+    "source": "CCS Solutions offers",
+    "description": "Selected parts promotion",
+    "alt": "CCS Solutions supplied twenty percent selected hybrid parts and accessories promotion",
+    "checked_on": "2026-10-30",
+    "note": "Company artwork preserved without retouching. Confirm current prices, availability and terms directly with CCS."
+  },
+  {
+    "id": "abs-service-offer",
+    "title": "ABS PARTS & REPAIRS",
+    "asset": "assets/promotions/abs-service.webp",
+    "width": 1024,
+    "height": 1536,
+    "url": "offers.html",
+    "source": "CCS Solutions offers",
+    "description": "Selected ABS promotion",
+    "alt": "CCS Solutions supplied twenty percent selected ABS parts and repairs promotion",
+    "checked_on": "2026-10-30",
+    "note": "Company artwork preserved without retouching. Confirm current prices, availability and terms directly with CCS."
+  }
+]

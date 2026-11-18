@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fb-2347343722336136",
+    "platform": "Facebook",
+    "creator": "CCS Solutions",
+    "title": "HYBRID CARE. EXPLAINED.",
+    "url": "https://www.facebook.com/reel/2347343722336136/",
+    "embed_url": "https://www.facebook.com/plugins/video.php?height=640&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2347343722336136%2F&show_text=false&width=360",
+    "asset": "assets/social/fb-2347343722336136.webp",
+    "source_dimensions": [
+      540,
+      960
+    ],
+    "checked_on": "2026-10-28",
+    "note": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform."
+  },
+  {
+    "id": "tt-7669405281482198293",
+    "platform": "TikTok",
+    "creator": "CCS Solutions",
+    "title": "A CLOSER LOOK. AT BATTERY CARE.",
+    "url": "https://www.tiktok.com/@ccs.solutions1/video/7669405281482198293",
+    "embed_url": "https://www.tiktok.com/player/v1/7669405281482198293?autoplay=1&description=0&music_info=0&rel=0",
+    "asset": "assets/social/tt-7669405281482198293.webp",
+    "source_dimensions": [
+      405,
+      720
+    ],
+    "checked_on": "2026-10-28",
+    "note": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform."
+  },
+  {
+    "id": "tt-7692452118829255957",
+    "platform": "TikTok",
+    "creator": "CCS Solutions",
+    "title": "INSIDE A HYBRID REPAIR.",
+    "url": "https://www.tiktok.com/@ccs.solutions1/video/7692452118829255957",
+    "embed_url": "https://www.tiktok.com/player/v1/7692452118829255957?autoplay=1&description=0&music_info=0&rel=0",
+    "asset": "assets/social/tt-7692452118829255957.webp",
+    "source_dimensions": [
+      405,
+      720
+    ],
+    "checked_on": "2026-10-28",
+    "note": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform."
+  },
+  {
+    "id": "tt-7664214913874791701",
+    "platform": "TikTok",
+    "creator": "CCS Solutions",
+    "title": "LET’S TALK HYBRID CARE.",
+    "url": "https://www.tiktok.com/@ccs.solutions1/video/7664214913874791701",
+    "embed_url": "https://www.tiktok.com/player/v1/7664214913874791701?autoplay=1&description=0&music_info=0&rel=0",
+    "asset": "assets/social/tt-7664214913874791701.webp",
+    "source_dimensions": [
+      540,
+      720
+    ],
+    "checked_on": "2026-10-28",
+    "note": "Original public company video and preview observed on the supplied company profile. Preview resized and converted to local WebP; no caption or watermark removed. Playback is supplied by the original platform."
+  }
+]

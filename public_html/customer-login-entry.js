@@ -1,0 +1,1 @@
+(()=>{const config=window.CCS_CONNECT||{},url=(config.apiBase||'').replace(/\/$/,'')+(config.customerLoginPath||'/customer/login'),link=document.getElementById('secure-customer-login');if(link)link.href=url;location.replace(url);})();

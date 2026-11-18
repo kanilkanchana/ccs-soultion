@@ -1,0 +1,1256 @@
+[
+  {
+    "id": "prius",
+    "make": "Toyota",
+    "model": "Prius Hybrid",
+    "chassis_reference": "ZVW30",
+    "hybrid_type": "HEV",
+    "source": "https://www.manualslib.com/manual/533003/Toyota-Prius-2010.html",
+    "image_url": "https://static-data2.manualslib.com/product-images/8c7/533003/toyota-prius-2010-automobile.jpg",
+    "credit": "Toyota Prius reference / ManualsLib",
+    "title": "Toyota Prius Hybrid",
+    "original_dimensions": [
+      560,
+      560
+    ],
+    "png_dimensions": [
+      555,
+      370
+    ],
+    "web_dimensions": [
+      555,
+      370
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "aqua",
+    "make": "Toyota",
+    "model": "Aqua / Prius c",
+    "chassis_reference": "NHP10",
+    "hybrid_type": "HEV",
+    "source": "https://global.toyota/jp/newsroom/toyota/19064968.html",
+    "image_url": "https://global.toyota/pages/news/images/2017/06/19/1330/aqua1706_07.jpg",
+    "credit": "Toyota Motor Corporation",
+    "title": "Toyota Aqua G",
+    "original_dimensions": [
+      3500,
+      2456
+    ],
+    "png_dimensions": [
+      788,
+      525
+    ],
+    "web_dimensions": [
+      788,
+      525
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "auris",
+    "make": "Toyota",
+    "model": "Auris Hybrid",
+    "chassis_reference": "ZWE186",
+    "hybrid_type": "HEV",
+    "source": "https://global.toyota/jp/detail/11762373",
+    "image_url": "https://global.toyota/pages/news/images/2016/04/18/1330/aurs1604_01.jpg",
+    "credit": "Toyota Motor Corporation",
+    "title": "Toyota Auris Hybrid G Package",
+    "original_dimensions": [
+      6000,
+      3788
+    ],
+    "png_dimensions": [
+      755,
+      503
+    ],
+    "web_dimensions": [
+      755,
+      503
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "camry",
+    "make": "Toyota",
+    "model": "Camry Hybrid",
+    "chassis_reference": "AXVH70",
+    "hybrid_type": "HEV",
+    "source": "https://global.toyota/jp/detail/17660392",
+    "image_url": "https://global.toyota/pages/news/images/2017/07/10/1330/cmrh1707_01.jpg",
+    "credit": "Toyota Motor Corporation",
+    "title": "Toyota Camry Hybrid G Leather Package",
+    "original_dimensions": [
+      4678,
+      3308
+    ],
+    "png_dimensions": [
+      754,
+      503
+    ],
+    "web_dimensions": [
+      754,
+      503
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "sai",
+    "make": "Toyota",
+    "model": "Sai Hybrid",
+    "chassis_reference": "AZK10",
+    "hybrid_type": "HEV",
+    "source": "https://autoc-one.jp/news/410234/photo/0007.html",
+    "image_url": "https://cdn.autoc-one.jp/image/images/405598/007_o.jpg",
+    "credit": "MOTA / Toyota model photography",
+    "title": "Toyota Sai Hybrid",
+    "original_dimensions": [
+      630,
+      420
+    ],
+    "png_dimensions": [
+      653,
+      435
+    ],
+    "web_dimensions": [
+      653,
+      435
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "axio",
+    "make": "Toyota",
+    "model": "Corolla Axio Hybrid",
+    "chassis_reference": "NKE165",
+    "hybrid_type": "HEV",
+    "source": "https://global.toyota/en/newsroom/toyota/22998915.html",
+    "image_url": "https://global.toyota/pages/news/images/2015/03/30/1330/002_2.jpg",
+    "credit": "Toyota Motor Corporation",
+    "title": "Toyota Corolla Axio Hybrid",
+    "original_dimensions": [
+      900,
+      479
+    ],
+    "png_dimensions": [
+      883,
+      589
+    ],
+    "web_dimensions": [
+      883,
+      589
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "fielder",
+    "make": "Toyota",
+    "model": "Corolla Fielder Hybrid",
+    "chassis_reference": "NKE165G",
+    "hybrid_type": "HEV",
+    "source": "https://global.toyota/en/download/25012725",
+    "image_url": "https://global.toyota/pages/news/older/images/2013/08/06/nt13_042_02_L.jpg",
+    "credit": "Toyota Motor Corporation",
+    "title": "Toyota Corolla Fielder Hybrid",
+    "original_dimensions": [
+      1085,
+      700
+    ],
+    "png_dimensions": [
+      878,
+      585
+    ],
+    "web_dimensions": [
+      878,
+      585
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "alpha",
+    "make": "Toyota",
+    "model": "Prius Alpha",
+    "chassis_reference": "ZVW40 / ZVW41",
+    "hybrid_type": "HEV",
+    "source": "https://global.toyota/jp/newsroom/toyota/21797492.html",
+    "image_url": "https://global.toyota/pages/news/images/2014/11/17/1030/s/pria1411_04_s.jpg",
+    "credit": "Toyota Motor Corporation",
+    "title": "Toyota Prius Alpha",
+    "original_dimensions": [
+      1920,
+      1196
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "chr",
+    "make": "Toyota",
+    "model": "C-HR Hybrid",
+    "chassis_reference": "ZYX10 / ZYX11",
+    "hybrid_type": "HEV",
+    "source": "https://global.toyota/jp/download/22539038/",
+    "image_url": "https://global.toyota/pages/news/images/2016/12/14/1330/chr1612_21.jpg",
+    "credit": "Toyota Motor Corporation",
+    "title": "Toyota C-HR Hybrid",
+    "original_dimensions": [
+      7500,
+      4500
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "cross",
+    "make": "Toyota",
+    "model": "Corolla Cross Hybrid",
+    "chassis_reference": "ZVG11 / ZVG15",
+    "hybrid_type": "HEV",
+    "source": "https://news.u-car.com.tw/news/article/63429",
+    "image_url": "https://image.u-car.com.tw/articlethumb_97_63429.jpg",
+    "credit": "U-CAR / Toyota model photography",
+    "title": "Toyota Corolla Cross Hybrid",
+    "original_dimensions": [
+      720,
+      480
+    ],
+    "png_dimensions": [
+      744,
+      496
+    ],
+    "web_dimensions": [
+      744,
+      496
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "yaris-cross",
+    "make": "Toyota",
+    "model": "Yaris Cross Hybrid",
+    "chassis_reference": "MXPJ10 / MXPJ15",
+    "hybrid_type": "HEV",
+    "source": "https://www.toyota.dk/nye-biler/toyota-yaris-cross",
+    "image_url": "https://img-optimize.toyota-europe.com/resize/ccis/680x680/zip/dk/product-token/869db8ff-c2de-400f-951a-b29584cf5e4d/vehicle/90734/padding/50%2C50%2C50%2C50/image-quality/70/day-exterior-03_040.png",
+    "credit": "Toyota Europe",
+    "title": "Toyota Yaris Cross Hybrid",
+    "original_dimensions": [
+      680,
+      392
+    ],
+    "png_dimensions": [
+      690,
+      460
+    ],
+    "web_dimensions": [
+      690,
+      460
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "rav4",
+    "make": "Toyota",
+    "model": "RAV4 Hybrid",
+    "chassis_reference": "AXAH52 / AXAH54",
+    "hybrid_type": "HEV",
+    "source": "https://www.toyota.at/neuwagen/rav4/konfigurator",
+    "image_url": "https://scene7.toyota.eu/is/image/toyotaeurope/angebote-modell-range-rav4-haendler-1%3ASmall-Landscape?op_usm=1.75%2C0.3%2C2%2C0&resMode=sharp2&ts=1738678061572",
+    "credit": "Toyota Europe",
+    "title": "Toyota RAV4 Hybrid",
+    "original_dimensions": [
+      800,
+      800
+    ],
+    "png_dimensions": [
+      747,
+      498
+    ],
+    "web_dimensions": [
+      747,
+      498
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "noah",
+    "make": "Toyota",
+    "model": "Noah Hybrid",
+    "chassis_reference": "ZWR80G / ZWR80W",
+    "hybrid_type": "HEV",
+    "source": "https://carsot.com/toyota/noah/toyota-noah-iii-r80-2014-now-minivan.html",
+    "image_url": "https://carsot.com/images/toyota-noah-iii-r80-2014-now-minivan-interior-3.jpg",
+    "credit": "Carsot / Toyota model photography",
+    "title": "Toyota Noah Hybrid",
+    "original_dimensions": [
+      640,
+      427
+    ],
+    "png_dimensions": [
+      677,
+      451
+    ],
+    "web_dimensions": [
+      677,
+      451
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "sienta",
+    "make": "Toyota",
+    "model": "Sienta Hybrid",
+    "chassis_reference": "NHP170G",
+    "hybrid_type": "HEV",
+    "source": "https://global.toyota/en/download/24962317",
+    "image_url": "https://global.toyota/pages/news/images/2015/07/09/1330/siet1507_22_s.jpg",
+    "credit": "Toyota Motor Corporation",
+    "title": "Toyota Sienta Hybrid",
+    "original_dimensions": [
+      1920,
+      1353
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "voxy",
+    "make": "Toyota",
+    "model": "Voxy Hybrid",
+    "chassis_reference": "ZWR80G / ZWR80W",
+    "hybrid_type": "HEV",
+    "source": "https://www.drom.ru/catalog/toyota/voxy/g_2017_7695/",
+    "image_url": "https://s.auto.drom.ru/i24211/c/photos/fullsize/toyota/voxy/toyota_voxy_729725.jpg",
+    "credit": "Drom / Toyota model photography",
+    "title": "Toyota Voxy Hybrid",
+    "original_dimensions": [
+      1024,
+      768
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "esquire",
+    "make": "Toyota",
+    "model": "Esquire Hybrid",
+    "chassis_reference": "ZWR80G",
+    "hybrid_type": "HEV",
+    "source": "https://global.toyota/jp/newsroom/toyota/25996186.html",
+    "image_url": "https://global.toyota/pages/news/images/2019/01/07/1330/003.jpg",
+    "credit": "Toyota Motor Corporation",
+    "title": "Toyota Esquire Hybrid",
+    "original_dimensions": [
+      900,
+      469
+    ],
+    "png_dimensions": [
+      843,
+      562
+    ],
+    "web_dimensions": [
+      843,
+      562
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "crown",
+    "make": "Toyota",
+    "model": "Crown Hybrid",
+    "chassis_reference": "AWS210 / AWS211",
+    "hybrid_type": "HEV",
+    "source": "https://www.drom.ru/catalog/toyota/crown/g_2015_4890/",
+    "image_url": "https://s.auto.drom.ru/i24207/c/photos/fullsize/toyota/crown/toyota_crown_697207.jpg",
+    "credit": "Drom / Toyota model photography",
+    "title": "Toyota Crown Hybrid",
+    "original_dimensions": [
+      1024,
+      768
+    ],
+    "png_dimensions": [
+      885,
+      590
+    ],
+    "web_dimensions": [
+      885,
+      590
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "harrier",
+    "make": "Toyota",
+    "model": "Harrier Hybrid",
+    "chassis_reference": "AVU65W / AXUH80",
+    "hybrid_type": "HEV",
+    "source": "https://carview.yahoo.co.jp/ncar/catalog/toyota/harrier_hybrid/FMC003-MC003/photo_360/",
+    "image_url": "https://autos-pctr.c.yimg.jp/B36KdfMv1aU6zoeY83TyMJmZ7J1MLNDjDLHyvjwgP3s9OtxECPF1xE0OEyOlMUXIjJT5Xyho_mvIeOxjisWQ_wX5mniFrLIDsLnWW-rS4WqHOwLLkfv3AqiMm0pbpnPS_PQ4kaGeFUeJ99BWCUU0kurzHOtdPPkoyhPJDg9nogZc02eSxU0m3OhhYBSN-VXoImeIpav-JnluehWwyLa-hZw28LT1p5-gLv6k_RppPgwdEGYY2mz33e18oQtd5vc-CFctGmxuhcAg-3Ir_24G6A%3D%3D",
+    "credit": "carview! vehicle catalogue",
+    "title": "Toyota Harrier Hybrid",
+    "original_dimensions": [
+      1200,
+      800
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking.",
+    "pictured_generation": "AXUH80"
+  },
+  {
+    "id": "raize",
+    "make": "Toyota",
+    "model": "Raize Hybrid",
+    "chassis_reference": "A202A",
+    "hybrid_type": "Series hybrid",
+    "source": "https://paultan.org/cn/2021/11/02/2022-toyota-raize-launched-in-japan-new-e-smart-hybrid-1-2l-na-3-cylinder-coming-to-perodua-ativa/",
+    "image_url": "https://paultan.org/cn/image/2021/11/2022-Toyota-Raize-4.jpg",
+    "credit": "Paul Tan / Toyota model photography",
+    "title": "Toyota Raize Hybrid",
+    "original_dimensions": [
+      4677,
+      3307
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "gp1",
+    "make": "Honda",
+    "model": "Fit Hybrid",
+    "chassis_reference": "GP1",
+    "hybrid_type": "HEV",
+    "source": "https://global.honda/en/newsroom/news/2012/c121015eng/image_download.html",
+    "image_url": "https://global.honda/content/dam/site/global-en/newsroom-new/cq_img/news/2012/10/dl/c1210018H.jpg",
+    "credit": "Honda Motor Co., Ltd.",
+    "title": "Fit Hybrid (body color: Fresh Lime Metallic) 2010.10.08",
+    "original_dimensions": [
+      1685,
+      1250
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "gp2",
+    "make": "Honda",
+    "model": "Fit Shuttle Hybrid",
+    "chassis_reference": "GP2",
+    "hybrid_type": "HEV",
+    "source": "https://global.honda/en/newsroom/news/2011/4110616eng-fitshuttle/image_download.html",
+    "image_url": "https://global.honda/content/dam/site/global-en/newsroom-new/cq_img/news/2011/06/dl/am_fs1106013H.jpg",
+    "credit": "Honda Motor Co., Ltd.",
+    "title": "FIT SHUTTLE HYBRID (body color: Alabaster Silver Metallic)",
+    "original_dimensions": [
+      4000,
+      2387
+    ],
+    "png_dimensions": [
+      879,
+      586
+    ],
+    "web_dimensions": [
+      879,
+      586
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "gp3",
+    "make": "Honda",
+    "model": "Freed Hybrid",
+    "chassis_reference": "GP3",
+    "hybrid_type": "HEV",
+    "source": "https://autoc-one.jp/catalog/honda/freed_hybrid/fmc2215-mc7497/89909/",
+    "image_url": "https://cdn.autoc-one.jp/image/catalog/6/4/2219/2215/7497/1_o.jpg",
+    "credit": "MOTA vehicle catalogue",
+    "title": "Honda Freed Hybrid",
+    "original_dimensions": [
+      583,
+      437
+    ],
+    "png_dimensions": [
+      622,
+      415
+    ],
+    "web_dimensions": [
+      622,
+      415
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "gp5",
+    "make": "Honda",
+    "model": "Fit Hybrid",
+    "chassis_reference": "GP5 / GP6",
+    "hybrid_type": "HEV",
+    "source": "https://global.honda/en/newsroom/news/2013/4130905eng-fit/image_download.html",
+    "image_url": "https://global.honda/content/dam/site/global-en/newsroom-new/cq_img/news/2013/09/dl/am_ft1309002H.jpg",
+    "credit": "Honda Motor Co., Ltd.",
+    "title": "HYBRID・F Package (body color: Vivid Sky Blue Pearl) option-equipped vehicle",
+    "original_dimensions": [
+      4093,
+      2993
+    ],
+    "png_dimensions": [
+      873,
+      582
+    ],
+    "web_dimensions": [
+      873,
+      582
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "gp7",
+    "make": "Honda",
+    "model": "Shuttle Hybrid",
+    "chassis_reference": "GP7 / GP8",
+    "hybrid_type": "HEV",
+    "source": "https://carview.yahoo.co.jp/ncar/catalog/honda/shuttle_hybrid/",
+    "image_url": "https://autos-pctr.c.yimg.jp/E8AMlYWU4zGKe4isosZ0gRg5uPQE6zaumgnAYq9xW5oGPkMfJRnXNXqJtPo4-CMVtGCPt7GZJHtxYhSWVFOtfsBtxAkuJUbx9OVDWD3ev33smbwnZBAlfh4llaeUQv-Pn8z2fyCb1Bo2C9VBNjlgOkSy2nLDAh3tHqcc_QCJkvtGmtcQR99l7TV8WATb_k8GHH7hfprJuYYKKWwNmN_nHI7mf9_bfmGIejn3NYgqNRs%3D",
+    "credit": "carview! vehicle catalogue",
+    "title": "Honda Shuttle Hybrid",
+    "original_dimensions": [
+      800,
+      498
+    ],
+    "png_dimensions": [
+      728,
+      485
+    ],
+    "web_dimensions": [
+      728,
+      485
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "vezel",
+    "make": "Honda",
+    "model": "Vezel Hybrid",
+    "chassis_reference": "RU3 / RU4",
+    "hybrid_type": "HEV",
+    "source": "https://global.honda/en/newsroom/news/2013/4131219eng-vezel/image_download.html",
+    "image_url": "https://global.honda/content/dam/site/global-en/newsroom-new/cq_img/news/2013/12/dl/am_vz1312073H.jpg",
+    "credit": "Honda Motor Co., Ltd.",
+    "title": "HYBRID Z, front 7:3 (body color: Misty Green Pearl)",
+    "original_dimensions": [
+      4093,
+      2285
+    ],
+    "png_dimensions": [
+      883,
+      589
+    ],
+    "web_dimensions": [
+      883,
+      589
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "grace",
+    "make": "Honda",
+    "model": "Grace Hybrid",
+    "chassis_reference": "GM4 / GM5",
+    "hybrid_type": "HEV",
+    "source": "https://global.honda/jp/news/2014/4141201-grace.html",
+    "image_url": "https://global.honda/content/dam/site/global-jp/news/cq_img/2014/12/4141201-grace/4141201-grace_01.jpg",
+    "credit": "Honda Motor Co., Ltd.",
+    "title": "Honda Grace Hybrid",
+    "original_dimensions": [
+      980,
+      650
+    ],
+    "png_dimensions": [
+      899,
+      599
+    ],
+    "web_dimensions": [
+      899,
+      599
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "civic",
+    "make": "Honda",
+    "model": "Civic Hybrid",
+    "chassis_reference": "FD3",
+    "hybrid_type": "HEV",
+    "source": "https://global.honda/en/newsroom/news/2012/c121015eng/image_download.html",
+    "image_url": "https://global.honda/content/dam/site/global-en/newsroom-new/cq_img/news/2012/10/dl/c1210015H.jpg",
+    "credit": "Honda Motor Co., Ltd.",
+    "title": "Civic Hybrid MX (body color: Fluorite Silver Metallic) 2005.09.22",
+    "original_dimensions": [
+      1654,
+      934
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "insight",
+    "make": "Honda",
+    "model": "Insight Hybrid",
+    "chassis_reference": "ZE2 / ZE3",
+    "hybrid_type": "HEV",
+    "source": "https://global.honda/en/newsroom/news/2012/c121015eng/image_download.html",
+    "image_url": "https://global.honda/content/dam/site/global-en/newsroom-new/cq_img/news/2012/10/dl/c1210016H.jpg",
+    "credit": "Honda Motor Co., Ltd.",
+    "title": "Insight G (body color: Brilliant Sky Metallic) 2009.02.05",
+    "original_dimensions": [
+      2513,
+      1946
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "crz",
+    "make": "Honda",
+    "model": "CR-Z Hybrid",
+    "chassis_reference": "ZF1 / ZF2",
+    "hybrid_type": "HEV",
+    "source": "https://global.honda/en/newsroom/news/2012/c121015eng/image_download.html",
+    "image_url": "https://global.honda/content/dam/site/global-en/newsroom-new/cq_img/news/2012/10/dl/c1210017H.jpg",
+    "credit": "Honda Motor Co., Ltd.",
+    "title": "CR-Z α (body color: Premium White Pearl) 2010.02.25",
+    "original_dimensions": [
+      4093,
+      2865
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "accord",
+    "make": "Honda",
+    "model": "Accord Hybrid",
+    "chassis_reference": "CR6 / CR7",
+    "hybrid_type": "HEV",
+    "source": "https://www.carsensor.net/catalog/honda/accord_hybrid/F001/",
+    "image_url": "https://ccsrpcma.carsensor.net/CSphoto/cat/HO/S099/HO_S099_F001_M002_1_L.jpg",
+    "credit": "CarSensor / Honda model photography",
+    "title": "Honda Accord Hybrid",
+    "original_dimensions": [
+      640,
+      480
+    ],
+    "png_dimensions": [
+      672,
+      448
+    ],
+    "web_dimensions": [
+      672,
+      448
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "stepwgn",
+    "make": "Honda",
+    "model": "Step WGN Hybrid",
+    "chassis_reference": "RP5 / RP8",
+    "hybrid_type": "HEV",
+    "source": "https://global.honda/en/newsroom/news/2017/4170928aeng-stepwgn.html",
+    "image_url": "https://global.honda/content/dam/site/global-en/newsroom-new/cq_img/news/2017/4170928aeng-stepwgn_01.jpg",
+    "credit": "Honda Motor Co., Ltd.",
+    "title": "Step WGN SPADA HYBRID G・Honda SENSING",
+    "original_dimensions": [
+      500,
+      290
+    ],
+    "png_dimensions": [
+      503,
+      335
+    ],
+    "web_dimensions": [
+      503,
+      335
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking.",
+    "pictured_generation": "RP5"
+  },
+  {
+    "id": "wagon-hybrid",
+    "make": "Suzuki",
+    "model": "Wagon R Hybrid FX",
+    "chassis_reference": "MH55S",
+    "hybrid_type": "Mild hybrid",
+    "source": "https://www.suzuki.co.jp/dealer/33202952.sj-kansai/blog/detail/?id=319212",
+    "image_url": "https://www.suzuki.co.jp/dealer/sj-admin/sharefiles/fx_26U_4034f2c8-17a2-11ec-b641-fa163e38a592.jpg",
+    "credit": "Suzuki Motor Corporation / Suzuki dealer",
+    "title": "Suzuki Wagon R Hybrid FX",
+    "original_dimensions": [
+      1600,
+      1600
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "stingray",
+    "make": "Suzuki",
+    "model": "Wagon R Stingray Hybrid T",
+    "chassis_reference": "MH55S",
+    "hybrid_type": "Mild hybrid",
+    "source": "https://www.globalsuzuki.com/globalnews/2017/pdf/0201.pdf",
+    "image_url": "https://www.globalsuzuki.com/globalnews/2017/pdf/0201.pdf",
+    "credit": "Suzuki Motor Corporation",
+    "title": "Wagon R Stingray HYBRID T",
+    "original_dimensions": [
+      445,
+      299
+    ],
+    "png_dimensions": [
+      480,
+      320
+    ],
+    "web_dimensions": [
+      480,
+      320
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "swift",
+    "make": "Suzuki",
+    "model": "Swift Hybrid",
+    "chassis_reference": "ZC53S / ZD53S",
+    "hybrid_type": "Mild hybrid",
+    "source": "https://de.motor1.com/news/151280/neuer-suzuki-swift-2017-japan-premiere-fur-den-aufgefrischten-kleinwagen/",
+    "image_url": "https://cdn.motor1.com/images/mgl/m9yNB/s1/4x3/neuer-suzuki-swift-fur-2017.webp",
+    "credit": "Motor1 / Suzuki press photography",
+    "title": "Suzuki Swift Hybrid",
+    "original_dimensions": [
+      1440,
+      1080
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "spacia",
+    "make": "Suzuki",
+    "model": "Spacia Hybrid",
+    "chassis_reference": "MK53S / MK94S",
+    "hybrid_type": "Mild hybrid",
+    "source": "https://www.suzuki.co.jp/car/spacia/detail/",
+    "image_url": "https://www.suzuki.co.jp/car/spacia/detail/img/x-X2S.jpg",
+    "credit": "Suzuki Motor Corporation",
+    "title": "Suzuki Spacia Hybrid",
+    "original_dimensions": [
+      1600,
+      1600
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking.",
+    "pictured_generation": "MK94S"
+  },
+  {
+    "id": "mazda",
+    "make": "Mazda",
+    "model": "Axela Hybrid",
+    "chassis_reference": "BYEFP",
+    "hybrid_type": "HEV",
+    "source": "https://global.honda/en/newsroom/news/2012/c121015eng/image_download.html",
+    "image_url": "https://newsroom.mazda.com/en/publicity/release/2013/201310/131009aa/131009aa.jpg",
+    "credit": "Mazda Motor Corporation",
+    "title": "All-new Axela Hybrid 'HYBRID-S L Package'",
+    "original_dimensions": [
+      340,
+      240
+    ],
+    "png_dimensions": [
+      480,
+      320
+    ],
+    "web_dimensions": [
+      480,
+      320
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "lexus",
+    "make": "Lexus",
+    "model": "CT 200h",
+    "chassis_reference": "ZWA10",
+    "hybrid_type": "HEV",
+    "source": "https://www.cars.com/research/lexus-ct_200h/",
+    "image_url": "https://platform.cstatic-images.com/in/v2/stock_photos/88e15bc0-2c2b-44ef-accc-6e6d2fc0f319/eb8a06c0-67d1-46ae-8dd0-5b61d6de0272.png",
+    "credit": "Cars.com stock vehicle photography",
+    "title": "Lexus CT 200h",
+    "original_dimensions": [
+      2100,
+      1386
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "nx",
+    "make": "Lexus",
+    "model": "NX 300h",
+    "chassis_reference": "AYZ10 / AYZ15",
+    "hybrid_type": "HEV",
+    "source": "https://www.cars.com/research/lexus-nx_300h-2021/trims/",
+    "image_url": "https://platform.cstatic-images.com/in/v2/stock_photos/fc40ec5f-01d5-49e1-96af-d0751bc01f4a/5a67d726-0335-4163-a17a-fb9a5014f763.png",
+    "credit": "Cars.com stock vehicle photography",
+    "title": "Lexus NX 300h",
+    "original_dimensions": [
+      2100,
+      1386
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "rx",
+    "make": "Lexus",
+    "model": "RX 450h",
+    "chassis_reference": "GYL20 / GYL25",
+    "hybrid_type": "HEV",
+    "source": "https://www.cars.com/research/lexus-rx_450h-2016/",
+    "image_url": "https://platform.cstatic-images.com/xxlarge/in/v2/stock_photos/fe527f93-7027-4d67-a32a-18eb15216537/4bc21a6c-86c1-4f69-9e02-83ec7c7dc1e4.png",
+    "credit": "Cars.com stock vehicle photography",
+    "title": "Lexus RX 450h",
+    "original_dimensions": [
+      1024,
+      676
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "es",
+    "make": "Lexus",
+    "model": "ES 300h",
+    "chassis_reference": "AXZH10",
+    "hybrid_type": "HEV",
+    "source": "https://lexus.jp/models/es/",
+    "image_url": "https://lexus.jp/models/es/images/top/vsr/Ver_L_085.png",
+    "credit": "Lexus Japan",
+    "title": "Lexus ES 300h",
+    "original_dimensions": [
+      1920,
+      1080
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "note",
+    "make": "Nissan",
+    "model": "Note e-POWER",
+    "chassis_reference": "HE12 / E13",
+    "hybrid_type": "Series hybrid",
+    "source": "https://car.orix.co.jp/eng/",
+    "image_url": "https://car.orix.co.jp/eng/img/img_Hybrid_EV_type.png",
+    "credit": "ORIX Rent a Car / Nissan model photography",
+    "title": "Nissan Note e-POWER",
+    "original_dimensions": [
+      600,
+      476
+    ],
+    "png_dimensions": [
+      544,
+      363
+    ],
+    "web_dimensions": [
+      544,
+      363
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking.",
+    "pictured_generation": "HE12"
+  },
+  {
+    "id": "serena",
+    "make": "Nissan",
+    "model": "Serena e-POWER",
+    "chassis_reference": "HC27 / HFC27",
+    "hybrid_type": "Series hybrid",
+    "source": "https://carview.yahoo.co.jp/ncar/catalog/nissan/serena_e_power/",
+    "image_url": "https://autos-pctr.c.yimg.jp/E8AMlYWU4zGKe4isosZ0gRg5uPQE6zaumgnAYq9xW5ovoicDh5tp99NLFBVzGtn5MWEdHddcQML7X2rX-XjBxCm4loVuOsvg-73FoDqHcxkpfpvXVpE_TBgXN4XuacUMkS_AHw7YkExJ05mI21K8Llf3l4_6w6ojzyDfOTtNd92AfIYj68hFRZexC9QN-ULzqXOTXoQ6IqCwZ-0moik2KCWxrJ4ZXQ1jUDJogjrISCeqAvQvbuxK2TJ-oDz4vwU5",
+    "credit": "carview! vehicle catalogue",
+    "title": "Nissan Serena e-POWER",
+    "original_dimensions": [
+      800,
+      498
+    ],
+    "png_dimensions": [
+      711,
+      474
+    ],
+    "web_dimensions": [
+      711,
+      474
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "xtrail",
+    "make": "Nissan",
+    "model": "X-Trail e-POWER",
+    "chassis_reference": "T33",
+    "hybrid_type": "Series hybrid",
+    "source": "https://www.carexpert.com.au/car-reviews/2023-nissan-x-trail-e-power-with-e-4orce-review",
+    "image_url": "https://images.carexpert.com.au/resize/1920/-/app/uploads/2023/02/Nissan-X-Trail-e-POWER-Ti-L-COLOURS-03.jpg",
+    "credit": "CarExpert / Nissan model photography",
+    "title": "Nissan X-Trail e-POWER",
+    "original_dimensions": [
+      1920,
+      1281
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "kicks",
+    "make": "Nissan",
+    "model": "Kicks e-POWER",
+    "chassis_reference": "P15",
+    "hybrid_type": "Series hybrid",
+    "source": "https://www.zigwheels.my/new-cars/nissan/kicks-e-power",
+    "image_url": "https://imgcdn.zigwheels.my/large/gallery/color/30/2397/nissan-kicks-e-power-color-108074.jpg",
+    "credit": "Zigwheels / Nissan model photography",
+    "title": "Nissan Kicks e-POWER",
+    "original_dimensions": [
+      930,
+      620
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "outlander",
+    "make": "Mitsubishi",
+    "model": "Outlander PHEV",
+    "chassis_reference": "GG2W / GG3W",
+    "hybrid_type": "Plug-in hybrid",
+    "source": "https://www.electrifying.com/reviews/mitsubishi/outlander-phev/range",
+    "image_url": "https://www.electrifying.com/files/MaotQDtVzI6dwDqE/MitsubishiOutlander.jpg",
+    "credit": "Electrifying / Mitsubishi model photography",
+    "title": "Mitsubishi Outlander PHEV",
+    "original_dimensions": [
+      2222,
+      1249
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "ioniq",
+    "make": "Hyundai",
+    "model": "Ioniq Hybrid / Plug-in",
+    "chassis_reference": "AE",
+    "hybrid_type": "HEV / PHEV",
+    "source": "https://www.zigwheels.ph/new-cars/hyundai/ioniq-hybrid/images",
+    "image_url": "https://imgcdn.zigwheels.ph/large/gallery/color/12/1887/hyundai-ioniq-hybrid-color-437810.jpg",
+    "credit": "Zigwheels / Hyundai model photography",
+    "title": "Hyundai Ioniq Hybrid / Plug-in",
+    "original_dimensions": [
+      930,
+      620
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "niro",
+    "make": "Kia",
+    "model": "Niro Hybrid",
+    "chassis_reference": "DE",
+    "hybrid_type": "HEV",
+    "source": "https://www.kbb.com/kia/niro/2017/ex-wagon-4d/",
+    "image_url": "https://file.kelleybluebookimages.com/kbb/base/evox/CP/11855/2017-Kia-Niro-front_11855_032_2400x1800_SWP.png?crop=1.0xw%3A0.90xh%3Bleft%2Ctop&downsize=600%3A%2A&interpolation=high-quality",
+    "credit": "EVOX Images / Kelley Blue Book",
+    "title": "Kia Niro Hybrid",
+    "original_dimensions": [
+      2400,
+      1800
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "bmw",
+    "make": "BMW",
+    "model": "330e Plug-in Hybrid",
+    "chassis_reference": "F30",
+    "hybrid_type": "Plug-in hybrid",
+    "source": "https://www.cars.com/research/bmw-330e-2016/",
+    "image_url": "https://platform.cstatic-images.com/in/v2/stock_photos/55ebf845-263b-42c1-b03a-06ab208060f4/cbaa8481-145e-4c20-9421-febe5aa35c55.png",
+    "credit": "Cars.com stock vehicle photography",
+    "title": "BMW 330e Plug-in Hybrid",
+    "original_dimensions": [
+      2100,
+      1386
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "mercedes",
+    "make": "Mercedes-Benz",
+    "model": "C350e Plug-in Hybrid",
+    "chassis_reference": "W205",
+    "hybrid_type": "Plug-in hybrid",
+    "source": "https://www.elbilgrossisten.no/en/products/mercedes-c350e-plug-in-hybrid",
+    "image_url": "https://www.elbilgrossisten.no/cdn/shop/products/Ladeguiden-MercedesC350eplug-inhybrid2016-Elbilgrossisten_2000x.jpg?v=1629917339",
+    "credit": "Elbilgrossisten vehicle reference",
+    "title": "Mercedes-Benz C350e Plug-in Hybrid",
+    "original_dimensions": [
+      2000,
+      2000
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  },
+  {
+    "id": "rocky",
+    "make": "Daihatsu",
+    "model": "Rocky e-SMART Hybrid",
+    "chassis_reference": "A202S",
+    "hybrid_type": "Series hybrid",
+    "source": "https://www.carstuff.com.tw/car-news/item/35159-daihatsu-rocky-toyota-raize-e-smart-hybrid.html",
+    "image_url": "https://img.carstuff.com.tw/images/stories/2021/Jason/11/01/rocky_211101001.jpg",
+    "credit": "CarStuff / Daihatsu model photography",
+    "title": "Daihatsu Rocky e-SMART Hybrid",
+    "original_dimensions": [
+      1200,
+      826
+    ],
+    "png_dimensions": [
+      900,
+      600
+    ],
+    "web_dimensions": [
+      900,
+      600
+    ],
+    "format": "PNG and optimized WebP",
+    "note": "Representative model-family or trim photography on a white presentation field. Empty white margins trimmed, resized without upscaling and padded; original photo content retained. Generation, trim and powertrain details may differ. Confirm chassis, parts and workshop availability before booking."
+  }
+]

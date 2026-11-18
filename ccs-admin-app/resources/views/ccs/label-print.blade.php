@@ -1,0 +1,5 @@
+<!doctype html><html><head><meta charset="utf-8"><title>{{ $part->name }} labels</title><style>@page{size:{{ (int)$preferences['label_width'] }}mm {{ (int)$preferences['label_height'] }}mm;margin:0}*{box-sizing:border-box}body{margin:0;color:black;background:white;font:10px Arial,sans-serif}.label{width:{{ (int)$preferences['label_width'] }}mm;height:{{ (int)$preferences['label_height'] }}mm;padding:2mm;display:flex;flex-direction:column;justify-content:center;text-align:center;page-break-after:always;overflow:hidden}.label:last-child{page-break-after:auto}svg{width:100%;height:12mm;flex-shrink:0}strong,small{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex-shrink:0}.buttons{padding:15px}@media print{.buttons{display:none}}</style></head><body><div class="buttons"><button onclick="window.print()">{{ __('Print') }}</button><p>100% scale · {{ __('Select the matching label size in your printer settings.') }}</p></div>
+@for($i=0;$i<$copies;$i++)
+<section class="label"><strong>{{ $part->name }}</strong>{!! $svg !!}<small>{{ $code }}</small></section>
+@endfor
+</body></html>

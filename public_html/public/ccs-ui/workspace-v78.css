@@ -1,0 +1,37 @@
+@media screen {
+body.ccs-touch-mode main :is(button,.btn,.btn-action,.pos-small,.pos-action,.job-primary),body.ccs-touch-mode .ccs-sidebar nav a {min-height:48px!important;min-width:48px;touch-action:manipulation;padding:12px 15px!important;font-size:14px!important}
+body.ccs-touch-mode main :is(input:not([type=hidden]),select,textarea) {min-height:48px!important;font-size:16px!important;padding:12px!important}
+body.ccs-touch-mode main :is(input[type=checkbox],input[type=radio]) {min-height:24px!important;width:24px!important;height:24px!important;vertical-align:middle}
+body.ccs-touch-mode main label {font-size:14px;line-height:1.5}
+body.ccs-touch-mode .pos-qty-stepper {gap:8px}
+body.ccs-touch-mode main button.pos-product-card {min-height:125px!important;padding:16px!important}
+body.ccs-touch-mode main :is(summary,.jobs-tabs a) {min-height:44px;padding:10px!important;touch-action:manipulation}
+body.ccs-touch-mode :is(.v75-scroll-region,.pos-items,.pos-catalog-body) {scrollbar-width:auto}
+}
+/* v79 touch workspace: navigation, panel composition and checkout layout. */
+@media screen {
+body.ccs-touch-mode .wrap>aside.ccs-sidebar {width:136px!important}
+body.ccs-touch-mode .ccs-sidebar .v69-nav-link {display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:6px}
+body.ccs-touch-mode .ccs-sidebar :is(.v69-nav-section h2,.ccs-brand-link small) {display:none}
+body.ccs-touch-mode main :is(.table-wrap td,.table-wrap th) {padding:18px 14px!important;font-size:14px!important}
+body.ccs-touch-mode .v68-master-detail {grid-template-columns:minmax(0,1fr) 340px;gap:20px}
+body.ccs-touch-mode main dialog {width:min(760px,96vw)!important;max-height:90dvh!important;padding:24px!important}
+body.ccs-touch-mode .job-side {padding:22px!important}
+body.ccs-touch-mode .v79-touch-nav {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:10px 14px;background:var(--t-alt);flex-shrink:0}
+body.ccs-touch-mode .v79-touch-nav button {background:var(--t-surface)!important;color:var(--t-ink)!important;border:2px solid var(--t-border)!important}
+body.ccs-touch-mode .v79-touch-nav button[aria-pressed=true] {border-color:var(--t-button)!important;box-shadow:inset 0 -4px var(--t-button)}
+body.ccs-touch-mode .v79-touch-sale-bar {display:flex;align-items:center;justify-content:space-between;gap:14px;padding:10px 16px;border-top:1px solid var(--t-border);background:var(--t-alt);flex-shrink:0;font-size:18px;font-weight:750}
+body.ccs-touch-mode .ccs-pos .pos-frame {display:grid!important;grid-template-columns:minmax(0,1fr)!important;grid-template-rows:minmax(0,1fr)!important;align-items:stretch!important;gap:16px!important}
+body.ccs-touch-mode .ccs-pos .pos-frame>.v79-touch-inactive {display:none!important}
+body.ccs-touch-mode .ccs-pos .pos-frame>:not(.v79-touch-inactive) {grid-column:auto!important;grid-row:1!important;min-width:0}
+body.ccs-touch-mode .ccs-pos .pos-product-grid {grid-template-columns:repeat(auto-fill,minmax(200px,1fr))!important;gap:16px!important}
+body.ccs-touch-mode .ccs-pos .pos-summary {display:flex!important;flex-direction:column!important;width:100%;min-height:0}
+body.ccs-touch-mode .ccs-pos .pos-summary .pos-current {min-height:160px;flex:1}
+body.ccs-touch-mode .ccs-pos .pos-cart-footer {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 22px;align-content:start}
+body.ccs-touch-mode .ccs-pos .pos-cart-footer .pos-actions {grid-column:1/-1}
+body.ccs-touch-mode .ccs-pos .pos-cart-item {padding:16px!important}
+body.ccs-touch-mode .ccs-pos .pos-qty-stepper button {min-width:48px!important;min-height:48px!important}
+@media(min-width:1400px){body.ccs-touch-mode .ccs-pos .pos-frame[data-touch-pane=parts] {grid-template-columns:minmax(0,1fr) 440px!important}body.ccs-touch-mode .ccs-pos .pos-frame[data-touch-pane=parts] .pos-cart-footer {display:block}}
+@media(max-width:1200px){body.ccs-touch-mode .v68-master-detail {grid-template-columns:1fr}body.ccs-touch-mode .v68-inspector {position:static}}
+@media(max-width:760px){body.ccs-touch-mode .wrap>aside.ccs-sidebar {width:100%!important}body.ccs-touch-mode .v79-touch-nav {position:sticky;top:0;z-index:4}body.ccs-touch-mode .v79-touch-sale-bar {position:sticky;bottom:0;z-index:4}body.ccs-touch-mode .ccs-pos .pos-cart-footer {display:block}body.ccs-touch-mode .ccs-pos .pos-product-grid {grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+}

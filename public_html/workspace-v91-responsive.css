@@ -1,0 +1,65 @@
+/* Shrink grid/flex tracks inside the available workspace, not to content width. */
+@media screen {
+.wrap>main,#ccsPageContent {min-width:0!important;max-width:100%}
+#ccsPageContent :is(.settings-layout,.settings-main,.settings-content,.settings-checks,.directory-layout,.v68-master-detail,.jobs-master,.pos-frame,.claim-layout) {min-width:0!important;max-width:100%}
+#ccsPageContent :is(.settings-layout,.settings-main,.settings-content,.settings-checks,.v68-master-detail,.jobs-master,.pos-frame)>* {min-width:0!important}
+#ccsPageContent :is(input,select,textarea) {min-width:0;max-width:100%;box-sizing:border-box}
+#ccsPageContent .settings-layout {grid-template-columns:clamp(180px,18vw,240px) minmax(0,1fr)!important;gap:clamp(12px,1.5vw,24px);min-height:0!important}
+#ccsPageContent .settings-main {grid-template-columns:minmax(0,1fr)!important;width:100%;align-content:start;overflow-x:hidden!important}
+#ccsPageContent .settings-main .card {width:100%;max-width:100%;min-width:0;overflow-wrap:anywhere}
+#ccsPageContent .settings-nav {min-height:0!important;max-height:calc(100dvh - 160px);overflow-y:auto;overscroll-behavior:contain}
+#ccsPageContent .v71-accent-settings {width:100%;max-width:100%;min-width:0}
+#ccsPageContent .v71-accent-settings input[type=range] {display:block;width:100%;min-width:0}
+.settings-ui-mode {padding:0 0 18px;margin:0 0 18px;border-bottom:1px solid var(--t-border,#31514c)}
+#ccsPageContent .settings-ui-mode h3 {font-size:15px;margin:0 0 6px}
+.settings-ui-mode p {margin:0 0 10px;font-size:12px}
+.settings-ui-mode-buttons {display:flex;flex-wrap:wrap;gap:10px}
+html[data-ccs-theme] #ccsPageContent .settings-ui-mode-buttons button {min-height:44px;min-width:130px;margin:0;padding:10px 16px;flex:0 1 auto}
+html[data-ccs-theme] #ccsPageContent .settings-ui-mode-buttons button[aria-pressed=false] {background:var(--t-alt)!important;color:var(--t-ink)!important;border:1px solid var(--t-border)}
+#ccsPageContent :is(.directory-scroll,.stock-scroll,.web-intake-table,.finance-records-scroll,.serial-records-scroll) {max-width:100%;overflow-x:auto}
+#ccsPageContent :is(.directory-head,.page-head,.actions,.settings-inline-actions) {flex-wrap:wrap;min-width:0}
+dialog:not(.phonetic-guide):not(.v85-payment-sheet) {max-width:calc(100vw - 24px)!important;max-height:calc(100dvh - 24px)!important;overflow:auto;box-sizing:border-box}
+/* Earlier two-row desktop POS rules must never position Touch checkout. */
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-frame>.v70-items-workspace {grid-column:1!important;grid-row:1!important;min-width:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-frame>.pos-summary {grid-column:2!important;grid-row:1!important;min-width:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-frame {grid-template-columns:minmax(0,1fr) clamp(310px,35vw,460px)!important}
+html[data-ccs-theme] body.ccs-touch-mode .ccs-touch-topbar time {color:var(--t-sidebar-ink,var(--t-ink))!important}
+}
+@media screen and (max-width:1000px) {
+#ccsPageContent .settings-layout {grid-template-columns:minmax(0,1fr)!important}
+#ccsPageContent .settings-nav {position:static;display:flex;flex-wrap:wrap;gap:6px;max-height:none;overflow:visible;padding:10px}
+#ccsPageContent .settings-nav :is(.settings-brand,h2,hr) {display:none}
+#ccsPageContent .settings-nav a {white-space:normal;flex:1 1 140px;min-width:0;margin:0;font-size:12px}
+#ccsPageContent .settings-content,#ccsPageContent .settings-checks {grid-template-columns:minmax(0,1fr)!important}
+}
+@media screen and (max-width:850px) {
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-frame {display:flex!important;flex-direction:column!important;height:auto!important;max-height:none!important;overflow:visible!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos :is(.wrap,.wrap>main) {height:calc(100dvh - var(--v82-keyboard-height,0px))!important;overflow:hidden!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos #ccsPageContent {overflow:auto!important;min-height:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos {overflow:visible!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-frame>* {width:100%!important;height:auto!important;min-height:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-catalog-body {max-height:50dvh!important;overflow:auto!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-current {flex:0 0 auto!important;max-height:35dvh!important;min-height:130px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-cart-footer {max-height:none!important;flex:0 0 auto!important;overflow:visible!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-summary {overflow:visible!important;max-height:none!important}
+}
+@media screen and (max-width:600px) {
+#ccsPageContent .settings-nav a {flex-basis:125px}
+#ccsPageContent .settings-main .card {padding:14px!important}
+.settings-ui-mode-buttons button {flex:1 1 120px!important}
+}
+@media screen and (max-width:850px) {
+/* display:contents cannot own a scroll region; make the stacked POS a real box. */
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82.ccs-pos-page #ccsPageContent {display:block!important;flex:1 1 0!important;min-height:0!important;overflow:auto!important}
+}
+@media screen and (max-width:650px) {
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar {grid-template-columns:minmax(0,1fr) 44px!important;gap:5px;padding:5px 48px 5px 5px!important}
+.ccs-touch-topbar .ccs-sidebar-brand {display:none!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .v69-sidebar-nav {display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:4px!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .v69-nav-link {font-size:9px!important;min-height:38px!important;padding:4px!important;line-height:1.25}
+.ccs-touch-topbar .v69-nav-link .ccs-nav-icon {display:none}
+html[data-ccs-theme] body.ccs-touch-mode .ccs-touch-topbar .v69-nav-more>summary {min-width:15px;width:15px;padding:0!important;min-height:38px}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .v83-top-tools .v70-toolbar, .ccs-touch-topbar .v70-language-controls {flex-direction:column!important;gap:4px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-catalog-search {display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:8px}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-catalog-search input {grid-column:1/-1;width:100%!important}
+}

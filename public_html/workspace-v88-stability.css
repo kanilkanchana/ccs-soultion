@@ -1,0 +1,7 @@
+/* Keep shell sizing changes immediate; do not animate whole workspace geometry. */
+.wrap,.wrap>main,.ccs-sidebar,.ccs-touch-topbar,#ccsPageContent,.pos-frame,.jobs-master {transition-property:color,background-color,border-color!important;animation:none!important}
+.ccs-clock-bar time {font-variant-numeric:tabular-nums;white-space:normal}
+/* Progressive enhancement for normal full-page navigation. No interception/prefetch. */
+@view-transition {navigation:auto}
+::view-transition-old(root),::view-transition-new(root) {animation-duration:100ms}
+@media(prefers-reduced-motion:reduce){::view-transition-old(root),::view-transition-new(root){animation:none!important}}

@@ -1,0 +1,3 @@
+<?php
+use Illuminate\Database\Migrations\Migration;use Illuminate\Database\Schema\Blueprint;use Illuminate\Support\Facades\Schema;
+return new class extends Migration{public function up():void{if(!Schema::hasTable('ccs_customer_email_otps'))Schema::create('ccs_customer_email_otps',function(Blueprint $t){$t->uuid('id')->primary();$t->unsignedBigInteger('customer_id')->nullable();$t->unsignedInteger('account_version')->default(0);$t->string('email_hash',64)->index();$t->string('session_hash',64);$t->string('code_hash',64);$t->unsignedTinyInteger('attempts')->default(0);$t->timestamp('expires_at')->index();$t->timestamp('consumed_at')->nullable();$t->timestamps();});}public function down():void{Schema::dropIfExists('ccs_customer_email_otps');}};

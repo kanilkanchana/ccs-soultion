@@ -1,0 +1,6 @@
+<div class="directory-fields"><div><label>{{ __('Number Plate *') }}</label><input name="registration_number" required maxlength="30" value="{{ old('registration_number') }}" placeholder="WP ABC-1234"></div><div><label>{{ __('Make *') }}</label><input name="make" required maxlength="80" list="vehicleMakes" value="{{ old('make') }}" placeholder="Toyota / Honda"></div><div><label>{{ __('Model *') }}</label><input name="model" required maxlength="100" value="{{ old('model') }}"></div><div><label>{{ __('Manufacture Year') }}</label><input name="manufacture_year" type="number" min="1950" max="2100" value="{{ old('manufacture_year') }}"></div><div><label>{{ __('Generation') }}</label><input name="generation" maxlength="40" value="{{ old('generation') }}"></div><div><label>{{ __('Colour') }}</label><input name="colour" maxlength="40" value="{{ old('colour') }}"></div><div><label>{{ __('Current Mileage (km)') }}</label><input name="current_mileage_km" type="number" min="0" max="2000000" value="{{ old('current_mileage_km') }}"></div></div>
+<datalist id="vehicleMakes">
+@foreach(['Toyota','Honda','Suzuki','Lexus','Nissan','Mazda','Hyundai','Kia'] as $make)
+<option value="{{ $make }}"></option>
+@endforeach
+</datalist>

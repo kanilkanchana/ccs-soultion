@@ -1,0 +1,51 @@
+/* v95: amount sheet stays inside checkout; it never dims or blocks the catalog. */
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .pos-summary{position:relative!important;min-width:0}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .v85-payment-sheet{position:absolute!important;inset:auto 0 0!important;margin:0!important;width:100%!important;max-height:min(440px,76%)!important;overflow:auto!important;z-index:40;box-shadow:0 -8px 20px #0003;animation:v85-sheet-up .18s ease-out;backdrop-filter:none!important}
+.v85-payment-sheet::backdrop{background:transparent!important;backdrop-filter:none!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .pos-summary.v95-payment-open .pos-current{min-height:110px!important;flex-basis:150px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .pos-summary.v95-payment-open .pos-cart-footer{padding-bottom:min(440px,50dvh)!important}
+.v82-keyboard-bar select{width:auto;max-width:220px;margin-left:auto}.v82-keyboard-bar strong{flex:1}.v82-keyboard-bar{flex-wrap:wrap}
+html[data-ccs-theme] body.ccs-touch-mode .v82-keyboard{backdrop-filter:none!important}
+@media(max-width:1024px){
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar{display:flex!important;flex-wrap:wrap!important;gap:4px!important;padding:4px 46px 4px 6px!important;position:relative!important;height:auto!important;max-height:none!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .v69-sidebar-nav{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:3px!important;flex:1 1 100%!important;min-width:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .v69-nav-link{min-height:42px!important;font-size:11px!important;padding:5px!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .v69-nav-item{min-width:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .ccs-clock-bar{position:static!important;display:flex!important;flex-wrap:wrap;gap:4px!important;margin:0!important;width:auto!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-frame{grid-template-columns:minmax(0,1fr) minmax(300px,40%)!important}
+html[data-ccs-theme] body.ccs-touch-mode .pos-catalog-search{flex-wrap:wrap!important;gap:6px!important}
+html[data-ccs-theme] body.ccs-touch-mode .pos-catalog-search input{flex-basis:100%!important}
+html[data-ccs-theme] body.ccs-touch-mode .pos-product-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+}
+@media(max-width:700px){
+html[data-ccs-theme] body.ccs-touch-mode,html[data-ccs-theme] body.ccs-touch-mode .wrap,html[data-ccs-theme] body.ccs-touch-mode .wrap>main{height:auto!important;min-height:100dvh!important;max-height:none!important;overflow:visible!important;width:100%!important;min-width:0!important}
+html[data-ccs-theme] body.ccs-touch-mode #ccsPageContent,html[data-ccs-theme] body.ccs-touch-mode .ccs-pos{height:auto!important;max-height:none!important;overflow:visible!important;display:block!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-frame{height:auto!important;max-height:none!important;display:flex!important;flex-direction:column!important;overflow:visible!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos :is(.pos-catalog,.pos-summary){width:100%!important;height:auto!important;max-height:none!important;overflow:visible!important;min-width:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-catalog-body{max-height:48dvh!important;overflow:auto!important;min-height:180px!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-current{flex:none!important;min-height:120px!important;max-height:40dvh!important;overflow:auto!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-cart-footer{max-height:none!important;overflow:visible!important}
+html[data-ccs-theme] body.ccs-touch-mode .v80-payment-methods{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+html[data-ccs-theme] body.ccs-touch-mode .pos-product-card{min-width:0!important;min-height:155px!important;padding:12px!important;overflow-wrap:anywhere}
+html[data-ccs-theme] body.ccs-touch-mode .pos-catalog-header{flex-wrap:wrap!important;padding:10px!important}
+html[data-ccs-theme] body.ccs-touch-mode :is(.v68-master-detail,.jobs-master,.tech-workspace){display:block!important;height:auto!important;max-height:none!important;overflow:visible!important}
+html[data-ccs-theme] body.ccs-touch-mode :is(.job-side,.v68-detail-panel,.tech-detail){width:100%!important;max-height:65dvh!important;overflow:auto!important}
+html[data-ccs-theme] body.ccs-touch-mode :is(dialog,.modal){max-width:calc(100vw - 16px)!important}
+html[data-ccs-theme] body.ccs-touch-mode :is(input,select,textarea){font-size:16px!important}
+}
+@media(pointer:coarse) and (max-width:1280px){.v82-keyboard,.v85-payment-sheet{display:none!important}}
+@media(prefers-reduced-motion:reduce){.v85-payment-sheet,.v82-keyboard{animation:none!important}}
+html[data-ccs-theme] body.ccs-touch-mode .v85-payment-sheet{padding:10px!important}
+.v85-payment-sheet .v84-payment-heading{margin-bottom:6px!important;gap:6px!important}.v85-payment-sheet .v84-payment-heading h2{margin:0!important;font-size:14px!important}
+.v85-payment-sheet .v84-payment-display{font-size:24px!important;padding:6px 10px!important;margin:6px 0!important;min-height:40px!important}
+html[data-ccs-theme] body.ccs-touch-mode .v85-payment-sheet button{min-height:40px!important;padding:6px!important}
+.v85-payment-sheet .v80-numpad{gap:5px!important}.v85-payment-sheet .v80-quick-amounts{gap:4px!important;margin-bottom:6px!important}
+@media(max-width:1024px){
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar{display:grid!important;grid-template-columns:50px minmax(0,1fr)!important;align-items:center!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .ccs-sidebar-brand{grid-row:1!important;grid-column:1!important;padding:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .ccs-sidebar-content{grid-row:2!important;grid-column:1/-1!important;display:block!important;width:100%!important}
+html[data-ccs-theme] body.ccs-touch-mode.ccs-touch-v82 .ccs-touch-topbar .v83-top-tools{grid-row:1!important;grid-column:2!important;position:static!important;width:auto!important;justify-self:end!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-catalog-search{display:flex!important;flex-wrap:wrap!important;min-width:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-catalog-search>input{flex:1 0 100%!important;width:100%!important;min-width:0!important}
+html[data-ccs-theme] body.ccs-touch-mode.v82-touch-pos .ccs-pos .pos-catalog-search>button{flex:1 1 auto!important;min-width:0!important}
+}

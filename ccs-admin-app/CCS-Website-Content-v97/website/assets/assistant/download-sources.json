@@ -1,0 +1,13 @@
+{
+  "vendor/transformers.min.js": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/dist/transformers.min.js",
+  "vendor/transformers-LICENSE": "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/LICENSE",
+  "models/Xenova/all-MiniLM-L6-v2/config.json": "https://huggingface.co/Xenova/all-MiniLM-L6-v2/resolve/main/config.json",
+  "models/Xenova/all-MiniLM-L6-v2/tokenizer_config.json": "https://huggingface.co/Xenova/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json",
+  "models/Xenova/all-MiniLM-L6-v2/tokenizer.json": "https://huggingface.co/Xenova/all-MiniLM-L6-v2/resolve/main/tokenizer.json",
+  "models/Xenova/all-MiniLM-L6-v2/onnx/model_quantized.onnx": "https://huggingface.co/Xenova/all-MiniLM-L6-v2/resolve/main/onnx/model_quantized.onnx",
+  "models/LICENSE": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+  "vendor/ort-wasm-simd-threaded.jsep.mjs": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0-dev.20250409-89f8206ba4/dist/ort-wasm-simd-threaded.jsep.mjs",
+  "vendor/ort-wasm-simd-threaded.jsep.wasm": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0-dev.20250409-89f8206ba4/dist/ort-wasm-simd-threaded.jsep.wasm",
+  "vendor/onnxruntime-LICENSE": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.22.0/LICENSE",
+  "models/MODEL-CARD.md": "https://huggingface.co/Xenova/all-MiniLM-L6-v2/raw/main/README.md"
+}

@@ -1,0 +1,14 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync('resources/views/ccs/partials/phonetic-guide.blade.php','utf8');const js=source.match(/<script>\s*([\s\S]*?)\s*<\/script>/)[1];
+let events={},buttonEvents={},closeEvents={};
+const sidebarButton={hidden:false,addEventListener:(name,fn)=>buttonEvents.sidebar=fn};
+const settingsButton={hidden:false,addEventListener:(name,fn)=>buttonEvents.settings=fn};
+const close={addEventListener:(name,fn)=>closeEvents[name]=fn};
+const modal={open:false,showModal(){this.open=true},close(){this.open=false},querySelectorAll(){return [close]}};
+const picker={value:'english'};
+const document={getElementById:id=>({phoneticGuide:modal,ccsInputMode:picker}[id]),querySelectorAll:q=>q.startsWith('.ccs-input-switch')?[sidebarButton]:[sidebarButton,settingsButton],addEventListener:(name,fn)=>events[name]=fn};
+vm.runInNewContext(js,{document});assert.equal(sidebarButton.hidden,true);assert.equal(settingsButton.hidden,false);
+picker.value='phonetic';events['ccs-input-mode-changed']();assert.equal(sidebarButton.hidden,false);
+buttonEvents.sidebar();assert.equal(modal.open,true);closeEvents.click();assert.equal(modal.open,false);
+picker.value='english';events['ccs-input-mode-changed']();assert.equal(sidebarButton.hidden,true);buttonEvents.settings();assert.equal(modal.open,true);closeEvents.click();
+console.log('PASS: guide follows saved input mode and opens/closes from both entry points');

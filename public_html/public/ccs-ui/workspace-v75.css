@@ -1,0 +1,38 @@
+/* Fixed application chrome; scrolling belongs to a content region. */
+@media screen {
+body.ccs-region-scroll {height:100dvh;overflow:hidden}
+body.ccs-region-scroll .wrap {height:100dvh;min-height:0!important;overflow:hidden}
+body.ccs-region-scroll .wrap>main {height:100dvh;min-height:0!important;min-width:0;display:flex;flex-direction:column;overflow:hidden;margin:0!important}
+body.ccs-region-scroll .wrap>main>*:not(#ccsPageContent) {flex-shrink:0}
+body.ccs-region-scroll .wrap>main>footer {display:none}
+body.ccs-region-scroll #ccsPageContent {flex:1;min-height:0;min-width:0;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
+body.ccs-region-scroll .v75-scroll-region {overflow:auto!important;max-height:var(--v75-region-height)!important;min-height:0!important;overscroll-behavior:contain;scrollbar-gutter:stable;scrollbar-width:thin}
+body.ccs-region-scroll .v75-scroll-region table thead th {position:sticky;top:0;z-index:2;background:var(--t-alt,#14262e)}
+/* Jobs: fixed search and pagination; independent list and selected-job panel. */
+body.ccs-region-scroll .jobs-master.v75-jobs-fit {height:var(--v75-region-height);min-height:0;align-items:stretch!important;overflow:hidden}
+body.ccs-region-scroll .v75-jobs-fit>.jobs-list {height:100%;min-height:0;display:flex;flex-direction:column;overflow:hidden!important}
+body.ccs-region-scroll .v75-jobs-fit>.jobs-list>.jobs-filter,
+body.ccs-region-scroll .v75-jobs-fit>.jobs-list>.jobs-pagination {flex:0 0 auto}
+body.ccs-region-scroll .v75-jobs-fit>.jobs-list>.v68-card-list {flex:1;min-height:0;overflow:auto;align-content:start;overscroll-behavior:contain;scrollbar-gutter:stable}
+body.ccs-region-scroll .v75-jobs-fit>.job-side {position:static!important;height:100%;max-height:100%!important;overflow:auto!important;overscroll-behavior:contain}
+body.ccs-region-scroll .v75-jobs-fit .v69-job-card {flex-shrink:0}
+/* Keep the existing POS list sizing and fit calculation from v73. */
+body.ccs-pos-page #ccsPageContent {display:contents}
+body.ccs-pos-page.ccs-pos-fit .ccs-pos {flex:1;min-height:0}
+}
+@media print {
+#ccsPageContent {display:block!important;height:auto!important;overflow:visible!important}
+.v75-scroll-region,.jobs-master.v75-jobs-fit,.v75-jobs-fit>.jobs-list,.v75-jobs-fit>.job-side,.v75-jobs-fit>.jobs-list>.v68-card-list {height:auto!important;max-height:none!important;overflow:visible!important}
+}
+/* v76: framework pagination must not depend on Tailwind utilities. */
+@media screen {
+main nav[aria-label="Pagination Navigation"] svg {width:18px!important;height:18px!important;max-width:18px!important;display:inline-block;vertical-align:middle}
+main nav[aria-label="Pagination Navigation"]>div:first-child {display:none}
+main nav[aria-label="Pagination Navigation"]>div:last-child {display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+main nav[aria-label="Pagination Navigation"] a,main nav[aria-label="Pagination Navigation"] [aria-current="page"],main nav[aria-label="Pagination Navigation"] [aria-disabled="true"] {display:inline-flex;align-items:center;padding:5px 8px}
+.ccs-compact-pagination {display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.ccs-compact-pagination>a,.ccs-compact-pagination>span {display:inline-flex;align-items:center;min-height:32px;padding:5px 10px;border:1px solid var(--t-border);border-radius:6px;font-size:12px}
+.ccs-compact-pagination [aria-disabled="true"] {opacity:.45}
+body.ccs-region-scroll .jobs-pagination {min-height:48px;max-height:90px;overflow:auto;padding:8px 12px!important}
+body.ccs-region-scroll .v75-jobs-fit>.jobs-list>.v68-card-list {grid-auto-rows:max-content}
+}

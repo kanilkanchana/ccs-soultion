@@ -1,0 +1,89 @@
+/* Owner, supported-make badges, the interior interlude and quick contact. */
+.brand-mark{flex-direction:column;gap:15px;min-height:174px}
+.brand-mark .brand-badge{width:80px;height:64px;object-fit:contain;transition:transform .45s cubic-bezier(.2,.7,.3,1),opacity .35s;opacity:.85}
+.brand-mark strong{font-size:15px!important;letter-spacing:1.2px}
+.brand-mark:hover .brand-badge,.brand-mark:focus-visible .brand-badge{transform:translateY(-4px);opacity:1}
+.brand-mark:hover strong{transform:none}
+.brand-suzuki .brand-badge{width:61px}
+.brand-lexus .brand-badge{width:78px}
+.journey-interlude{height:78svh;min-height:560px;max-height:880px;position:relative;isolation:isolate;overflow:hidden;display:grid;place-items:center;background:#080b0c;color:#f4f3eb}
+.journey-image,.journey-shade{position:absolute;inset:0;z-index:-2;overflow:hidden}
+.journey-image img{width:100%;height:100%;max-width:none;object-fit:cover;object-position:50% 60%;filter:saturate(.45);animation:interior-drift 18s ease-in-out infinite alternate;animation-play-state:paused;will-change:transform}
+.journey-interlude.is-in-view:not(.motion-paused) .journey-image img{animation-play-state:running}
+.journey-shade{z-index:-1;background:linear-gradient(90deg,#04090b88,#04090b50 60%,#04090b44),linear-gradient(0deg,#050b0ed9,transparent 38%,#050b0e66)}
+.journey-topline,.journey-bottom{position:absolute;left:var(--gutter);right:var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:20px;font-size:8px;letter-spacing:1.8px;color:#d6dfd7}
+.journey-topline{top:32px;padding-bottom:18px;border-bottom:1px solid #ffffff30}
+.journey-topline>span:last-child{font-size:22px;color:var(--yellow);line-height:1}
+.journey-bottom{bottom:28px;font-size:7px;letter-spacing:1.1px}
+.journey-copy{text-align:center;padding:95px var(--gutter);width:100%;max-width:1100px}
+.journey-prelude{font:italic 25px/1.2 Georgia,serif;margin:0 0 17px;color:#e8e8df}
+.journey-copy h2{font:500 clamp(65px,7.8vw,122px)/.88 var(--display);letter-spacing:-.5px;margin:0}
+.journey-copy h2 em{font-style:normal;color:var(--yellow)}
+.journey-copy>p:not(.journey-prelude){font-size:11px;line-height:1.9;max-width:420px;margin:25px auto 0;color:#d9e0da}
+.journey-cta{display:inline-flex;flex-direction:column;align-items:center;gap:14px;margin-top:31px;font-size:8px;font-weight:700;letter-spacing:1.5px;color:#f3f3e9}
+.journey-cta>span{font-size:22px;font-weight:400;transition:transform .3s;color:var(--yellow)}
+.journey-cta:hover>span{transform:translateY(5px)}
+.journey-motion{display:flex;align-items:center;gap:10px;background:#0a131aaa;border:1px solid #dbe7df55;color:#e5ebe4;padding:10px 13px;min-height:44px;font-size:9px;letter-spacing:.3px}
+.journey-motion-symbol{font-size:12px;color:var(--yellow)}
+.journey-motion:disabled{opacity:.7;cursor:default}
+@keyframes interior-drift{from{transform:scale(1.13) translate3d(-1%,1%,0)}to{transform:scale(1.04) translate3d(1%,-1%,0)}}
+.owner-section{display:grid;grid-template-columns:.85fr 1.15fr;gap:clamp(45px,8vw,140px);align-items:center;background:radial-gradient(ellipse at 80% 25%,#17313955,transparent 65%),#0b1215;color:#f2f3e9}
+.owner-portrait{position:relative;max-width:480px;margin:0}
+.owner-portrait:before{content:'+';position:absolute;z-index:2;right:-16px;top:-24px;font-size:42px;color:var(--yellow);font-weight:200}
+.owner-portrait-frame{overflow:hidden;aspect-ratio:4/5;position:relative;background:#343d2b}
+.owner-portrait-frame:after{content:'';position:absolute;inset:12px;border:1px solid #fff6;pointer-events:none}
+.owner-portrait img{width:100%;height:100%;object-fit:cover;object-position:50% 32%;transition:transform 1.4s cubic-bezier(.2,.7,.3,1)}
+.owner-portrait:hover img{transform:scale(1.025)}
+.owner-caption{display:flex;justify-content:space-between;gap:20px;padding:17px 0 0;color:#a8b4af;font-size:7px;letter-spacing:1.4px;align-items:center}
+.owner-caption>span:last-child{font-size:19px;line-height:1;color:var(--yellow)}
+.owner-copy{min-width:0}
+.owner-copy h2{font:600 clamp(59px,5.9vw,92px)/.9 var(--display);letter-spacing:-.5px;margin:27px 0 32px}
+.owner-copy h2 em{color:var(--yellow);font-style:normal}
+.owner-name{border-top:1px solid #b3c3b933;padding-top:24px;margin-bottom:23px;max-width:440px}
+.owner-name h3{font:500 clamp(30px,3.2vw,47px)/1.03 var(--display);letter-spacing:.2px;color:#f1f3e9}
+.owner-name>span{display:block;font-size:7px;letter-spacing:2px;color:#b49e4d;margin-top:14px}
+.owner-copy>p:not(.eyebrow){color:#9dafaF;font-size:11px;line-height:1.95;max-width:440px;margin-top:15px}
+.owner-principles{display:flex;flex-wrap:wrap;gap:11px 18px;border-top:1px solid #b3c3b92b;padding-top:22px;margin-top:26px;max-width:440px}
+.owner-principles>span{font-size:7px;letter-spacing:.8px;color:#ced9cd;display:flex;align-items:center;gap:8px}
+.owner-principles>span:before{content:'+';font-size:13px;color:var(--yellow);font-weight:400}
+.owner-copy>.text-link{font-size:10px;color:var(--yellow);margin-top:28px}
+.motion-ready [data-section-motion=owner] .owner-portrait.motion-item:not(.motion-visible){transform:translate3d(-35px,20px,0)}
+.motion-ready [data-section-motion=owner] .owner-copy.motion-item:not(.motion-visible){transform:translate3d(35px,20px,0)}
+.social-links{display:flex;gap:16px;margin:29px 0 0;padding-top:25px;border-top:1px solid var(--line)}
+.social-link{position:relative;isolation:isolate;display:flex;align-items:center;gap:16px;min-width:220px;border:1px solid #62727755;background:#16212555;padding:15px 19px;color:#e9eee5;overflow:hidden;transition:border-color .3s,transform .3s,background .3s}
+.social-link:before{content:'';position:absolute;width:80px;height:160%;background:#ffffff0c;left:-100px;top:-20%;transform:skewX(-22deg);transition:left .6s;z-index:-1}
+.social-link:hover:before,.social-link:focus-visible:before{left:calc(100% + 50px)}
+.social-link:hover,.social-link:focus-visible{transform:translateY(-3px);border-color:#c4bd7680;background:#20333888}
+.social-icon{width:40px;height:40px;display:grid;place-items:center;border-radius:50%;background:#e9eee510;border:1px solid #dbe5df22;transition:background .3s,transform .35s;flex:none}
+.social-icon svg{height:24px;width:24px;fill:currentColor;stroke:none}
+.social-facebook:hover .social-icon{background:#1877f2;color:#fff;border-color:#1877f2;transform:rotate(-5deg)}
+.social-tiktok:hover .social-icon{background:#0b1013;color:#fff;text-shadow:2px 2px #fe2c55;filter:drop-shadow(1px 0 #25f4ee) drop-shadow(-1px 0 #fe2c55);transform:rotate(5deg)}
+.social-link strong{font-size:12px;display:block}
+.social-link small{font-size:8px;color:#a3b3ae;display:block;margin-top:5px}
+.social-arrow{margin-left:auto;font-size:20px;color:#d1bd64;transition:transform .3s}
+.social-link:hover .social-arrow{transform:translate(3px,-3px)}
+.quick-contact{position:fixed;right:26px;bottom:max(25px,env(safe-area-inset-bottom));z-index:75;transition:opacity .25s,visibility .25s}
+.is-loading .quick-contact,.menu-open .quick-contact{visibility:hidden;opacity:0;pointer-events:none}
+.whatsapp-toggle{display:grid;place-items:center;position:relative;width:58px;height:58px;border-radius:50%;background:#21b35b;color:#fff;border:1px solid #baf0cd99;box-shadow:0 7px 25px #0005;transition:transform .3s,background .3s,box-shadow .3s}
+.whatsapp-toggle:after{content:'';position:absolute;inset:-6px;border-radius:50%;border:1px solid #40c87977;animation:whatsapp-arrival 1.9s ease-out 2;pointer-events:none;opacity:0}
+.whatsapp-toggle:hover,.whatsapp-toggle[aria-expanded=true]{background:#128c46;transform:translateY(-3px);box-shadow:0 10px 30px #0007}
+.whatsapp-icon svg{width:29px;height:29px;fill:currentColor;stroke:none}
+.whatsapp-tooltip{position:absolute;right:calc(100% + 13px);white-space:nowrap;padding:10px 13px;background:#101c20;color:#e4eee5;border:1px solid #6b928366;font-size:9px;opacity:0;transform:translateX(5px);transition:opacity .25s,transform .25s;pointer-events:none}
+.whatsapp-toggle:hover .whatsapp-tooltip,.whatsapp-toggle:focus-visible .whatsapp-tooltip{opacity:1;transform:none}
+.whatsapp-toggle[aria-expanded=true] .whatsapp-tooltip{display:none}
+.whatsapp-panel{position:absolute;bottom:75px;right:0;width:300px;background:#eff2e8;color:#152e2b;border:1px solid #b0cbb8;box-shadow:0 20px 70px #0006;padding:22px;animation:whatsapp-panel-in .3s ease-out;transform-origin:bottom right}
+.whatsapp-panel[hidden]{display:none}
+.whatsapp-panel-top{display:flex;justify-content:space-between;align-items:center;font-size:8px;letter-spacing:1.5px;color:#597265;margin-bottom:17px;min-height:24px}
+.whatsapp-panel-top>button{position:absolute;top:8px;right:7px;width:44px;height:44px;font-size:25px;color:#32664f;background:transparent}
+.whatsapp-panel h2{font:600 38px/.95 var(--display);letter-spacing:-.2px;color:#172f2a;margin:0}
+.whatsapp-panel p{font-size:10px;line-height:1.9;color:#5d756a;margin:17px 0 20px}
+.whatsapp-panel>a{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px;background:#147f49;color:#fff;font-size:10px;font-weight:700;min-height:44px}
+.whatsapp-panel>a>span{font-size:18px;line-height:1}
+.whatsapp-panel small{display:block;font-size:7px;line-height:1.8;color:#75877a;margin-top:12px}
+.whatsapp-panel :focus-visible{outline-color:#235b3f}
+@keyframes whatsapp-arrival{0%{transform:scale(.9);opacity:.8}100%{transform:scale(1.25);opacity:0}}
+@keyframes whatsapp-panel-in{from{opacity:0;transform:translateY(10px) scale(.97)}to{opacity:1;transform:none}}
+@media(max-width:1000px){.owner-section{gap:55px}.owner-copy h2{font-size:65px}.owner-name h3{font-size:37px}.owner-copy>p:not(.eyebrow){font-size:10px}.owner-principles{gap:9px 14px}.owner-principles>span{font-size:6px}.journey-copy h2{font-size:90px}.journey-interlude{min-height:530px}.desktop-nav{gap:16px;margin-right:0}}
+@media(max-width:700px){.brand-mark{min-height:143px;gap:11px}.brand-mark .brand-badge{width:65px;height:52px}.brand-mark strong{font-size:12px!important}.brand-suzuki .brand-badge{width:49px}.brand-lexus .brand-badge{width:62px}.owner-section{display:flex;flex-direction:column;gap:36px;align-items:stretch}.owner-portrait{width:min(100%,420px);align-self:center}.owner-portrait:before{right:-10px;top:-23px;font-size:37px}.owner-portrait-frame{aspect-ratio:4/4.7}.owner-portrait img{object-position:50% 30%}.owner-copy h2{font-size:clamp(58px,16vw,80px);margin:24px 0 29px}.owner-name{padding-top:23px}.owner-name h3{font-size:40px}.owner-copy>p:not(.eyebrow){font-size:11px;max-width:100%}.owner-principles>span{font-size:6px}.owner-caption{font-size:6px;letter-spacing:1px}.owner-copy>.text-link{margin-top:26px}.journey-interlude{height:78svh;min-height:530px;max-height:740px}.journey-copy{padding:100px 22px}.journey-prelude{font-size:21px;margin-bottom:17px}.journey-copy h2{font-size:clamp(53px,13.7vw,83px);line-height:.95;letter-spacing:-.4px}.journey-copy>p:not(.journey-prelude){font-size:10px;line-height:1.9;max-width:300px;margin-top:22px}.journey-cta{margin-top:27px;font-size:7px;gap:12px}.journey-topline{top:24px;font-size:6px;letter-spacing:1px;padding-bottom:14px}.journey-bottom{bottom:20px;gap:20px;font-size:5px;line-height:1.9;letter-spacing:.8px}.journey-bottom>span{max-width:150px}.journey-motion{font-size:8px;padding:10px;gap:7px}.journey-image img{object-position:50% 62%}.social-links{gap:12px;display:grid;grid-template-columns:1fr 1fr;padding-top:22px;margin-top:24px}.social-link{min-width:0;padding:14px 12px;gap:10px}.social-icon{width:31px;height:31px}.social-icon svg{width:20px;height:20px}.social-link strong{font-size:10px}.social-link small{font-size:6px;line-height:1.6}.social-arrow{font-size:16px}.quick-contact{right:17px;bottom:max(18px,env(safe-area-inset-bottom))}.whatsapp-toggle{width:54px;height:54px}.whatsapp-icon svg{width:27px;height:27px}.whatsapp-panel{width:min(300px,calc(100vw - 34px));bottom:69px}.whatsapp-tooltip{display:none}}
+@media(max-width:360px){.brand-mark strong{font-size:11px!important}.brand-mark .brand-badge{width:58px;height:47px}.brand-mark{min-height:130px}.brand-suzuki .brand-badge{width:43px}.owner-name h3{font-size:36px}.owner-principles{gap:10px 12px}.owner-principles>span{font-size:5px}.social-links{gap:10px}.social-link{padding:12px 10px;gap:7px}.social-icon{width:26px;height:26px}.social-arrow{display:none}.journey-copy h2{font-size:48px}}
+@media(prefers-reduced-motion:reduce){.journey-image img{animation:none;transform:none;will-change:auto}.brand-mark .brand-badge,.owner-portrait img,.social-link,.social-icon,.social-arrow,.social-link:before,.whatsapp-toggle,.whatsapp-tooltip{transition:none}.owner-portrait:hover img,.brand-mark:hover .brand-badge,.social-link:hover,.social-link:focus-visible,.social-link:hover .social-icon,.social-link:hover .social-arrow,.whatsapp-toggle:hover,.whatsapp-toggle[aria-expanded=true]{transform:none}.whatsapp-toggle:after{animation:none}.whatsapp-panel{animation:none}}

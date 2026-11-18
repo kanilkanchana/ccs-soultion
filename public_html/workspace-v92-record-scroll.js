@@ -1,0 +1,6 @@
+(()=>{'use strict';const content=document.getElementById('ccsPageContent'),main=document.querySelector('.wrap>main');if(!content||!main)return;
+const warranty=content.querySelector('[data-v68-cards="warranties"]'),ledger=content.querySelector('.ccs-ledger');if(!warranty&&!ledger)return;
+document.body.classList.add('v92-record-page',warranty?'v92-warranty':'v92-ledger');
+const shell=warranty?(warranty.closest('.v68-master-detail')||warranty):ledger.querySelector('.v68-master-detail');if(!shell)return;shell.classList.add('v92-record-shell');
+let queued=false;function fit(){queued=false;const style=getComputedStyle(main),bottom=main.getBoundingClientRect().bottom-(parseFloat(style.paddingBottom)||0)-8;const available=Math.max(60,Math.floor(bottom-shell.getBoundingClientRect().top));shell.style.setProperty('--v92-record-height',available+'px');}
+function schedule(){if(!queued){queued=true;requestAnimationFrame(fit);}}window.addEventListener('resize',schedule);window.addEventListener('load',schedule);window.addEventListener('ccs-touch-viewport',schedule);document.addEventListener('toggle',schedule,true);if(window.ResizeObserver){const observer=new ResizeObserver(schedule);observer.observe(main);const toolbar=main.querySelector('.v70-toolbar')||document.querySelector('.ccs-touch-topbar');if(toolbar)observer.observe(toolbar);}fit();})();

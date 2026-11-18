@@ -1,0 +1,6 @@
+(()=>{'use strict';if(!document.body.classList.contains('ccs-touch-v82'))return;
+const bar=document.querySelector('.ccs-touch-topbar');if(!bar)return;
+const controls=[['ccsInputSwitch','⌨','Input Method'],['ccsSystemLanguage','🌐','System Language']];
+for(const [id,icon,label]of controls){const form=document.getElementById(id);if(!form||form.closest('.v86-language-menu'))continue;const menu=document.createElement('details');menu.className='v86-language-menu';const trigger=document.createElement('summary');trigger.textContent=icon;trigger.title=window.ccsText?.(label)||label;trigger.setAttribute('aria-label',trigger.title);const panel=document.createElement('div');panel.className='v86-language-panel';form.before(menu);menu.append(trigger,panel);panel.append(form);menu.addEventListener('toggle',()=>{if(menu.open)for(const other of bar.querySelectorAll('.v86-language-menu'))if(other!==menu)other.open=false;});}
+document.addEventListener('pointerdown',e=>{for(const menu of bar.querySelectorAll('.v86-language-menu[open]'))if(!menu.contains(e.target))menu.open=false;});document.addEventListener('keydown',e=>{if(e.key==='Escape')for(const menu of bar.querySelectorAll('.v86-language-menu[open]')){menu.open=false;menu.querySelector('summary').focus();}});
+})();

@@ -1,0 +1,41 @@
+/* Correction 13: phone screens play the full six-scene film sequentially, once,
+   with progress linked only to playback time, never to page scrolling.
+   These rules do not apply to desktop or to visitors requesting reduced motion. */
+@media (max-width: 700px) and (prefers-reduced-motion: no-preference) {
+  :root:not(.motion-off) .cinematic-experience {
+    --scene-travel: 0px;
+    height: max(620px, calc(100svh - var(--header-height)));
+  }
+  :root:not(.motion-off) .cinematic-experience .film-screen {
+    position: relative;
+    top: 0;
+    height: max(620px, calc(100svh - var(--header-height)));
+    min-height: 620px;
+  }
+  :root:not(.motion-off) .film-scroll-hint { letter-spacing: .65px; }
+}
+.mobile-film-play[hidden] { display: none !important; }
+.mobile-film-play {
+  position: absolute; left: var(--gutter); bottom: 102px; z-index: 20;
+  background: #e7c34e; color: #0b1b20; border-radius: 8px;
+  padding: 12px 17px; font-size: 12px; font-weight: 700;
+  box-shadow: 0 8px 28px #0007;
+}
+
+/* Clear guidance for viewers: no scrolling is necessary to see the full film. */
+@media (max-width: 700px) and (prefers-reduced-motion: no-preference) {
+  :root:not(.motion-off) .film-scroll-hint {
+    font-size: clamp(6px, 1.8vw, 8px);
+    letter-spacing: .7px;
+  }
+  :root:not(.motion-off) .film-chapters .film-chapter[aria-current="step"] > span {
+    color: #ffdb73;
+  }
+}
+
+/* v3.2.7: Independent mobile film. Desktop keeps its original video unchanged. */
+#mobile-sequential-film { display: none; }
+@media (max-width: 700px) {
+  #scroll-film { display: none !important; }
+  #mobile-sequential-film { display: block; }
+}

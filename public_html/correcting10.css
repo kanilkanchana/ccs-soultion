@@ -1,0 +1,5 @@
+/* The login photo pane now contains only the photographs, decorative frame and headline. */
+.ccs-login-split .login-photo-bottom{bottom:39px}
+.ccs-login-split .login-photo-bottom>p{margin-bottom:0}
+@media(max-width:700px){.ccs-login-split .login-photo-bottom{bottom:32px}}
+@media(max-width:370px){.ccs-login-split .login-photo-bottom{bottom:29px}}

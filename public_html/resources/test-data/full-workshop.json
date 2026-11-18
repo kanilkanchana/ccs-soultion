@@ -1,0 +1,187 @@
+{
+  "format": "ccs-test-pack-v1",
+  "batch": "DEMO-FULL-01",
+  "date": "2026-10-26",
+  "records": [
+    {
+      "customer": "Nimal Jayawardena",
+      "plate": "4821",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2014,
+      "mileage": 85000,
+      "status": "delivered",
+      "part": "abs",
+      "total": 10000,
+      "payments": [
+        4000
+      ],
+      "age_days": 2,
+      "claim": true
+    },
+    {
+      "customer": "Nimal Jayawardena",
+      "plate": "4822",
+      "make": "Toyota",
+      "model": "Aqua",
+      "year": 2015,
+      "mileage": 87500,
+      "status": "completed",
+      "part": "service",
+      "total": 15000,
+      "payments": [
+        15000
+      ],
+      "age_days": 4
+    },
+    {
+      "customer": "Kasun Perera",
+      "plate": "4823",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2016,
+      "mileage": 90000,
+      "status": "ready",
+      "part": "module",
+      "total": 18000,
+      "payments": [],
+      "age_days": 1,
+      "voltage": 7.65
+    },
+    {
+      "customer": "Dilini Fernando",
+      "plate": "4824",
+      "make": "Toyota",
+      "model": "Aqua",
+      "year": 2017,
+      "mileage": 92500,
+      "status": "delivered",
+      "part": "battery",
+      "total": 180000,
+      "payments": [
+        80000,
+        50000
+      ],
+      "age_days": 10,
+      "free_visit": true
+    },
+    {
+      "customer": "Mohamed Rizwan",
+      "plate": "4825",
+      "make": "Toyota",
+      "model": "Axio",
+      "year": 2018,
+      "mileage": 95000,
+      "status": "completed",
+      "part": "abs",
+      "total": 25000,
+      "payments": [
+        10000,
+        15000
+      ],
+      "age_days": 220
+    },
+    {
+      "customer": "Tharshini Sivalingam",
+      "plate": "4826",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2019,
+      "mileage": 97500,
+      "status": "completed",
+      "part": "module",
+      "total": 20000,
+      "payments": [
+        10000,
+        5000,
+        5000
+      ],
+      "age_days": 3,
+      "voltage": 0
+    },
+    {
+      "customer": "Chaminda Silva",
+      "plate": "4827",
+      "make": "Toyota",
+      "model": "Vitz",
+      "year": 2014,
+      "mileage": 100000,
+      "status": "delivered",
+      "part": "service",
+      "total": 10000,
+      "payments": [
+        4000,
+        1000
+      ],
+      "age_days": 2
+    },
+    {
+      "customer": "Ayesha Farook",
+      "plate": "4828",
+      "make": "Honda",
+      "model": "Fit",
+      "year": 2015,
+      "mileage": 102500,
+      "status": "new_enquiry",
+      "part": "none",
+      "total": 0,
+      "payments": [],
+      "age_days": 0
+    },
+    {
+      "customer": "Suresh Kumar",
+      "plate": "4829",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2016,
+      "mileage": 105000,
+      "status": "awaiting_parts",
+      "part": "none",
+      "total": 0,
+      "payments": [],
+      "age_days": 0
+    },
+    {
+      "customer": "Sanduni Wijesinghe",
+      "plate": "4830",
+      "make": "Toyota",
+      "model": "Aqua",
+      "year": 2017,
+      "mileage": 107500,
+      "status": "repair_in_progress",
+      "part": "none",
+      "total": 0,
+      "payments": [],
+      "age_days": 0
+    },
+    {
+      "customer": "Pradeep Bandara",
+      "plate": "4831",
+      "make": "Honda",
+      "model": "Insight",
+      "year": 2018,
+      "mileage": 110000,
+      "status": "ready",
+      "part": "service",
+      "total": 8000,
+      "payments": [],
+      "age_days": 5
+    },
+    {
+      "customer": "Nimal Jayawardena",
+      "plate": "4832",
+      "make": "Toyota",
+      "model": "Prius",
+      "year": 2019,
+      "mileage": 112500,
+      "status": "completed",
+      "part": "abs",
+      "total": 12000,
+      "payments": [
+        12000
+      ],
+      "age_days": 12,
+      "customer_ref": 1
+    }
+  ]
+}

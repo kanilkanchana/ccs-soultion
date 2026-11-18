@@ -1,0 +1,5 @@
+@extends('developer.layout')
+@section('title','Developer Login')
+@section('login')
+<main class="dev-login"><section><h1>CCS Developer Login</h1><p class="dev-muted">{{ __('Separate maintenance access, authorized by the system owner.') }}</p><p>{{ __('Ask the owner to create or enable your developer account in System Settings → Developer Access.') }}</p><a class="dev-btn dev-secondary" href="{{ route('ccs.login') }}">{{ __('Staff Login') }}</a></section><section class="dev-card"><h2>{{ __('Sign In') }}</h2>@if($errors->any())<div class="dev-notice" role="alert">@foreach($errors->all() as $error)<p>{{ $error }}</p>@endforeach</div>@endif<form method="POST" action="{{ route('developer.login.submit') }}">@csrf<label>{{ __('Developer Email') }}<input name="email" type="email" required maxlength="255" autocomplete="username" value="{{ old('email') }}"></label><label>{{ __('Password') }}<input name="password" type="password" required maxlength="128" autocomplete="current-password"></label><button style="margin-top:18px">{{ __('Sign In') }}</button></form></section></main>
+@endsection

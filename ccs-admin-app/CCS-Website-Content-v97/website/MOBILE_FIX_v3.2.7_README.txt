@@ -1,0 +1,21 @@
+CCS Solutions v3.2.7 — Mobile 1 → 2 → 3 → 4 → 5 → 6 (no jumping)
+
+This release gives phones a dedicated video player with its own playback clock.
+On phones: the 30-second mobile film plays sequentially through all six chapters,
+with chapter text synchronized to the video's playback time. Page scrolling
+does not scrub, seek, or skip the chapters. On scrolling out of view, the film
+pauses until the user returns. After completing chapter 06 it stops (no loop).
+A Replay button appears at the end, and a Play button appears if the browser
+blocks muted autoplay.
+
+On PCs and desktops: no change to the video, scrolling, or visual layout.
+
+QUICK UPDATE FOR EXISTING v3.2.6 HOSTINGER SITE
+1. Back up your public_html folder.
+2. Upload index.html, cinematic.js, and mobile-autoplay.css from the patch ZIP
+   into public_html, replacing the three old files.
+3. Keep assets/experience/film-mobile.mp4 from v3.2.6 (same file).
+4. Clear any Hostinger/CDN cache, and force-reload the mobile website.
+5. Verify scenes 01→02→03→04→05→06 each take approximately 5 seconds.
+
+Browser autoplay restrictions may require tapping the Play video button.

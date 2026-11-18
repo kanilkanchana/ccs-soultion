@@ -1,0 +1,30 @@
+/* An explicit language choice: English pages remain English; Sinhala opens its own services page. */
+.site-header .language-switch{display:flex;align-items:center;flex-shrink:0;gap:3px;padding:3px;border:1px solid #d7b94359;border-radius:7px;background:#0a0b09b3;white-space:nowrap}
+.site-header .language-switch a{display:grid;place-items:center;min-height:31px;min-width:35px;padding:6px 8px;border-radius:4px;color:#dbd7c8;font:700 10px/1.3 var(--body);transition:background .2s,color .2s}
+.site-header .language-switch a[lang=si]{font-family:'Noto Sans Sinhala',sans-serif;font-size:11px;min-width:53px;font-weight:600}
+.site-header .language-switch a[aria-current=page]{background:#eec737;color:#171503;box-shadow:0 2px 9px #0003}
+.site-header .language-switch a:hover{background:#c9ae3d26;color:#ffe489}
+.site-header .language-switch a[aria-current=page]:hover{background:#ffdc58;color:#171503}
+.site-header .language-switch a:focus-visible{outline:2px solid #fff0a6;outline-offset:3px}
+@media(min-width:1201px){.site-header{gap:clamp(12px,1.4vw,23px)}.site-header .desktop-nav{gap:clamp(13px,1.4vw,23px);margin-right:0}}
+@media(max-width:1200px){.site-header .desktop-nav{display:none}.site-header .menu-toggle{display:grid}.site-header .language-switch{margin-left:auto}.site-header .header-cta{margin-left:0}}
+@media(max-width:700px){
+  .site-header,.internal-page .site-header{gap:8px;padding-left:18px;padding-right:18px}
+  .site-header .language-switch{gap:1px;padding:2px}
+  .site-header .language-switch a{min-width:29px;padding:6px;min-height:32px;font-size:9px}
+  .site-header .language-switch a[lang=si]{min-width:50px;font-size:10px}
+  .site-header .header-login{min-height:36px;width:36px;min-width:36px;padding:8px;gap:0;border-radius:6px}
+  .site-header .header-login span,.site-header .header-login b{display:none}
+  .site-header .header-login svg{width:16px;height:16px}
+  .site-header .header-cta{display:none!important}
+  .site-header .menu-toggle{width:34px;min-width:34px;padding:0}
+}
+@media(max-width:370px){
+  .site-header,.internal-page .site-header{padding-left:12px;padding-right:12px;gap:6px}
+  .site-header .brand,.ccs-login-split .site-header .brand{width:90px;max-width:90px}
+  .site-header .language-switch a{min-width:27px;padding:5px}
+  .site-header .language-switch a[lang=si]{min-width:47px}
+  .site-header .header-login{width:32px;min-width:32px;padding:7px}
+  .site-header .menu-toggle{width:32px;min-width:32px}
+}
+@media(prefers-reduced-motion:reduce){.site-header .language-switch a{transition:none}}

@@ -1,0 +1,3 @@
+<?php
+use Illuminate\Database\Migrations\Migration;use Illuminate\Database\Schema\Blueprint;use Illuminate\Support\Facades\Schema;
+return new class extends Migration {public function up():void {if(!Schema::hasTable('ccs_booking_whatsapp_outbox'))Schema::create('ccs_booking_whatsapp_outbox',function(Blueprint $t){$t->id();$t->string('event_key',64)->unique();$t->unsignedBigInteger('request_id')->index();$t->unsignedBigInteger('customer_id');$t->string('kind',30);$t->string('recipient',30);$t->string('epoch',100);$t->text('payload');$t->string('state',20)->default('pending');$t->string('message_id',600)->nullable();$t->text('error')->nullable();$t->timestamps();});}public function down():void {Schema::dropIfExists('ccs_booking_whatsapp_outbox');}};

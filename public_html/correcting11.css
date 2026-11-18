@@ -1,0 +1,27 @@
+/* Correction 11: two co-owner profiles; mobile cinema keeps the same layout, scenes and typography. */
+.owner-section{grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(38px,5vw,80px)}
+#about{scroll-margin-top:0}
+.owner-team.owner-portrait{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:none;align-items:start}
+.owner-profile{margin:0;min-width:0}
+.owner-team .owner-portrait-frame{aspect-ratio:4/5}
+.owner-team .owner-portrait-frame img{object-position:50% 50%}
+.owner-profile-caption{padding-top:18px;border-bottom:1px solid #b3c3b92b;padding-bottom:19px}
+.owner-profile-caption>span{display:block;font:600 6px/1.8 var(--body);letter-spacing:1.3px;color:#c5ae52;margin-bottom:10px}
+.owner-profile-caption h3{font:500 clamp(23px,2.2vw,34px)/1.12 var(--display);letter-spacing:.1px;color:#edf0e4;overflow-wrap:anywhere}
+.owner-copy h2{font-size:clamp(53px,5vw,80px);margin-bottom:26px}
+.owner-copy>p:not(.eyebrow){max-width:470px}
+@media(max-width:1000px){.owner-section{gap:35px}.owner-team.owner-portrait{gap:16px}.owner-profile-caption h3{font-size:27px}.owner-copy h2{font-size:55px}.owner-profile-caption>span{font-size:5px;letter-spacing:1px}}
+@media(max-width:700px){
+  .owner-section{gap:35px}
+  .owner-team.owner-portrait{width:100%;max-width:580px;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-self:center}
+  .owner-profile-caption{padding-top:15px;padding-bottom:16px}
+  .owner-profile-caption h3{font-size:clamp(22px,6.1vw,33px)}
+  .owner-profile-caption>span{font-size:5.5px;letter-spacing:.7px;margin-bottom:9px}
+  .owner-copy h2{font-size:clamp(49px,12.8vw,72px);margin-top:20px;margin-bottom:24px}
+  /* Isolate video painting; the existing colour, framing, overlays and sticky geometry are retained. */
+  .cinema-intro>.intro-video,.film-media>.film-video{transform:translateZ(0);backface-visibility:hidden}
+  .film-media{contain:paint}
+  .film-chapters .film-chapter:after{width:100%;transform:scaleX(var(--mobile-chapter-progress,0));transform-origin:left center;transition:none;will-change:transform}
+}
+@media(max-width:370px){.owner-team.owner-portrait{gap:12px}.owner-profile-caption h3{font-size:20px}.owner-profile-caption>span{font-size:5px;letter-spacing:.4px}.owner-copy h2{font-size:46px}}
+@media(prefers-reduced-motion:reduce){.film-chapters .film-chapter:after{will-change:auto}}
