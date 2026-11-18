@@ -8,7 +8,7 @@
     return;
   }
   window.CCS_ADMIN_ORIGIN = 'https://admin.' + host;
-  document.write('<script src="' + window.CCS_ADMIN_ORIGIN + '/website-content.js?v=110" defer onerror="window.CCS_CONTENT={ads:[],videos:[],offers:[]};window.CCS_FEED_FAILED=true"><\/script>');
+  document.write('<script src="' + window.CCS_ADMIN_ORIGIN + '/website-content.js?v=111" defer onerror="window.CCS_CONTENT={ads:[],videos:[],offers:[]};window.CCS_FEED_FAILED=true"><\/script>');
   document.addEventListener('DOMContentLoaded', () => {
     if (!window.CCS_FEED_FAILED) return;
     const message = document.createElement('p');
