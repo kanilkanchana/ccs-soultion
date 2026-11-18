@@ -25,11 +25,12 @@
 
   function card(vehicle) {
     const label = `${vehicle.make} ${vehicle.model} — ${vehicle.code}`;
-    const image = vehicle.image || (vehicle.photo ? `assets/vehicles/${encodeURIComponent(vehicle.photo)}` : '');
+    const fallbackImage = vehicle.photo ? `assets/vehicles/${encodeURIComponent(vehicle.photo)}` : '';
+    const image = vehicle.image || fallbackImage;
     const fullImage = vehicle.full_image || image;
     const visual = image ? `
       <a class="catalog-card-photo" href="${escape(fullImage)}" target="_blank" rel="noopener">
-        <img src="${escape(image)}" alt="Representative photo of ${escape(vehicle.alt || vehicle.photoLabel || label)}" loading="lazy" decoding="async">
+        <img src="${escape(image)}" data-catalog-fallback="${escape(fallbackImage)}" alt="Representative photo of ${escape(vehicle.alt || vehicle.photoLabel || label)}" loading="lazy" decoding="async">
       </a>` : `
       <div class="catalog-card-photo catalog-photo-unavailable">
         <svg viewBox="0 0 100 48" aria-hidden="true"><path d="M10 35v-9l10-3 12-15h34l12 15 12 4v8h-9m-14 0H34m-14 0H10M20 23h58"/><circle cx="27" cy="35" r="7"/><circle cx="74" cy="35" r="7"/></svg>
@@ -97,6 +98,30 @@
     appendBatch();
     grid.children[first]?.querySelector('a, button')?.focus();
   });
+  // Try the bundled white-background reference when an admin override is stale.
+  // If neither image exists, replace the link with a clear accessible fallback.
+  grid.addEventListener('error', event => {
+    const image = event.target;
+    if (!(image instanceof HTMLImageElement) || !image.hasAttribute('data-catalog-fallback')) return;
+    const fallback = image.dataset.catalogFallback;
+    if (fallback && image.dataset.fallbackTried !== 'true' &&
+        image.src !== new URL(fallback, document.baseURI).href) {
+      image.dataset.fallbackTried = 'true';
+      image.src = fallback;
+      return;
+    }
+    const photo = image.closest('.catalog-card-photo');
+    if (!photo) return;
+    const placeholder = document.createElement('div');
+    placeholder.className = 'catalog-card-photo catalog-photo-unavailable';
+    placeholder.setAttribute('role', 'img');
+    placeholder.setAttribute('aria-label', 'Photo unavailable');
+    const message = document.createElement('span');
+    message.textContent = 'Photo unavailable';
+    placeholder.append(message);
+    photo.replaceWith(placeholder);
+  }, true);
+
   grid.addEventListener('click', event => {
     const button = event.target.closest('[data-catalog-inspect]');
     if (button) document.dispatchEvent(new CustomEvent('ccs:book', { detail: { vehicle: button.dataset.catalogInspect } }));

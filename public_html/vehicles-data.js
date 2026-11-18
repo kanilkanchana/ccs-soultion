@@ -196,7 +196,25 @@ window.CCS_CATALOGUE_BASELINE = [
   {"model": "BMW M5 (2025+)", "code": "G90 / G99 M Hybrid", "type": "PHEV", "evidence": "G", "note": "New high-performance PHEV; no local unit validated.", "sources": "S29", "make": "BMW", "page": 12, "id": "bmw-bmw-m5-2025", "variants": ["BMW BMW M5 (2025+) — G90"]}
 ];
 
-window.CCS_VEHICLES = Array.isArray(window.CCS_CONTENT?.models) ? window.CCS_CONTENT.models : window.CCS_CATALOGUE_BASELINE;
+// Keep the live admin catalogue authoritative, while filling missing presentation
+// fields from the matching local reference so CMS edits do not blank car photos.
+const CCS_BASELINE_BY_ID = new Map(
+  window.CCS_CATALOGUE_BASELINE.map(vehicle => [String(vehicle.id).toLowerCase(), vehicle])
+);
+window.CCS_VEHICLES = Array.isArray(window.CCS_CONTENT?.models)
+  ? window.CCS_CONTENT.models.map(vehicle => {
+      const baseline = CCS_BASELINE_BY_ID.get(String(vehicle.id || '').toLowerCase());
+      return {
+        ...baseline,
+        ...vehicle,
+        photo: vehicle.photo || baseline?.photo || '',
+        image: vehicle.image || baseline?.image || '',
+        full_image: vehicle.full_image || baseline?.full_image || '',
+        photoLabel: vehicle.photoLabel || baseline?.photoLabel || '',
+        alt: vehicle.alt || baseline?.alt || baseline?.photoLabel || ''
+      };
+    })
+  : window.CCS_CATALOGUE_BASELINE;
 
 window.CCS_MODEL_MATCH = (value, query) => {
   const normalize = text => text.toLowerCase().normalize('NFKD').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
