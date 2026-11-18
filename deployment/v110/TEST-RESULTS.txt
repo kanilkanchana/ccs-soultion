@@ -1,0 +1,13 @@
+PASS PHP syntax: installer, importer, catalogue controller.
+PASS real Laravel/SQLite import: 146 inserted, 48 enriched against original seed.
+PASS repeat import: zero insertions/enrichments.
+PASS preserved owner title, disabled state, uploaded image and non-model records.
+PASS photo-less model edit and catalogue type validation.
+PASS real Blade: password, OTP request, OTP verify, CSRF and correct domain assets.
+PASS installer: STORE/LK update checksums identical, .env retained.
+PASS installer rollback: simulated compilation failure restored files/DB.
+PASS DOM tests for both domains: 6/24/48 batching, search, owner photo, disabled
+     model exclusion, booking selection, one request POST, matching API origin,
+     confirmed reference, CSRF and show/hide password.
+PASS referenced local HTML resources and bash syntax.
+LIMIT: native visual browser unavailable; no live deployment or live API POST.

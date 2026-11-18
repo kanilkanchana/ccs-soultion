@@ -1,0 +1,43 @@
+/* Model directory and inspection picker. */
+.model-directory-page .page-hero { padding-top: 36px; padding-bottom: 38px; }
+.model-directory-page .page-breadcrumb { margin-bottom: 22px; }
+.model-directory-page .page-hero .eyebrow { margin-bottom: 16px; }
+.model-directory-page .page-hero h1 { font-size: clamp(40px, 6vw, 100px); line-height: .96; }
+.model-directory-page .page-hero-row > p { color: #b3c7c6; }
+.model-directory-page .page-content { padding-top: clamp(26px, 4vw, 52px); }
+.catalog-card { display: flex; flex-direction: column; }
+.catalog-card-photo { display: block; aspect-ratio: 16 / 10; flex: none; background: #fff; }
+.catalog-card-photo img { position: absolute; inset: 0; width: 100%; height: 100%; padding: 8px; object-fit: contain; }
+.catalog-photo-unavailable { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 9px; color: #506266; font-size: 12px; }
+.catalog-photo-unavailable svg { width: min(38%, 118px); fill: none; stroke: #8e9fa1; stroke-width: 2.2; stroke-linejoin: round; }
+.catalog-card-copy { display: flex; flex: 1; flex-direction: column; }
+.catalog-card-meta { display: flex; flex-wrap: wrap; gap: 7px 10px; align-items: center; margin-bottom: 11px; }
+.catalog-card-copy .catalog-make { margin: 0; font-size: 9px; text-transform: uppercase; }
+.catalog-card-copy h3 { font-size: clamp(26px, 2.7vw, 43px); line-height: 1; text-transform: uppercase; overflow-wrap: anywhere; }
+.catalog-card-copy .catalog-code { font-size: 11px; color: #b9ccca; overflow-wrap: anywhere; }
+.catalog-evidence { display: inline-block; padding: 4px 7px; border: 1px solid currentColor; border-radius: 3px; color: #c6bcfa; font-size: 9px; line-height: 1.3; }
+.catalog-evidence[data-evidence="L"] { color: #a6e0c5; }
+.catalog-evidence[data-evidence="O"] { color: #f0d279; }
+.catalog-variant-note { color: #b9ccca; margin-top: 9px; font-size: 11px; line-height: 1.6; }
+.catalog-variant-note summary { color: #e2dbc1; width: fit-content; padding: 7px 0; cursor: pointer; }
+.catalog-variant-note p { margin: 2px 0 0; }
+.catalog-card-action { margin-top: auto; }
+.catalog-card-action :is(a, button) { font-size: 12px; min-height: 44px; }
+.catalog-count { text-transform: uppercase; }
+.catalog-load { display: flex; justify-content: center; margin-top: 24px; }
+.catalog-load button[hidden] { display: none; }
+.inspection-vehicle-picker { display: grid; gap: 12px; min-width: 0; padding: 13px; border: 1px solid #17384228; background: #fff5; }
+.inspection-vehicle-picker label { font-size: 10px; }
+.inspection-vehicle-picker :is(input, select) { font-size: 13px; height: 44px; }
+.inspection-model-status, .inspection-model-choice { color: #465e63; margin: 0; font: 500 11px/1.6 var(--body); overflow-wrap: anywhere; }
+.inspection-model-choice { padding-top: 8px; border-top: 1px solid #17384228; color: #243f45; }
+@media (max-width: 620px) {
+  .model-directory-page .page-hero h1 { font-size: clamp(36px, 10.8vw, 66px); }
+  .model-directory-page .catalog-grid { grid-template-columns: 1fr; gap: 18px; }
+  .model-directory-page .catalog-card-copy h3 { font-size: clamp(28px, 7.9vw, 42px); }
+  .inspection-vehicle-picker :is(input, select), .model-directory-page .catalog-search input { font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .catalog-card, .catalog-card-photo img { transition: none; }
+  .catalog-card:hover, .catalog-card-photo:hover img { transform: none; }
+}

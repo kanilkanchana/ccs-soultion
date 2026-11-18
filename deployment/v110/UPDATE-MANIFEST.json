@@ -1,0 +1,78 @@
+{
+  "ccs-admin-app/app/Http/Controllers/CcsWebsiteContentController.php": {
+    "sha256": "faf4b578134e4c08b75feaf052809cf717de36e20e8c1a2adafd80c579db9cac",
+    "baseline": "bbc02bd9397ea71965376deb4250156754f204f7"
+  },
+  "ccs-admin-app/app/Support/CcsCatalogueImportV110.php": {
+    "sha256": "b99d8619032a60afd9a1fe4eb0416d7976ab40f640bdc723249fd950a132fe2c",
+    "baseline": null
+  },
+  "ccs-admin-app/database/data/ccs-catalogue-v110.json": {
+    "sha256": "61599c4692677b52e890f907e2e99d05c4274469a86420b54d044da3ee3bcce6",
+    "baseline": null
+  },
+  "ccs-admin-app/resources/views/ccs/website-content.blade.php": {
+    "sha256": "39f7bfdb8a28e4e34832fd6c9f2afc51273ed5e996313d04391e1f06a8a93151",
+    "baseline": "3c2903263992854cbcd368b1a52de4bf10bcbc09"
+  },
+  "ccs-admin-app/resources/views/customer/email-login.blade.php": {
+    "sha256": "5fb16a4d36aa2118a23470db011062a83ee7f3e7a0afbe48366540b4f49bcf97",
+    "baseline": "7ba79677685f6a7f8d0378ab6085bbb1400c637a"
+  },
+  "ccs-admin-app/resources/views/customer/login.blade.php": {
+    "sha256": "30ff096664b66f7584b621e68f71902295be9f9226cc18e01aed138236b82271",
+    "baseline": "4120578b329b75a4dcad4c90871eac9b4f21dc0b"
+  },
+  "public_html/catalog.js": {
+    "sha256": "0c57aa14ea4e4367c1374ea2ccd76ae620c9230226b7b1dee7b93e0c975c9d35",
+    "baseline": "e687b349a02572b0b61d3952f9ac95083c533121"
+  },
+  "public_html/catalogue-update.css": {
+    "sha256": "3d94dce0a2f9d6652e7ff97cd75c6a1e42675c7b87a18988da7d0049e2f41686",
+    "baseline": null
+  },
+  "public_html/ccs-runtime-v110.js": {
+    "sha256": "43fa8c75037f97dfd294f0756e474392c4c30c5b930808d087302ce2d9ab4082",
+    "baseline": null
+  },
+  "public_html/contact-models.js": {
+    "sha256": "2c7d2716f8fc7a27a044d29e2bb2b511187a9a901440fdc5ecd3914662a8ebf3",
+    "baseline": "fecf92d6f398109bb1070819e5ce38e6d986a613"
+  },
+  "public_html/contact.html": {
+    "sha256": "ff8520378c81bb315281759da949f940876197606d3a9de20a9acee9835d78ed",
+    "baseline": "4b114b251e7b2a5f5465a6e5efcf7c2794372ef8"
+  },
+  "public_html/index.html": {
+    "sha256": "e1f3666967aaff4f4d55a476dc9791244092b0cd834e425ef7f97839050108b0",
+    "baseline": "ddb2a01dc41161e2175b32e1c44c205b881a64dd"
+  },
+  "public_html/login-auth-v110.css": {
+    "sha256": "300a76fa7d4d5775d1788f4f6dfa152864ffe600d4125d1eabc0e840d7cc8752",
+    "baseline": null
+  },
+  "public_html/login-laravel-v110.js": {
+    "sha256": "0c119d5c9193955d03167ce5c44530acc6bb8224c2aa07149360618574c853b4",
+    "baseline": null
+  },
+  "public_html/login.html": {
+    "sha256": "a71141083b524ab5ecde88f0a5fcb590474b91f7971903dab9bd180c1cc78840",
+    "baseline": "8a9a20c208d39c6e7e39ae195cfdb2f17ef91392"
+  },
+  "public_html/models.html": {
+    "sha256": "f167fb599fda7bc7b9ee6284a4192d557d9eb9b99d34cf6d511f3ad4b1a12569",
+    "baseline": "a9ccdf0b31d67748f9039025551c9fc673c121f3"
+  },
+  "public_html/refinements.js": {
+    "sha256": "e22150a00f91dd5454c6d955299ad3a44c5ea16ef4a953397bce09770157596f",
+    "baseline": "3d41b00ad1ff563800f285e8625fd90f519445f0"
+  },
+  "public_html/vehicles-data.js": {
+    "sha256": "349e232935d80884585cd7276b7377fa78aa293016ce700a4e3220a56e70e760",
+    "baseline": "aae3543a37b6a6ad279df86c6f291b280f33276f"
+  },
+  "public_html/website-v101.js": {
+    "sha256": "48a475b8a1ced15a4c9d77b717a2e3c52e062c6d6b890104146f24da5f83d515",
+    "baseline": "1c5f2d8017aa42c6d42c36bbe51fb67feb89856e"
+  }
+}

@@ -1,0 +1,1 @@
+.login-mode a{flex:1;min-height:39px;border-radius:7px;color:#a4b1b3;font:700 11px/1.3 var(--body);display:flex;align-items:center;justify-content:center}.login-mode a.is-selected{background:#e6c34b;color:#11272e;box-shadow:0 3px 12px #0004}.google-login[disabled]{cursor:default;opacity:.65}.field-top a{font-size:11px;color:#c9b85a}

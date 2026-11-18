@@ -1,0 +1,2512 @@
+[
+  {
+    "model": "Prius",
+    "code": "NHW20 / ZVW30 / ZVW50 / MXWH60",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Multiple generations; verify actual model code.",
+    "sources": "S02 S03",
+    "make": "Toyota",
+    "page": 3,
+    "id": "prius",
+    "photo": "prius.webp",
+    "photoLabel": "Toyota Prius Hybrid — ZVW30",
+    "variants": [
+      "Toyota Prius Hybrid — ZVW30",
+      "Toyota Prius — NHW20",
+      "Toyota Prius — ZVW30",
+      "Toyota Prius — ZVW50",
+      "Toyota Prius — MXWH60"
+    ]
+  },
+  {
+    "model": "Aqua",
+    "code": "NHP10 / MXPK10-16",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Aqua HEV; distinguish from petrol-only Yaris.",
+    "sources": "S03 S39",
+    "make": "Toyota",
+    "page": 3,
+    "id": "aqua",
+    "photo": "aqua.webp",
+    "photoLabel": "Toyota Aqua / Prius c — NHP10",
+    "variants": [
+      "Toyota Aqua / Prius c — NHP10",
+      "Toyota Aqua — NHP10"
+    ]
+  },
+  {
+    "model": "Auris Hybrid",
+    "code": "ZWE150 / ZWE186; UK/JDM 1.8",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Locally registered 2011 UK-spec Auris hybrid evidenced.",
+    "sources": "S44",
+    "make": "Toyota",
+    "page": 3,
+    "id": "auris",
+    "photo": "auris.webp",
+    "photoLabel": "Toyota Auris Hybrid — ZWE186",
+    "variants": [
+      "Toyota Auris Hybrid — ZWE186",
+      "Toyota Auris Hybrid — ZWE150"
+    ]
+  },
+  {
+    "model": "Camry Hybrid",
+    "code": "AHV40 / AVV50 / AXVH70",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Official Toyota Lanka hybrid sedan.",
+    "sources": "S01 S03",
+    "make": "Toyota",
+    "page": 4,
+    "id": "camry",
+    "photo": "camry.webp",
+    "photoLabel": "Toyota Camry Hybrid — AXVH70",
+    "variants": [
+      "Toyota Camry Hybrid — AXVH70",
+      "Toyota Camry Hybrid — AHV40",
+      "Toyota Camry Hybrid — AVV50",
+      "Toyota Camry Hybrid — AXVH70"
+    ]
+  },
+  {
+    "model": "Sai Hybrid",
+    "code": "AZK10",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Older domestic Japanese hybrid sedan; rare.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "sai",
+    "photo": "sai.webp",
+    "photoLabel": "Toyota Sai Hybrid — AZK10"
+  },
+  {
+    "model": "Corolla Axio Hybrid",
+    "code": "NKE165",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Axio petrol cars are not included.",
+    "sources": "S03",
+    "make": "Toyota",
+    "page": 3,
+    "id": "axio",
+    "photo": "axio.webp",
+    "photoLabel": "Toyota Corolla Axio Hybrid — NKE165"
+  },
+  {
+    "model": "Corolla Fielder Hybrid",
+    "code": "NKE165G",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Estate-bodied Axio-related hybrid.",
+    "sources": "S03",
+    "make": "Toyota",
+    "page": 3,
+    "id": "fielder",
+    "photo": "fielder.webp",
+    "photoLabel": "Toyota Corolla Fielder Hybrid — NKE165G"
+  },
+  {
+    "model": "Prius Alpha / Prius v",
+    "code": "ZVW40 / ZVW41",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "7-seat/estate Prius-family hybrid.",
+    "sources": "S03",
+    "make": "Toyota",
+    "page": 3,
+    "id": "alpha",
+    "photo": "alpha.webp",
+    "photoLabel": "Toyota Prius Alpha — ZVW40 / ZVW41",
+    "variants": [
+      "Toyota Prius Alpha — ZVW40 / ZVW41",
+      "Toyota Prius Alpha / Prius v — ZVW40",
+      "Toyota Prius Alpha / Prius v — ZVW41"
+    ]
+  },
+  {
+    "model": "C-HR Hybrid",
+    "code": "ZYX10 / ZYX11 1.8 Hybrid",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "NGX10/NGX50 1.2 turbo versions are PETROL, not hybrid.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "chr",
+    "photo": "chr.webp",
+    "photoLabel": "Toyota C-HR Hybrid — ZYX10 / ZYX11",
+    "variants": [
+      "Toyota C-HR Hybrid — ZYX10 / ZYX11",
+      "Toyota C-HR Hybrid — ZYX10"
+    ]
+  },
+  {
+    "model": "Corolla Cross Hybrid",
+    "code": "1.8 Hybrid grades",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Toyota Lanka officially lists hybrid range.",
+    "sources": "S01",
+    "make": "Toyota",
+    "page": 3,
+    "id": "cross",
+    "photo": "cross.webp",
+    "photoLabel": "Toyota Corolla Cross Hybrid — ZVG11 / ZVG15",
+    "variants": [
+      "Toyota Corolla Cross Hybrid — ZVG11 / ZVG15"
+    ]
+  },
+  {
+    "model": "Yaris Cross Hybrid",
+    "code": "1.5 HEV / GX / GR Sport",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Official Sri Lanka hybrid range.",
+    "sources": "S01",
+    "make": "Toyota",
+    "page": 3,
+    "id": "yaris-cross",
+    "photo": "yaris-cross.webp",
+    "photoLabel": "Toyota Yaris Cross Hybrid — MXPJ10 / MXPJ15",
+    "variants": [
+      "Toyota Yaris Cross Hybrid — MXPJ10 / MXPJ15"
+    ]
+  },
+  {
+    "model": "RAV4 Hybrid",
+    "code": "AXAH52 / AXAH54; recent HEV",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Toyota Lanka official hybrid family.",
+    "sources": "S01 S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "rav4",
+    "photo": "rav4.webp",
+    "photoLabel": "Toyota RAV4 Hybrid — AXAH52 / AXAH54",
+    "variants": [
+      "Toyota RAV4 Hybrid — AXAH52 / AXAH54",
+      "Toyota RAV4 Hybrid — AXAH52"
+    ]
+  },
+  {
+    "model": "Noah Hybrid",
+    "code": "ZWR80 / ZWR90",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Hybrid minivan; verify ZWR identifier.",
+    "sources": "S03 S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "noah",
+    "photo": "noah.webp",
+    "photoLabel": "Toyota Noah Hybrid — ZWR80G / ZWR80W",
+    "variants": [
+      "Toyota Noah Hybrid — ZWR80G / ZWR80W",
+      "Toyota Noah Hybrid — ZWR80",
+      "Toyota Noah Hybrid — ZWR90"
+    ]
+  },
+  {
+    "model": "Sienta Hybrid",
+    "code": "NHP170 / MXPL10",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Both petrol and hybrid Sienta are offered for import.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "sienta",
+    "photo": "sienta.webp",
+    "photoLabel": "Toyota Sienta Hybrid — NHP170G",
+    "variants": [
+      "Toyota Sienta Hybrid — NHP170G",
+      "Toyota Sienta Hybrid — NHP170",
+      "Toyota Sienta Hybrid — MXPL10"
+    ]
+  },
+  {
+    "model": "Voxy Hybrid",
+    "code": "ZWR80 / ZWR90",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Hybrid minivan; verify ZWR identifier.",
+    "sources": "S03 S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "voxy",
+    "photo": "voxy.webp",
+    "photoLabel": "Toyota Voxy Hybrid — ZWR80G / ZWR80W",
+    "variants": [
+      "Toyota Voxy Hybrid — ZWR80G / ZWR80W",
+      "Toyota Voxy Hybrid — ZWR80",
+      "Toyota Voxy Hybrid — ZWR90"
+    ]
+  },
+  {
+    "model": "Esquire Hybrid",
+    "code": "ZWR80",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Discontinued Japanese-market hybrid MPV.",
+    "sources": "S03",
+    "make": "Toyota",
+    "page": 3,
+    "id": "esquire",
+    "photo": "esquire.webp",
+    "photoLabel": "Toyota Esquire Hybrid — ZWR80G",
+    "variants": [
+      "Toyota Esquire Hybrid — ZWR80G"
+    ]
+  },
+  {
+    "model": "Crown Hybrid",
+    "code": "GWS204 / AWS210 / AZSH20",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Includes Crown Royal/Athlete hybrid variants.",
+    "sources": "S03 S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "crown",
+    "photo": "crown.webp",
+    "photoLabel": "Toyota Crown Hybrid — AWS210 / AWS211",
+    "variants": [
+      "Toyota Crown Hybrid — AWS210 / AWS211",
+      "Toyota Crown Hybrid — GWS204",
+      "Toyota Crown Hybrid — AWS210",
+      "Toyota Crown Hybrid — AZSH20"
+    ]
+  },
+  {
+    "model": "Harrier Hybrid",
+    "code": "AVU65 / AXUH80 / AXUH85",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Also petrol-only Harrier listings.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "harrier",
+    "photo": "harrier.webp",
+    "photoLabel": "Toyota Harrier Hybrid — AVU65W / AXUH80",
+    "variants": [
+      "Toyota Harrier Hybrid — AVU65W / AXUH80",
+      "Toyota Harrier Hybrid — AVU65",
+      "Toyota Harrier Hybrid — AXUH80",
+      "Toyota Harrier Hybrid — AXUH85"
+    ]
+  },
+  {
+    "model": "Raize Hybrid",
+    "code": "e-SMART Z / G (1.2 L)",
+    "type": "SERIES HEV",
+    "evidence": "L",
+    "note": "Separate from 1.0 turbo / 1.2 petrol Raize.",
+    "sources": "S05 S06",
+    "make": "Toyota",
+    "page": 3,
+    "id": "raize",
+    "photo": "raize.webp",
+    "photoLabel": "Toyota Raize Hybrid — A202A",
+    "variants": [
+      "Toyota Raize Hybrid — A202A"
+    ]
+  },
+  {
+    "model": "Fit / Jazz Hybrid",
+    "code": "GP1 / GP4 / GP5 / GP6 / GR3 / GR4",
+    "type": "IMA / i-DCD / HEV",
+    "evidence": "L",
+    "note": "Three substantially different hybrid architectures.",
+    "sources": "S03 S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "gp1",
+    "photo": "gp1.webp",
+    "photoLabel": "Honda Fit Hybrid — GP1",
+    "variants": [
+      "Honda Fit Hybrid — GP1",
+      "Honda Fit Hybrid — GP5 / GP6",
+      "Honda Fit / Jazz Hybrid — GP1",
+      "Honda Fit / Jazz Hybrid — GP4",
+      "Honda Fit / Jazz Hybrid — GP5",
+      "Honda Fit / Jazz Hybrid — GP6",
+      "Honda Fit / Jazz Hybrid — GR3",
+      "Honda Fit / Jazz Hybrid — GR4"
+    ]
+  },
+  {
+    "model": "Fit Shuttle Hybrid",
+    "code": "GP2",
+    "type": "IMA",
+    "evidence": "L",
+    "note": "Early wagon version of Fit.",
+    "sources": "S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "gp2",
+    "photo": "gp2.webp",
+    "photoLabel": "Honda Fit Shuttle Hybrid — GP2"
+  },
+  {
+    "model": "Freed Hybrid",
+    "code": "GP3 / GB7 / GB8 / e:HEV",
+    "type": "IMA / i-DCD / HEV",
+    "evidence": "L",
+    "note": "Hybrid Freed; several generations.",
+    "sources": "S03 S09",
+    "make": "Honda",
+    "page": 5,
+    "id": "gp3",
+    "photo": "gp3.webp",
+    "photoLabel": "Honda Freed Hybrid — GP3",
+    "variants": [
+      "Honda Freed Hybrid — GP3",
+      "Honda Freed Hybrid — GP3",
+      "Honda Freed Hybrid — GB7",
+      "Honda Freed Hybrid — GB8"
+    ]
+  },
+  {
+    "model": "Shuttle Hybrid",
+    "code": "GP7 / GP8",
+    "type": "i-DCD",
+    "evidence": "L",
+    "note": "Distinct later-generation Shuttle.",
+    "sources": "S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "gp7",
+    "photo": "gp7.webp",
+    "photoLabel": "Honda Shuttle Hybrid — GP7 / GP8",
+    "variants": [
+      "Honda Shuttle Hybrid — GP7",
+      "Honda Shuttle Hybrid — GP8"
+    ]
+  },
+  {
+    "model": "Vezel Hybrid",
+    "code": "RU3 / RU4 / RV5 / RV6",
+    "type": "i-DCD / e:HEV",
+    "evidence": "L",
+    "note": "Very common; 2013-20 vs later e:HEV differ.",
+    "sources": "S03 S05",
+    "make": "Honda",
+    "page": 5,
+    "id": "vezel",
+    "photo": "vezel.webp",
+    "photoLabel": "Honda Vezel Hybrid — RU3 / RU4",
+    "variants": [
+      "Honda Vezel Hybrid — RU3 / RU4",
+      "Honda Vezel Hybrid — RU3",
+      "Honda Vezel Hybrid — RU4",
+      "Honda Vezel Hybrid — RV5",
+      "Honda Vezel Hybrid — RV6"
+    ]
+  },
+  {
+    "model": "Grace Hybrid",
+    "code": "GM4 / GM5",
+    "type": "i-DCD",
+    "evidence": "L",
+    "note": "Hybrid sedan; check 7-speed DCT specification.",
+    "sources": "S03 S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "grace",
+    "photo": "grace.webp",
+    "photoLabel": "Honda Grace Hybrid — GM4 / GM5",
+    "variants": [
+      "Honda Grace Hybrid — GM4",
+      "Honda Grace Hybrid — GM5"
+    ]
+  },
+  {
+    "model": "Civic Hybrid / e:HEV",
+    "code": "FD3 / FB4 / FL4",
+    "type": "IMA / HEV",
+    "evidence": "L",
+    "note": "Older Civic Hybrid and new e:HEV differ.",
+    "sources": "S03 S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "civic",
+    "photo": "civic.webp",
+    "photoLabel": "Honda Civic Hybrid — FD3",
+    "variants": [
+      "Honda Civic Hybrid — FD3",
+      "Honda Civic Hybrid / e:HEV — FD3",
+      "Honda Civic Hybrid / e:HEV — FB4",
+      "Honda Civic Hybrid / e:HEV — FL4"
+    ]
+  },
+  {
+    "model": "Insight Hybrid",
+    "code": "ZE2 / ZE3 / ZE4",
+    "type": "IMA / HEV",
+    "evidence": "L",
+    "note": "Earlier IMA vs later two-motor HEV.",
+    "sources": "S03 S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "insight",
+    "photo": "insight.webp",
+    "photoLabel": "Honda Insight Hybrid — ZE2 / ZE3",
+    "variants": [
+      "Honda Insight Hybrid — ZE2 / ZE3",
+      "Honda Insight Hybrid — ZE2",
+      "Honda Insight Hybrid — ZE3",
+      "Honda Insight Hybrid — ZE4"
+    ]
+  },
+  {
+    "model": "CR-Z Hybrid",
+    "code": "ZF1 / ZF2",
+    "type": "IMA",
+    "evidence": "L",
+    "note": "Hybrid sport coupe.",
+    "sources": "S03 S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "crz",
+    "photo": "crz.webp",
+    "photoLabel": "Honda CR-Z Hybrid — ZF1 / ZF2",
+    "variants": [
+      "Honda CR-Z Hybrid — ZF1",
+      "Honda CR-Z Hybrid — ZF2"
+    ]
+  },
+  {
+    "model": "Accord Hybrid / e:HEV",
+    "code": "CR6 / CR7 / CV3 / newer",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Hybrid sedan marketed in local listings.",
+    "sources": "S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "accord",
+    "photo": "accord.webp",
+    "photoLabel": "Honda Accord Hybrid — CR6 / CR7",
+    "variants": [
+      "Honda Accord Hybrid — CR6 / CR7",
+      "Honda Accord Hybrid / e:HEV — CR6",
+      "Honda Accord Hybrid / e:HEV — CR7",
+      "Honda Accord Hybrid / e:HEV — CV3"
+    ]
+  },
+  {
+    "model": "Stepwgn / Spada Hybrid",
+    "code": "RP5 / later e:HEV",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Japanese MPV import market; check grade.",
+    "sources": "S09",
+    "make": "Honda",
+    "page": 5,
+    "id": "stepwgn",
+    "photo": "stepwgn.webp",
+    "photoLabel": "Honda Step WGN Hybrid — RP5 / RP8",
+    "variants": [
+      "Honda Step WGN Hybrid — RP5 / RP8",
+      "Honda Stepwgn / Spada Hybrid — RP5"
+    ]
+  },
+  {
+    "model": "Wagon R Hybrid",
+    "code": "FX / FZ / Stingray HYBRID trims",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "S-ENE CHARGE / mild-hybrid systems vary by year.",
+    "sources": "S13 S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "wagon-hybrid",
+    "photo": "wagon-hybrid.webp",
+    "photoLabel": "Suzuki Wagon R Hybrid FX — MH55S",
+    "variants": [
+      "Suzuki Wagon R Hybrid FX — MH55S",
+      "Suzuki Wagon R Stingray Hybrid T — MH55S"
+    ]
+  },
+  {
+    "model": "Swift Hybrid",
+    "code": "SHVS / Hybrid ML / RS",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Hybrid in name can mean mild hybrid.",
+    "sources": "S13 S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "swift",
+    "photo": "swift.webp",
+    "photoLabel": "Suzuki Swift Hybrid — ZC53S / ZD53S",
+    "variants": [
+      "Suzuki Swift Hybrid — ZC53S / ZD53S"
+    ]
+  },
+  {
+    "model": "Spacia / Spacia Custom",
+    "code": "HYBRID G / X / GS / XS",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Popular imported kei minivan.",
+    "sources": "S13 S38",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "spacia",
+    "photo": "spacia.webp",
+    "photoLabel": "Suzuki Spacia Hybrid — MK53S / MK94S",
+    "variants": [
+      "Suzuki Spacia Hybrid — MK53S / MK94S"
+    ]
+  },
+  {
+    "id": "mazda",
+    "make": "Mazda",
+    "model": "Axela Hybrid",
+    "code": "BYEFP",
+    "type": "HEV",
+    "photo": "mazda.webp",
+    "photoLabel": "Mazda Axela Hybrid — BYEFP"
+  },
+  {
+    "model": "CT 200h",
+    "code": "ZWA10",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Compact Lexus hybrid; local repair support.",
+    "sources": "S03 S16",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus",
+    "photo": "lexus.webp",
+    "photoLabel": "Lexus CT 200h — ZWA10"
+  },
+  {
+    "model": "NX 300h",
+    "code": "AYZ10 / AYZ15",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Prior-generation NX hybrid.",
+    "sources": "S03 S16",
+    "make": "Lexus",
+    "page": 7,
+    "id": "nx",
+    "photo": "nx.webp",
+    "photoLabel": "Lexus NX 300h — AYZ10 / AYZ15",
+    "variants": [
+      "Lexus NX 300h — AYZ10",
+      "Lexus NX 300h — AYZ15"
+    ]
+  },
+  {
+    "model": "RX 450h / 450hL",
+    "code": "GYL10 / GYL20 / GYL25",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Most established Lexus RX hybrid.",
+    "sources": "S03 S16",
+    "make": "Lexus",
+    "page": 7,
+    "id": "rx",
+    "photo": "rx.webp",
+    "photoLabel": "Lexus RX 450h — GYL20 / GYL25",
+    "variants": [
+      "Lexus RX 450h — GYL20 / GYL25",
+      "Lexus RX 450h / 450hL — GYL10",
+      "Lexus RX 450h / 450hL — GYL20",
+      "Lexus RX 450h / 450hL — GYL25"
+    ]
+  },
+  {
+    "model": "ES 300h",
+    "code": "AXZH10 / AXZH11",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Lexus sedan; specialist lists ES 300h.",
+    "sources": "S03",
+    "make": "Lexus",
+    "page": 7,
+    "id": "es",
+    "photo": "es.webp",
+    "photoLabel": "Lexus ES 300h — AXZH10",
+    "variants": [
+      "Lexus ES 300h — AXZH10",
+      "Lexus ES 300h — AXZH10",
+      "Lexus ES 300h — AXZH11"
+    ]
+  },
+  {
+    "model": "Note e-POWER",
+    "code": "HE12 / SNE12 / E13 series",
+    "type": "SERIES HEV",
+    "evidence": "L",
+    "note": "Engine charges battery; wheels driven by motor.",
+    "sources": "S03 S18",
+    "make": "Nissan",
+    "page": 8,
+    "id": "note",
+    "photo": "note.webp",
+    "photoLabel": "Nissan Note e-POWER — HE12 / E13",
+    "variants": [
+      "Nissan Note e-POWER — HE12 / E13",
+      "Nissan Note e-POWER — HE12",
+      "Nissan Note e-POWER — SNE12"
+    ]
+  },
+  {
+    "model": "Serena e-POWER",
+    "code": "C27 HFC27 / C28",
+    "type": "SERIES HEV",
+    "evidence": "L",
+    "note": "Hybrid MPV; e-4ORCE differs by model.",
+    "sources": "S18 S19",
+    "make": "Nissan",
+    "page": 8,
+    "id": "serena",
+    "photo": "serena.webp",
+    "photoLabel": "Nissan Serena e-POWER — HC27 / HFC27",
+    "variants": [
+      "Nissan Serena e-POWER — HC27 / HFC27",
+      "Nissan Serena e-POWER — C28"
+    ]
+  },
+  {
+    "model": "X-Trail e-POWER (T33)",
+    "code": "T33 / SNT33 e-4ORCE",
+    "type": "SERIES HEV",
+    "evidence": "L",
+    "note": "Later series hybrid; not the T32 system.",
+    "sources": "S18 S20",
+    "make": "Nissan",
+    "page": 8,
+    "id": "xtrail",
+    "photo": "xtrail.webp",
+    "photoLabel": "Nissan X-Trail e-POWER — T33",
+    "variants": [
+      "Nissan X-Trail e-POWER — T33",
+      "Nissan X-Trail e-POWER (T33) — T33"
+    ]
+  },
+  {
+    "model": "Kicks e-POWER",
+    "code": "P15 series",
+    "type": "SERIES HEV",
+    "evidence": "L",
+    "note": "Different from petrol-only Kicks.",
+    "sources": "S18 S19",
+    "make": "Nissan",
+    "page": 8,
+    "id": "kicks",
+    "photo": "kicks.webp",
+    "photoLabel": "Nissan Kicks e-POWER — P15",
+    "variants": [
+      "Nissan Kicks e-POWER — P15"
+    ]
+  },
+  {
+    "model": "Outlander PHEV",
+    "code": "GG2W / GG3W / GN0W",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "Older locally registered vehicles well documented.",
+    "sources": "S21 S22",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "outlander",
+    "photo": "outlander.webp",
+    "photoLabel": "Mitsubishi Outlander PHEV — GG2W / GG3W",
+    "variants": [
+      "Mitsubishi Outlander PHEV — GG2W / GG3W",
+      "Mitsubishi Outlander PHEV — GG2W",
+      "Mitsubishi Outlander PHEV — GG3W",
+      "Mitsubishi Outlander PHEV — GN0W"
+    ]
+  },
+  {
+    "id": "ioniq",
+    "make": "Hyundai",
+    "model": "Ioniq Hybrid / Plug-in",
+    "code": "AE",
+    "type": "HEV / PHEV",
+    "photo": "ioniq.webp",
+    "photoLabel": "Hyundai Ioniq Hybrid / Plug-in — AE"
+  },
+  {
+    "id": "niro",
+    "make": "Kia",
+    "model": "Niro Hybrid",
+    "code": "DE",
+    "type": "HEV",
+    "photo": "niro.webp",
+    "photoLabel": "Kia Niro Hybrid — DE"
+  },
+  {
+    "model": "330e",
+    "code": "F30 / G20 330e",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "3-series locally documented PHEV.",
+    "sources": "S29 S30",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw",
+    "photo": "bmw.webp",
+    "photoLabel": "BMW 330e Plug-in Hybrid — F30",
+    "variants": [
+      "BMW 330e Plug-in Hybrid — F30",
+      "BMW 330e — F30"
+    ]
+  },
+  {
+    "model": "C 350 e",
+    "code": "W205 PHEV",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "2016/17 locally registered local ads.",
+    "sources": "S26",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes",
+    "photo": "mercedes.webp",
+    "photoLabel": "Mercedes-Benz C350e Plug-in Hybrid — W205",
+    "variants": [
+      "Mercedes-Benz C350e Plug-in Hybrid — W205"
+    ]
+  },
+  {
+    "id": "rocky",
+    "make": "Daihatsu",
+    "model": "Rocky e-SMART Hybrid",
+    "code": "A202S",
+    "type": "Series hybrid",
+    "photo": "rocky.webp",
+    "photoLabel": "Daihatsu Rocky e-SMART Hybrid — A202S"
+  },
+  {
+    "model": "Vitz Hybrid",
+    "code": "NHP130 1.5L",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Locally registered used example; ordinary Vitz is petrol only.",
+    "sources": "S42",
+    "make": "Toyota",
+    "page": 3,
+    "id": "toyota-vitz-hybrid"
+  },
+  {
+    "model": "Prius PHV / Prime",
+    "code": "ZVW35 / ZVW52 / MXWH61",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Plug-in version is distinct from standard Prius.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "toyota-prius-phv-prime",
+    "variants": [
+      "Toyota Prius PHV / Prime — ZVW35",
+      "Toyota Prius PHV / Prime — ZVW52",
+      "Toyota Prius PHV / Prime — MXWH61"
+    ]
+  },
+  {
+    "model": "Probox Hybrid",
+    "code": "NHP160V 1.5L GX / F",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Sri Lankan 2026 advertisement is PRE-ORDER ONLY; no local stock.",
+    "sources": "S43 S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "toyota-probox-hybrid"
+  },
+  {
+    "model": "Corolla sedan Hybrid",
+    "code": "Corolla 1.8 / 2.0 Hybrid",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Check generation and engine option.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "toyota-corolla-sedan-hybrid"
+  },
+  {
+    "model": "Corolla Sport Hybrid",
+    "code": "Japanese-market Hybrid grades",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Petrol Corolla Sport also exists.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "toyota-corolla-sport-hybrid"
+  },
+  {
+    "model": "Corolla Touring Hybrid",
+    "code": "Touring HEV grades",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Japanese-import wagon variants.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "toyota-corolla-touring-hybrid"
+  },
+  {
+    "model": "Yaris Hybrid",
+    "code": "MXPH10 / hybrid grades",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Not every 1.0 L Yaris sold locally is hybrid.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "toyota-yaris-hybrid",
+    "variants": [
+      "Toyota Yaris Hybrid — MXPH10"
+    ]
+  },
+  {
+    "model": "Alphard Hybrid",
+    "code": "ATH20 / AYH30 / AAHH40",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Premium MPV; petrol counterparts also exist.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "toyota-alphard-hybrid",
+    "variants": [
+      "Toyota Alphard Hybrid — ATH20",
+      "Toyota Alphard Hybrid — AYH30",
+      "Toyota Alphard Hybrid — AAHH40"
+    ]
+  },
+  {
+    "model": "Vellfire Hybrid",
+    "code": "ATH20 / AYH30 / AAHH40",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Hybrid grades exist; locally marketed imports.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "toyota-vellfire-hybrid",
+    "variants": [
+      "Toyota Vellfire Hybrid — ATH20",
+      "Toyota Vellfire Hybrid — AYH30",
+      "Toyota Vellfire Hybrid — AAHH40"
+    ]
+  },
+  {
+    "model": "Estima Hybrid",
+    "code": "AHR10 / AHR20",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Older import family; confirm vehicle-specific evidence.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 3,
+    "id": "toyota-estima-hybrid",
+    "variants": [
+      "Toyota Estima Hybrid — AHR10",
+      "Toyota Estima Hybrid — AHR20"
+    ]
+  },
+  {
+    "model": "Crown Crossover",
+    "code": "Hybrid / Hybrid MAX variants",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Crown Crossover sourced through Japan imports.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-crown-crossover"
+  },
+  {
+    "model": "Crown Sport",
+    "code": "2.5 Hybrid / PHEV grades",
+    "type": "HEV/PHEV",
+    "evidence": "O",
+    "note": "Check hybrid vs plug-in trim.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-crown-sport"
+  },
+  {
+    "model": "Crown Sedan",
+    "code": "2.5 HEV variant",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Not the hydrogen fuel-cell sedan.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-crown-sedan"
+  },
+  {
+    "model": "Crown Estate",
+    "code": "2.5 HEV / PHEV grades",
+    "type": "HEV/PHEV",
+    "evidence": "O",
+    "note": "Import catalogue, not evidence of registration.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-crown-estate"
+  },
+  {
+    "model": "RAV4 PHV / Prime",
+    "code": "AXAP54 / PHEV grades",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Plug-in version; some Sri Lanka import listings.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-rav4-phv-prime",
+    "variants": [
+      "Toyota RAV4 PHV / Prime — AXAP54"
+    ]
+  },
+  {
+    "model": "Innova Hycross / Zenix Hybrid",
+    "code": "2.0 strong-hybrid grades",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Sri Lankan dealer advertisement for Hycross HEV.",
+    "sources": "S06 S36",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-innova-hycross-zenix-hybrid"
+  },
+  {
+    "model": "Urban Cruiser Hyryder Hybrid",
+    "code": "1.5 strong hybrid grades",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Advertised in Sri Lankan market; check exact trim.",
+    "sources": "S39",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-urban-cruiser-hyryder-hybrid"
+  },
+  {
+    "model": "Highlander Hybrid",
+    "code": "2.5 HEV",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Very low-volume import-market offering.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-highlander-hybrid"
+  },
+  {
+    "model": "Land Cruiser Prado / 250",
+    "code": "48V diesel MHEV where fitted",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "DO NOT classify petrol/diesel-only LC250 as hybrid.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-land-cruiser-prado-250"
+  },
+  {
+    "model": "Hilux 48V",
+    "code": "2.8 diesel 48-volt version",
+    "type": "MHEV",
+    "evidence": "G",
+    "note": "Global option; local supply not verified.",
+    "sources": "S01",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-hilux-48v"
+  },
+  {
+    "model": "Tundra i-FORCE MAX",
+    "code": "3.4 twin-turbo hybrid",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "US-market version; no confirmed local hybrid unit.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-tundra-i-force-max"
+  },
+  {
+    "model": "Sequoia i-FORCE MAX",
+    "code": "3.4 twin-turbo hybrid",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "US-market version; no confirmed local hybrid unit.",
+    "sources": "S04",
+    "make": "Toyota",
+    "page": 4,
+    "id": "toyota-sequoia-i-force-max"
+  },
+  {
+    "model": "HR-V e:HEV",
+    "code": "RS Hybrid / current HEV",
+    "type": "e:HEV",
+    "evidence": "L",
+    "note": "Honda Sri Lanka publishes HR-V RS HEV 2025.",
+    "sources": "S08 S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-hr-v-e-hev"
+  },
+  {
+    "model": "Freed+ Hybrid",
+    "code": "GB7 / GB8 hybrid grades",
+    "type": "i-DCD",
+    "evidence": "O",
+    "note": "Alternative 2-row layout; check exact grade.",
+    "sources": "S09",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-freed-hybrid",
+    "variants": [
+      "Honda Freed+ Hybrid — GB7"
+    ]
+  },
+  {
+    "model": "CR-V Hybrid / e:HEV",
+    "code": "RW / RT / RS hybrid generations",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Petrol CR-V variants should not be counted.",
+    "sources": "S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-cr-v-hybrid-e-hev"
+  },
+  {
+    "model": "Jade Hybrid",
+    "code": "FR4",
+    "type": "i-DCD",
+    "evidence": "L",
+    "note": "Rare wagon/MPV; Sri Lanka classified evidence.",
+    "sources": "S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-jade-hybrid"
+  },
+  {
+    "model": "Odyssey Hybrid",
+    "code": "RC4 / e:HEV",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Low-volume MPV; verify VIN/auction sheet.",
+    "sources": "S09",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-odyssey-hybrid",
+    "variants": [
+      "Honda Odyssey Hybrid — RC4"
+    ]
+  },
+  {
+    "model": "ZR-V e:HEV",
+    "code": "2.0 e:HEV X / Z",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Japan-auction units advertised for Sri Lanka.",
+    "sources": "S10",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-zr-v-e-hev"
+  },
+  {
+    "model": "City e:HEV",
+    "code": "e:HEV RS / ZX",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Market-specific City sedan hybrid.",
+    "sources": "S07",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-city-e-hev"
+  },
+  {
+    "model": "Prelude Hybrid (new)",
+    "code": "2025+ e:HEV coupe",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Local ad explicitly says PRE-ORDER ONLY, not stock.",
+    "sources": "S35",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-prelude-hybrid-new"
+  },
+  {
+    "model": "Legend Hybrid",
+    "code": "SH-AWD hybrid sedan",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "International model; no solid local listing found.",
+    "sources": "S41",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-legend-hybrid"
+  },
+  {
+    "model": "NSX Sport Hybrid",
+    "code": "Sport Hybrid SH-AWD",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "Supercar; Sri Lankan availability not established.",
+    "sources": "S41",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-nsx-sport-hybrid"
+  },
+  {
+    "model": "Clarity Plug-in Hybrid",
+    "code": "Clarity PHEV",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "International model; Sri Lanka presence unconfirmed.",
+    "sources": "S41",
+    "make": "Honda",
+    "page": 5,
+    "id": "honda-clarity-plug-in-hybrid"
+  },
+  {
+    "model": "Alto Hybrid (Japan)",
+    "code": "HA97S Hybrid S / X",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Japan Alto hybrid, NOT locally sold Alto K10 petrol.",
+    "sources": "S13 S38",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-alto-hybrid-japan"
+  },
+  {
+    "model": "Wagon R Smile Hybrid",
+    "code": "HYBRID S / X",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Japanese-import variant; do not assume all Smiles are HEV.",
+    "sources": "S13 S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-wagon-r-smile-hybrid"
+  },
+  {
+    "model": "Spacia Gear Hybrid",
+    "code": "HYBRID XZ",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Special Spacia derivative; regional stock varies.",
+    "sources": "S13",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-spacia-gear-hybrid"
+  },
+  {
+    "model": "Hustler Hybrid",
+    "code": "HYBRID G / X / J Style",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Older non-hybrid versions also exist.",
+    "sources": "S13 S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-hustler-hybrid"
+  },
+  {
+    "model": "Solio Mild Hybrid",
+    "code": "HYBRID MZ / MX",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Small MPV, distinct from full hybrid SZ.",
+    "sources": "S13 S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-solio-mild-hybrid"
+  },
+  {
+    "model": "Solio Strong Hybrid",
+    "code": "HYBRID SZ / SV",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Suzuki AGS-assisted stronger hybrid.",
+    "sources": "S13",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-solio-strong-hybrid"
+  },
+  {
+    "model": "Ignis Hybrid",
+    "code": "HYBRID MG / MX / MZ",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Japan-import SHVS/mild-hybrid grades.",
+    "sources": "S13 S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-ignis-hybrid"
+  },
+  {
+    "model": "Xbee / Crossbee Hybrid",
+    "code": "MZ / MX / MV",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Kei-like crossover, locally listed.",
+    "sources": "S13 S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-xbee-crossbee-hybrid"
+  },
+  {
+    "model": "Escudo Hybrid",
+    "code": "1.5 full hybrid",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Suzuki Japan hybrid Escudo.",
+    "sources": "S13",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-escudo-hybrid"
+  },
+  {
+    "model": "Grand Vitara Smart Hybrid",
+    "code": "1.5 Smart Hybrid grades",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Official Suzuki Sri Lanka model specification.",
+    "sources": "S12",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-grand-vitara-smart-hybrid"
+  },
+  {
+    "model": "Grand Vitara Strong Hybrid",
+    "code": "Zeta+ / Alpha+",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Official Sri Lankan strong hybrid grades.",
+    "sources": "S12",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-grand-vitara-strong-hybrid"
+  },
+  {
+    "model": "Ertiga Smart Hybrid",
+    "code": "1.5 K-series Smart Hybrid",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Local distributor brochure explicitly says hybrid.",
+    "sources": "S14",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-ertiga-smart-hybrid"
+  },
+  {
+    "model": "Vitara Hybrid",
+    "code": "1.4 mild / 1.5 strong hybrid",
+    "type": "MHEV/HEV",
+    "evidence": "O",
+    "note": "European/Japanese variants; verify imported spec.",
+    "sources": "S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-vitara-hybrid"
+  },
+  {
+    "model": "S-Cross Hybrid",
+    "code": "SHVS 1.4 or 1.5",
+    "type": "MHEV/HEV",
+    "evidence": "O",
+    "note": "Hybrid variants exist; local spec varies.",
+    "sources": "S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-s-cross-hybrid"
+  },
+  {
+    "model": "Baleno Hybrid",
+    "code": "SHVS / Smart Hybrid",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Only SHVS variant; ordinary Baleno not hybrid.",
+    "sources": "S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-baleno-hybrid"
+  },
+  {
+    "model": "Ciaz SHVS",
+    "code": "Smart Hybrid sedan",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Model exists in local used market; verify hybrid badge.",
+    "sources": "S15",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-ciaz-shvs"
+  },
+  {
+    "model": "Brezza Smart Hybrid",
+    "code": "1.5 Smart Hybrid grades",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Sri Lanka dealer lists Brezza but not every trim hybrid.",
+    "sources": "S11",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-brezza-smart-hybrid"
+  },
+  {
+    "model": "XL6 Smart Hybrid",
+    "code": "1.5 Smart Hybrid",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Local dealer lists XL6; confirm powertrain.",
+    "sources": "S11",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-xl6-smart-hybrid"
+  },
+  {
+    "model": "XL7 Hybrid",
+    "code": "SHVS hybrid grades",
+    "type": "MHEV",
+    "evidence": "G",
+    "note": "Global/ASEAN hybrid; no local vehicle confirmed.",
+    "sources": "S11",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-xl7-hybrid"
+  },
+  {
+    "model": "Fronx Smart Hybrid",
+    "code": "1.0 Boosterjet SHVS version",
+    "type": "MHEV",
+    "evidence": "G",
+    "note": "Do NOT assume Sri Lanka-listed Fronx 1.0 is hybrid.",
+    "sources": "S40",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-fronx-smart-hybrid"
+  },
+  {
+    "model": "Across Plug-in Hybrid",
+    "code": "2.5 PHEV SUV",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Europe-market Toyota RAV4-based variant.",
+    "sources": "S13",
+    "make": "Suzuki",
+    "page": 6,
+    "id": "suzuki-across-plug-in-hybrid"
+  },
+  {
+    "model": "HS 250h",
+    "code": "ANF10",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Older sedan sold in local used market.",
+    "sources": "S03 S16",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-hs-250h"
+  },
+  {
+    "model": "IS 300h",
+    "code": "AVE30 / AVE35",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Compact sport sedan.",
+    "sources": "S16",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-is-300h",
+    "variants": [
+      "Lexus IS 300h — AVE30",
+      "Lexus IS 300h — AVE35"
+    ]
+  },
+  {
+    "model": "GS 450h",
+    "code": "GWS191 / GWL10",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Older luxury sedan; local repair support.",
+    "sources": "S03",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-gs-450h",
+    "variants": [
+      "Lexus GS 450h — GWS191",
+      "Lexus GS 450h — GWL10"
+    ]
+  },
+  {
+    "model": "GS 300h",
+    "code": "AWL10",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Lower-output GS hybrid; uncommon import.",
+    "sources": "S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-gs-300h"
+  },
+  {
+    "model": "LS 600h / 600hL",
+    "code": "UVF45 / UVF46",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Older Lexus flagship hybrid.",
+    "sources": "S03 S16",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-ls-600h-600hl",
+    "variants": [
+      "Lexus LS 600h / 600hL — UVF45",
+      "Lexus LS 600h / 600hL — UVF46"
+    ]
+  },
+  {
+    "model": "LS 500h",
+    "code": "GVF50 / GVF55",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Newer flagship hybrid.",
+    "sources": "S16",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-ls-500h",
+    "variants": [
+      "Lexus LS 500h — GVF50",
+      "Lexus LS 500h — GVF55"
+    ]
+  },
+  {
+    "model": "RX 400h",
+    "code": "MHU38",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Early-generation Lexus SUV hybrid.",
+    "sources": "S03 S16",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-rx-400h"
+  },
+  {
+    "model": "RX 350h",
+    "code": "AALH10 series",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "New-generation RX petrol hybrid.",
+    "sources": "S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-rx-350h"
+  },
+  {
+    "model": "RX 500h",
+    "code": "TALH17",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Performance hybrid locally advertised.",
+    "sources": "S16",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-rx-500h"
+  },
+  {
+    "model": "RX 450h+",
+    "code": "Plug-in variant",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Global variant; no robust local unit verified.",
+    "sources": "S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-rx-450h"
+  },
+  {
+    "model": "NX 350h",
+    "code": "AAZH20 / AAZH25",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Local luxury importer advertises NX350h.",
+    "sources": "S17 S37",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-nx-350h",
+    "variants": [
+      "Lexus NX 350h — AAZH20",
+      "Lexus NX 350h — AAZH25"
+    ]
+  },
+  {
+    "model": "NX 450h+",
+    "code": "Plug-in model",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Global PHEV; local stock unconfirmed.",
+    "sources": "S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-nx-450h"
+  },
+  {
+    "model": "UX 250h",
+    "code": "MZAH10 / MZAH15",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Compact crossover available via Japanese imports.",
+    "sources": "S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-ux-250h",
+    "variants": [
+      "Lexus UX 250h — MZAH10",
+      "Lexus UX 250h — MZAH15"
+    ]
+  },
+  {
+    "model": "UX 300h",
+    "code": "Latest Hybrid grades",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "Global replacement for UX 250h; local unit unclear.",
+    "sources": "S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-ux-300h"
+  },
+  {
+    "model": "LBX Hybrid",
+    "code": "1.5 Hybrid / Morizo RR NOT hybrid",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "LBX petrol-electric variants seen in local listings.",
+    "sources": "S16 S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-lbx-hybrid"
+  },
+  {
+    "model": "LM 350h",
+    "code": "Luxury MPV",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Recent Japanese import-market family.",
+    "sources": "S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-lm-350h"
+  },
+  {
+    "model": "LM 500h",
+    "code": "Turbo hybrid MPV",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Local classified model listed.",
+    "sources": "S16",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-lm-500h"
+  },
+  {
+    "model": "LC 500h",
+    "code": "Multi Stage Hybrid V6",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Low-volume Lexus coupe.",
+    "sources": "S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-lc-500h"
+  },
+  {
+    "model": "LX 700h",
+    "code": "3.4 Twin-Turbo hybrid",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Premium Sri Lanka import offers; not LX600 petrol.",
+    "sources": "S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-lx-700h"
+  },
+  {
+    "model": "TX 500h / 550h+",
+    "code": "US-market HEV / PHEV",
+    "type": "HEV/PHEV",
+    "evidence": "G",
+    "note": "No credible local vehicle record located.",
+    "sources": "S17",
+    "make": "Lexus",
+    "page": 7,
+    "id": "lexus-tx-500h-550h"
+  },
+  {
+    "model": "Note Aura e-POWER",
+    "code": "FE13 / FSNE13",
+    "type": "SERIES HEV",
+    "evidence": "L",
+    "note": "Larger premium Note sibling; Sri Lanka import offers.",
+    "sources": "S19 S37",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-note-aura-e-power",
+    "variants": [
+      "Nissan Note Aura e-POWER — FE13",
+      "Nissan Note Aura e-POWER — FSNE13"
+    ]
+  },
+  {
+    "model": "X-Trail Hybrid (T32)",
+    "code": "HNT32 / HT32",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Earlier parallel-hybrid generation.",
+    "sources": "S03 S19",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-x-trail-hybrid-t32",
+    "variants": [
+      "Nissan X-Trail Hybrid (T32) — HNT32",
+      "Nissan X-Trail Hybrid (T32) — HT32"
+    ]
+  },
+  {
+    "model": "Dayz Hybrid",
+    "code": "Smart Simple Hybrid grades",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Some Japanese variants mild hybrid; verify grade.",
+    "sources": "S18 S19",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-dayz-hybrid"
+  },
+  {
+    "model": "Roox Hybrid",
+    "code": "Smart Simple Hybrid grades",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Kei tall-wagon mild hybrid imports.",
+    "sources": "S19 S38",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-roox-hybrid"
+  },
+  {
+    "model": "Skyline 350GT Hybrid",
+    "code": "V37 / HV37 / HNV37",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Older sport sedan hybrid; check auction sheet.",
+    "sources": "S19",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-skyline-350gt-hybrid",
+    "variants": [
+      "Nissan Skyline 350GT Hybrid — V37",
+      "Nissan Skyline 350GT Hybrid — HV37",
+      "Nissan Skyline 350GT Hybrid — HNV37"
+    ]
+  },
+  {
+    "model": "Fuga Hybrid",
+    "code": "HY51",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Older premium hybrid sedan, rare.",
+    "sources": "S19",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-fuga-hybrid"
+  },
+  {
+    "model": "Altima Hybrid",
+    "code": "L32 hybrid",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Locally supported by specialist, uncommon.",
+    "sources": "S03",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-altima-hybrid"
+  },
+  {
+    "model": "Qashqai e-POWER",
+    "code": "J12 e-POWER",
+    "type": "SERIES HEV",
+    "evidence": "G",
+    "note": "Global Nissan model; local vehicle not verified.",
+    "sources": "S18",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-qashqai-e-power"
+  },
+  {
+    "model": "Juke Hybrid",
+    "code": "F16 Hybrid grades",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "Global model; no reliable local hybrid listing.",
+    "sources": "S18",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-juke-hybrid"
+  },
+  {
+    "model": "Cima Hybrid",
+    "code": "HGY51",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "Japanese-market flagship; no local unit confirmed.",
+    "sources": "S18",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-cima-hybrid"
+  },
+  {
+    "model": "Elgrand e-POWER",
+    "code": "Latest e-POWER generation",
+    "type": "SERIES HEV",
+    "evidence": "G",
+    "note": "New global model; no local confirmation.",
+    "sources": "S18",
+    "make": "Nissan",
+    "page": 8,
+    "id": "nissan-elgrand-e-power"
+  },
+  {
+    "model": "eK X (eK Cross)",
+    "code": "Mild-hybrid G / T variants",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Local dealer eK X G Premium hybrid advertisement.",
+    "sources": "S23",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "mitsubishi-ek-x-ek-cross"
+  },
+  {
+    "model": "eK Space",
+    "code": "M / G mild-hybrid grades",
+    "type": "MHEV",
+    "evidence": "L",
+    "note": "Locally advertised as hybrid; confirm grade.",
+    "sources": "S23",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "mitsubishi-ek-space"
+  },
+  {
+    "model": "Delica Mini",
+    "code": "T / G / mild-hybrid grades",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "2025 import adverts; hybrid exact trim to check.",
+    "sources": "S21 S37",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "mitsubishi-delica-mini"
+  },
+  {
+    "model": "Eclipse Cross PHEV",
+    "code": "GL3W",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Official global model, Sri Lanka stock unverified.",
+    "sources": "S21",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "mitsubishi-eclipse-cross-phev"
+  },
+  {
+    "model": "Delica D:2 Hybrid",
+    "code": "Suzuki Solio-derived hybrid",
+    "type": "MHEV/HEV",
+    "evidence": "G",
+    "note": "JDM rebadge; local availability unproven.",
+    "sources": "S21",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "mitsubishi-delica-d-2-hybrid"
+  },
+  {
+    "model": "eK Wagon mild hybrid",
+    "code": "Selected hybrid grades",
+    "type": "MHEV",
+    "evidence": "G",
+    "note": "Not all eK Wagons are hybrids.",
+    "sources": "S21",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "mitsubishi-ek-wagon-mild-hybrid"
+  },
+  {
+    "model": "Xpander HEV",
+    "code": "ASEAN 1.6 hybrid",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "Global hybrid; no local stock confirmed.",
+    "sources": "S21",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "mitsubishi-xpander-hev"
+  },
+  {
+    "model": "Xpander Cross HEV",
+    "code": "ASEAN 1.6 hybrid",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "Global hybrid; no local stock confirmed.",
+    "sources": "S21",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "mitsubishi-xpander-cross-hev"
+  },
+  {
+    "model": "Xforce HEV",
+    "code": "ASEAN 1.6 hybrid",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "Global hybrid; no local stock confirmed.",
+    "sources": "S21",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "mitsubishi-xforce-hev"
+  },
+  {
+    "model": "ASX Hybrid / PHEV",
+    "code": "European-market variants",
+    "type": "HEV/PHEV",
+    "evidence": "G",
+    "note": "Global rebadged models, local confirmation absent.",
+    "sources": "S21",
+    "make": "Mitsubishi",
+    "page": 9,
+    "id": "mitsubishi-asx-hybrid-phev"
+  },
+  {
+    "model": "Mercedes-AMG C 63 S E Performance",
+    "code": "W206 2.0 turbo performance hybrid",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "2024 F1 Edition explicitly advertised in Sri Lanka.",
+    "sources": "S45",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-mercedes-amg-c-63-s-e-performance"
+  },
+  {
+    "model": "C 300 e",
+    "code": "W206 PHEV",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Import-specific grade; confirm VIN.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-c-300-e"
+  },
+  {
+    "model": "C 300 de",
+    "code": "W205/W206 diesel PHEV",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Global grade; no robust local stock evidence.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-c-300-de",
+    "variants": [
+      "Mercedes-Benz C 300 de — W205"
+    ]
+  },
+  {
+    "model": "C 200 EQ Boost",
+    "code": "W206 48V variants",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Badge C200 alone not enough - inspect model year.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-c-200-eq-boost"
+  },
+  {
+    "model": "C 180 EQ Boost",
+    "code": "Selected 48V variants",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Do not assume older C180 is a hybrid.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-c-180-eq-boost"
+  },
+  {
+    "model": "E 350 e",
+    "code": "W213 PHEV",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "Historical registration evidence plus local classifieds.",
+    "sources": "S25 S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-e-350-e"
+  },
+  {
+    "model": "E 300 e",
+    "code": "W213/W214 plug-in",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Locally advertised hybrid E-Class family.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-e-300-e",
+    "variants": [
+      "Mercedes-Benz E 300 e — W213"
+    ]
+  },
+  {
+    "model": "E 300 de",
+    "code": "W213/W214 diesel plug-in",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Global grade, local vehicle not established.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-e-300-de",
+    "variants": [
+      "Mercedes-Benz E 300 de — W213"
+    ]
+  },
+  {
+    "model": "E 200 / E 300 EQ Boost",
+    "code": "Selected 48V MHEV",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Verify specific VIN; not all E200/E300 hybrid.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-e-200-e-300-eq-boost"
+  },
+  {
+    "model": "E 300 BlueTEC Hybrid",
+    "code": "W212 diesel hybrid",
+    "type": "HEV",
+    "evidence": "G",
+    "note": "Historic international model; rare locally.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-e-300-bluetec-hybrid"
+  },
+  {
+    "model": "S 400 Hybrid",
+    "code": "W221 / W222 HEV",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Locally registered S400 hybrid advertised.",
+    "sources": "S27",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-s-400-hybrid",
+    "variants": [
+      "Mercedes-Benz S 400 Hybrid — W221"
+    ]
+  },
+  {
+    "model": "S 580 e",
+    "code": "W223 4MATIC PHEV",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Local advertisements often pre-orders, not stock.",
+    "sources": "S34",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-s-580-e"
+  },
+  {
+    "model": "S 500 e / S 560 e",
+    "code": "W222 plug-in variants",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Global older S-Class PHEV range.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-s-500-e-s-560-e"
+  },
+  {
+    "model": "S 450 / S 500 EQ Boost",
+    "code": "W223 48V grades",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "48V varies by region, VIN and drivetrain.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-s-450-s-500-eq-boost"
+  },
+  {
+    "model": "A 250 e",
+    "code": "W177 plug-in A-Class",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "Model listed by local premium-car dealer.",
+    "sources": "S33",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-a-250-e"
+  },
+  {
+    "model": "B 250 e",
+    "code": "W247 plug-in B-Class",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Global variant; locally unconfirmed.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-b-250-e"
+  },
+  {
+    "model": "CLA 250 e",
+    "code": "C118 plug-in CLA",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Local hybrid-classified CLA family; verify 250e.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-cla-250-e"
+  },
+  {
+    "model": "GLA 250 e",
+    "code": "H247 plug-in GLA",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Global variant; locally unconfirmed.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-gla-250-e"
+  },
+  {
+    "model": "GLB 200 / 250 (48V)",
+    "code": "New 48V variants only",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Local GLB listings may be petrol, not hybrid.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-glb-200-250-48v"
+  },
+  {
+    "model": "Mercedes-AMG GT 63 S E Performance",
+    "code": "Four-door GT high-performance hybrid",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Shown on official Mercedes-Benz Sri Lanka model page.",
+    "sources": "S46",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-mercedes-amg-gt-63-s-e-performance"
+  },
+  {
+    "model": "GLC 350 e",
+    "code": "X254 plug-in 4MATIC",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Local ad explicitly says PRE-ORDER ONLY.",
+    "sources": "S28",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-glc-350-e"
+  },
+  {
+    "model": "GLC 300 e",
+    "code": "X253/X254 plug-in",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Global model; local stock unverified.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-glc-300-e",
+    "variants": [
+      "Mercedes-Benz GLC 300 e — X253"
+    ]
+  },
+  {
+    "model": "GLC 200 / 300 (48V)",
+    "code": "Selected EQ Boost grades",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Do not count all GLC300 vehicles as hybrid.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 10,
+    "id": "mercedes-benz-glc-200-300-48v"
+  },
+  {
+    "model": "GLE 350 de",
+    "code": "V167 diesel PHEV",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Global grade; local stock unverified.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 11,
+    "id": "mercedes-benz-gle-350-de"
+  },
+  {
+    "model": "GLE 400 e",
+    "code": "V167 petrol PHEV",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Local GLE400 listings may be non-hybrid.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 11,
+    "id": "mercedes-benz-gle-400-e"
+  },
+  {
+    "model": "GLE 450 EQ Boost",
+    "code": "48V mild-hybrid drivetrain",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Hybrid status depends on model-year/engine.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 11,
+    "id": "mercedes-benz-gle-450-eq-boost"
+  },
+  {
+    "model": "GLS 450 EQ Boost",
+    "code": "48V mild-hybrid drivetrain",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Local GLS400 is not automatically equivalent.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 11,
+    "id": "mercedes-benz-gls-450-eq-boost"
+  },
+  {
+    "model": "Mercedes-Maybach S 580",
+    "code": "EQ Boost variants",
+    "type": "MHEV",
+    "evidence": "G",
+    "note": "Higher-end variant; no model-specific local evidence.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 11,
+    "id": "mercedes-benz-mercedes-maybach-s-580"
+  },
+  {
+    "model": "CLE 300 / E 450 (48V)",
+    "code": "Selected new MHEV variants",
+    "type": "MHEV",
+    "evidence": "G",
+    "note": "International 48V versions; Sri Lanka unverified.",
+    "sources": "S24",
+    "make": "Mercedes-Benz",
+    "page": 11,
+    "id": "mercedes-benz-cle-300-e-450-48v"
+  },
+  {
+    "model": "ActiveHybrid 3",
+    "code": "F30 ActiveHybrid 3",
+    "type": "HEV",
+    "evidence": "O",
+    "note": "Earlier BMW parallel hybrid sedan.",
+    "sources": "S30",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-activehybrid-3"
+  },
+  {
+    "model": "ActiveHybrid 5",
+    "code": "F10 ActiveHybrid 5",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Sri Lankan asking-price records exist.",
+    "sources": "S30",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-activehybrid-5"
+  },
+  {
+    "model": "ActiveHybrid 7",
+    "code": "F01/F02 ActiveHybrid 7",
+    "type": "HEV",
+    "evidence": "L",
+    "note": "Sri Lankan used-market history.",
+    "sources": "S29 S30",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-activehybrid-7",
+    "variants": [
+      "BMW ActiveHybrid 7 — F01"
+    ]
+  },
+  {
+    "model": "225xe Active Tourer",
+    "code": "F45 225xe",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "Locally listed PHEV MPV.",
+    "sources": "S29 S30",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-225xe-active-tourer"
+  },
+  {
+    "model": "530e",
+    "code": "G30 / G60 530e",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "Numerous local registered-car ads.",
+    "sources": "S29 S31",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-530e",
+    "variants": [
+      "BMW 530e — G30"
+    ]
+  },
+  {
+    "model": "740e / 740Le",
+    "code": "G11 / G12",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "Locally traded short/long wheelbase.",
+    "sources": "S29 S30",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-740e-740le",
+    "variants": [
+      "BMW 740e / 740Le — G11",
+      "BMW 740e / 740Le — G12"
+    ]
+  },
+  {
+    "model": "745e / 745Le",
+    "code": "G11/G12 late PHEV",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Less common 7-series PHEV grade.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-745e-745le",
+    "variants": [
+      "BMW 745e / 745Le — G11"
+    ]
+  },
+  {
+    "model": "i8 / i8 Roadster",
+    "code": "I12 / I15",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "Plug-in sports car (not battery-only EV).",
+    "sources": "S29 S30",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-i8-i8-roadster",
+    "variants": [
+      "BMW i8 / i8 Roadster — I12",
+      "BMW i8 / i8 Roadster — I15"
+    ]
+  },
+  {
+    "model": "X5 xDrive40e",
+    "code": "F15",
+    "type": "PHEV",
+    "evidence": "L",
+    "note": "Local registered example confirmed.",
+    "sources": "S32",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-x5-xdrive40e"
+  },
+  {
+    "model": "X5 xDrive45e / 50e",
+    "code": "G05",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "Newer BMW X5 plug-in variants.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-x5-xdrive45e-50e"
+  },
+  {
+    "model": "X1 xDrive25e",
+    "code": "F48 / U11 hybrid variants",
+    "type": "PHEV",
+    "evidence": "O",
+    "note": "X1 model itself does not imply hybrid.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-x1-xdrive25e",
+    "variants": [
+      "BMW X1 xDrive25e — F48"
+    ]
+  },
+  {
+    "model": "520i (48V versions)",
+    "code": "G60 / specified 48V variants",
+    "type": "MHEV",
+    "evidence": "O",
+    "note": "Some recent generations only; VIN verification needed.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-520i-48v-versions",
+    "variants": [
+      "BMW 520i (48V versions) — G60"
+    ]
+  },
+  {
+    "model": "X5 xDrive40i (48V)",
+    "code": "Recent 48V versions",
+    "type": "MHEV",
+    "evidence": "G",
+    "note": "Global mild-hybrid grade; local exact car unverified.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-x5-xdrive40i-48v"
+  },
+  {
+    "model": "X7 xDrive40i (48V)",
+    "code": "Recent 48V versions",
+    "type": "MHEV",
+    "evidence": "G",
+    "note": "Global model-year-dependent hybrid.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-x7-xdrive40i-48v"
+  },
+  {
+    "model": "X3 xDrive30e",
+    "code": "G01 / G45 hybrid variants",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "International PHEV, no robust local record.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-x3-xdrive30e",
+    "variants": [
+      "BMW X3 xDrive30e — G01"
+    ]
+  },
+  {
+    "model": "X2 xDrive25e",
+    "code": "F39 PHEV",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "International PHEV; local record unverified.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-x2-xdrive25e"
+  },
+  {
+    "model": "545e",
+    "code": "G30 545e xDrive",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "International 5-series PHEV.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-545e"
+  },
+  {
+    "model": "550e",
+    "code": "G60 550e xDrive",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Newer 5-series PHEV.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-550e"
+  },
+  {
+    "model": "750e",
+    "code": "G70 750e xDrive",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Newer 7-series PHEV.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-750e"
+  },
+  {
+    "model": "230e Active Tourer",
+    "code": "U06 230e",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "New-generation 2-series PHEV.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-230e-active-tourer"
+  },
+  {
+    "model": "BMW XM",
+    "code": "G09 M Hybrid V8",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "Performance PHEV; no local stock validated.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-bmw-xm"
+  },
+  {
+    "model": "BMW M5 (2025+)",
+    "code": "G90 / G99 M Hybrid",
+    "type": "PHEV",
+    "evidence": "G",
+    "note": "New high-performance PHEV; no local unit validated.",
+    "sources": "S29",
+    "make": "BMW",
+    "page": 12,
+    "id": "bmw-bmw-m5-2025",
+    "variants": [
+      "BMW BMW M5 (2025+) — G90"
+    ]
+  }
+]

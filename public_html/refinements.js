@@ -10,7 +10,11 @@
   date.min = today();
   function prepareBooking({ service, vehicle } = {}) {
     if (service) $('#inspection-service').value = service;
-    if (vehicle) $('#inspection-vehicle').value = vehicle;
+    if (vehicle) {
+      const field = $('#inspection-vehicle');
+      field.dispatchEvent(new CustomEvent('ccs:inspection-vehicle', { detail: vehicle }));
+      field.value = vehicle;
+    }
     result.hidden = true;
     const section = $('#inspection');
     section.scrollIntoView({ behavior: motion.matches ? 'instant' : 'smooth', block: 'start' });
