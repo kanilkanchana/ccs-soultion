@@ -23,10 +23,21 @@
   let shown = 0;
   const batch = home ? 6 : 24;
 
+  // These catalogue entries have no local photo yet. Use current model photos
+  // from the official Toyota source pages (with local white-background fallbacks).
+  const selectedPhotos = [
+    { match: /prius\\s*(phv|prime)/i, image: 'https://www.tochigitoyota.com/file/cms/-1/9496/zvw52-ahxgb_0_30.png', fallback: 'prius.webp' },
+    { match: /probox/i, image: 'https://global.toyota/pages/news/images/2018/11/19/1330/rendition/20181119_01_12_W610_H407.jpg', fallback: 'wagon-hybrid.webp' },
+    { match: /corolla\\s+sedan/i, image: 'https://cdn2.modera.org/resized/1152x/i/toyota-rsdm/dpackage/corolla_2/exteriors/040/b70/g11/1024x768_20.png', fallback: 'axio.webp' }
+  ];
+
   function card(vehicle) {
     const label = `${vehicle.make} ${vehicle.model} — ${vehicle.code}`;
-    const fallbackImage = vehicle.photo ? `assets/vehicles/${encodeURIComponent(vehicle.photo)}` : '';
-    const image = vehicle.image || fallbackImage;
+    const selectedPhoto = selectedPhotos.find(photo => photo.match.test(vehicle.model || ''));
+    const fallbackImage = selectedPhoto
+      ? `assets/vehicles/${selectedPhoto.fallback}`
+      : vehicle.photo ? `assets/vehicles/${encodeURIComponent(vehicle.photo)}` : '';
+    const image = selectedPhoto?.image || vehicle.image || fallbackImage;
     const fullImage = vehicle.full_image || image;
     const visual = image ? `
       <a class="catalog-card-photo" href="${escape(fullImage)}" target="_blank" rel="noopener">
