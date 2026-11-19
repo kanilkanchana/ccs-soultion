@@ -14,7 +14,6 @@
   const register = $('#mode-register');
   const signin = $('#mode-signin');
   const sendButton = $('#login-submit');
-  const google = $('#google-login');
   let isRegister = false;
   function report(message, type = 'info') {
     feedback.textContent = message;
@@ -23,7 +22,6 @@
   }
   const toggleLoading = busy => {
     sendButton.disabled = busy || !configured;
-    google.disabled = busy || !configured;
     sendButton.setAttribute('aria-busy', String(busy));
   };
   function setMode(toRegister) {
@@ -123,24 +121,6 @@
     } catch { report('Unable to request a reset right now. Please contact the workshop.','error'); }
     finally { toggleLoading(false); }
   });
-  google.addEventListener('click', () => {
-    if (!configured) return;
-    if (!/^https?:$/.test(location.protocol)) { report('Google sign-in needs a hosted HTTPS site.','error'); return; }
-    const redirect = `${location.origin}${location.pathname}`;
-    location.assign(`${url}/auth/v1/authorize?provider=google&redirect_to=${encodeURIComponent(redirect)}`);
-  });
-  // Supabase OAuth implicit flow returns a short-lived access token in the URL fragment.
-  const params = new URLSearchParams(location.hash.slice(1));
-  if (params.has('error_description')) {
-    report(params.get('error_description') || 'Google sign-in was cancelled.', 'error');
-    history.replaceState(null, '', location.pathname + location.search);
-  } else if (configured && params.has('access_token')) {
-    const access_token = params.get('access_token');
-    const refresh_token = params.get('refresh_token') || '';
-    const expires_in = Number(params.get('expires_in') || 3600);
-    history.replaceState(null, '', location.pathname + location.search);
-    if (setSession({access_token,refresh_token,expires_in})) location.replace('portal.html');
-  }
   // The client requested a clean, automatic photo panel with no visible gallery UI.
   const slides = [...document.querySelectorAll('[data-login-slide]')];
   const gallery = $('.login-visual');
