@@ -346,7 +346,6 @@
     $('#loader-progress > span').style.width = `${counter}%`;
     loader.style.setProperty('--load-angle', `${counter * 3.6}deg`);
     const stage = counter < 34 ? 0 : counter < 72 ? 1 : 2;
-    $$('[data-load-stage]').forEach((item,index) => item.classList.toggle('is-active',index <= stage));
     if (counter < 99) $('#loader-status').textContent = ['SETTING THE DETAILS IN PLACE','BRINGING THE EXPERIENCE TO LIFE','ALMOST READY. LET’S GET YOU MOVING.'][stage];
     if ((counter > 99.4 && elapsed > minimum) || elapsed > (motionDisabled() ? 300 : mobile.matches ? 2400 : 4200)) { finishLoader(); return; }
     loaderFrame = requestAnimationFrame(tickLoader);
