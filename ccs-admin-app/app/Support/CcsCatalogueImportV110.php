@@ -23,8 +23,13 @@ final class CcsCatalogueImportV110
                 // Keep all owner edits, disabled states, image URLs and core model fields.
                 $old = json_decode($existing['data'], true, 512, JSON_THROW_ON_ERROR);
                 $data = $old;
-                foreach (['variants','photo','photoLabel','note','evidence','sources','page','image','full_image'] as $key) {
+                foreach (['variants','photo','photoLabel','note','evidence','sources','page'] as $key) {
                     if (!array_key_exists($key, $data) && array_key_exists($key, $vehicle)) $data[$key] = $vehicle[$key];
+                }
+                foreach (['image','full_image'] as $key) {
+                    if ((!isset($data[$key]) || trim((string) $data[$key]) === '') && array_key_exists($key, $vehicle)) {
+                        $data[$key] = $vehicle[$key];
+                    }
                 }
                 if ($data === $old) { $stats['preserved']++; continue; }
                 $stats['enriched']++;
