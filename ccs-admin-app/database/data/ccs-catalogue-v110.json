@@ -816,7 +816,9 @@
       "Toyota Prius PHV / Prime — ZVW35",
       "Toyota Prius PHV / Prime — ZVW52",
       "Toyota Prius PHV / Prime — MXWH61"
-    ]
+    ],
+    "image": "https://www.tochigitoyota.com/file/cms/-1/9496/zvw52-ahxgb_0_30.png",
+    "full_image": "https://www.tochigitoyota.com/file/cms/-1/9496/zvw52-ahxgb_0_30.png"
   },
   {
     "model": "Probox Hybrid",
@@ -827,7 +829,9 @@
     "sources": "S43 S04",
     "make": "Toyota",
     "page": 3,
-    "id": "toyota-probox-hybrid"
+    "id": "toyota-probox-hybrid",
+    "image": "https://global.toyota/pages/news/images/2026/09/04/1330/20260904_01_ogp.jpg",
+    "full_image": "https://global.toyota/pages/news/images/2026/09/04/1330/20260904_01_ogp.jpg"
   },
   {
     "model": "Corolla sedan Hybrid",
@@ -838,7 +842,9 @@
     "sources": "S04",
     "make": "Toyota",
     "page": 3,
-    "id": "toyota-corolla-sedan-hybrid"
+    "id": "toyota-corolla-sedan-hybrid",
+    "image": "https://fastly.clutch.ca/stc-photos/27ae2a6d-1808-488f-b45f-0bb0a366f1d3.png?class=small",
+    "full_image": "https://fastly.clutch.ca/stc-photos/27ae2a6d-1808-488f-b45f-0bb0a366f1d3.png?class=small"
   },
   {
     "model": "Corolla Sport Hybrid",
