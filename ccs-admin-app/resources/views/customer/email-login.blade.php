@@ -47,7 +47,6 @@ $emailMode = request('method') !== 'password' && $otpReady;
 @if($otpReady)<a class="{{ $emailMode ? 'is-selected' : '' }}" href="{{ route('customer.login',['method'=>'email']) }}" style="flex:1;text-align:center;padding:12px">Email code</a>@else<a href="{{ $site }}/contact.html#inspection" style="flex:1;text-align:center;padding:12px">Request access</a>@endif
 </div>
 <h2 id="form-title">Welcome <em>back.</em></h2><p class="login-description">Sign in to view your CCS customer records.</p>
-<button class="google-login" type="button" disabled aria-disabled="true" title="Google sign-in is not configured">Continue with Google — setup pending</button>
 @if(session('otp_status'))<p class="login-config-message" role="status">{{ session('otp_status') }}</p>@endif
 @if($errors->any())<div class="login-feedback is-error" role="alert"><ul>@foreach($errors->all() as $error)<li>{{ $error }}</li>@endforeach</ul></div>@endif
 @if($emailMode)
