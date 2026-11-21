@@ -14,6 +14,15 @@ return [
     |
     */
 
+    'ccs_whatsapp_signup' => [
+        'app_id' => env('CCS_WHATSAPP_SIGNUP_APP_ID'),
+        'app_secret' => env('CCS_WHATSAPP_SIGNUP_APP_SECRET'),
+        'config_id' => env('CCS_WHATSAPP_SIGNUP_CONFIG_ID'),
+        'redirect_uri' => env('CCS_WHATSAPP_SIGNUP_REDIRECT_URI'),
+        'phone_number_id' => env('CCS_WHATSAPP_SIGNUP_PHONE_NUMBER_ID'),
+        'graph_version' => env('CCS_WHATSAPP_SIGNUP_GRAPH_VERSION', 'v25.0'),
+    ],
+
     'postmark' => [
         'key' => env('POSTMARK_API_KEY'),
     ],
