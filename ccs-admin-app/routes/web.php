@@ -1,6 +1,7 @@
 
 <?php
 
+use App\Http\Controllers\CcsWhatsAppSignupController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -22,6 +23,13 @@ Route::middleware('auth')->group(function () {
 
     Route::delete('/profile', [ProfileController::class, 'destroy'])
         ->name('profile.destroy');
+});
+
+Route::middleware(['auth:web', 'throttle:10,1'])->group(function () {
+    Route::get('/integrations/whatsapp/start', [CcsWhatsAppSignupController::class, 'start'])
+        ->name('ccs.whatsapp.signup.start');
+    Route::get('/integrations/whatsapp/callback', [CcsWhatsAppSignupController::class, 'callback'])
+        ->name('ccs.whatsapp.signup.callback');
 });
 
 // CCS admin routes
